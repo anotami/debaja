@@ -1,0 +1,66 @@
+{% extends "base.html" %}{% block title %}Revisa tus suscripciones · {{ BRAND }}{% endblock %}{% block desc %}Anota tus cobros mensuales y te marcamos cuáles revisar, negociar o mantener. Gratis y sin enviar tus datos.{% endblock %}{% block body %}
+<section class="wrap narrow detail revisa">
+ <p class="crumbs"><a href="{{ R }}">Inicio</a> › Revisa tus suscripciones</p>
+ <h1>Revisa tus suscripciones</h1>
+ <p class="lead">Anota lo que pagas cada mes y te marcamos qué conviene <b class="t-rojo">revisar</b>, <b class="t-amarillo">negociar</b> o <b class="t-verde">mantener</b>.</p>
+ <div class="note safe small">🔒 Todo se calcula en tu navegador. No enviamos ni guardamos tus datos en ningún servidor. Esto es solo una guía: nada se cancela automáticamente y tú decides qué hacer.</div>
+
+ <div id="rows" aria-live="polite"></div>
+ <datalist id="svc-list">{% for s in revisa_data %}<option value="{{ s.n }}"></option>{% endfor %}</datalist>
+ <div class="rv-actions">
+  <button type="button" class="btn" id="add">+ Agregar un cobro</button>
+  <button type="button" class="btn ghost" id="demo">Ver un ejemplo</button>
+ </div>
+
+ <section class="box rv-sum" id="sum" aria-live="polite">
+  <h2>Resultado</h2>
+  <div class="rv-tot">
+   <div><span>Total al mes</span><b id="t-mes">S/ 0.00</b></div>
+   <div><span>Total al año</span><b id="t-anio">S/ 0.00</b></div>
+   <div class="sv"><span>Ahorro posible si cortas lo marcado en rojo</span><b id="t-ahorro">S/ 0.00 al mes</b><small id="t-ahorro-a">S/ 0.00 al año</small></div>
+  </div>
+  <p id="msg" class="rv-msg"></p>
+  <ul class="legend">
+   <li><span class="cb cb-rojo">Revisar</span> No lo usas hace más de 1 mes, está duplicado o el precio subió</li>
+   <li><span class="cb cb-amarillo">Negociar</span> Telefonía, internet o TV: buen candidato para pedir descuento</li>
+   <li><span class="cb cb-verde">Mantener</span> Lo usas y no vemos nada que cambiar</li>
+  </ul>
+ </section>
+
+ <section class="box">
+  <h2>Tu lista</h2>
+  <label class="consent"><input type="checkbox" id="remember"> Recordar mi lista en este dispositivo (se guarda solo en este navegador)</label>
+  <div class="rv-actions">
+   <button type="button" class="btn ghost sm" id="dl">Descargar mi lista (CSV)</button>
+   <button type="button" class="btn ghost sm" id="dltxt">Descargar como texto</button>
+   <button type="button" class="btn danger sm" id="clear">Borrar mi lista</button>
+  </div>
+ </section>
+
+ <section class="box">
+  <h2>¿Quieres ayuda? (opcional)</h2>
+  <p class="small">Si quieres, puedes enviarnos tu resumen por WhatsApp. Solo se abre WhatsApp con el mensaje listo si tocas el botón, y puedes editarlo o no enviarlo.</p>
+  <label class="consent"><input type="checkbox" id="wa-ok"> Quiero pedir ayuda por WhatsApp con mi lista</label>
+  <a class="btn wa-btn block hide" id="wa" href="#" target="_blank" rel="noopener">Abrir WhatsApp con mi resumen</a>
+ </section>
+</section>
+<template id="row-tpl">
+ <div class="rv-row" data-st="">
+  <div class="rv-head"><span class="cb rv-badge"></span><button type="button" class="rv-del" aria-label="Quitar este cobro">✕</button></div>
+  <label>Servicio<input class="f-svc" list="svc-list" placeholder="Netflix, Movistar, gimnasio…" autocomplete="off"></label>
+  <div class="row">
+   <label>Monto al mes (S/)<input class="f-monto" type="number" inputmode="decimal" min="0" step="0.01" placeholder="0.00"></label>
+   <label>Última vez que lo usaste<select class="f-uso">
+    <option value="semana">Esta semana</option><option value="mes">Este mes</option>
+    <option value="1a3">Hace 1 a 3 meses</option><option value="mas3">Hace más de 3 meses</option>
+    <option value="nose">No me acuerdo</option></select></label>
+  </div>
+  <div class="row">
+   <label>¿Tienes otro parecido?<select class="f-dup"><option value="no">No</option><option value="si">Sí, está duplicado</option></select></label>
+   <label>¿Subió el precio?<select class="f-sube"><option value="no">No</option><option value="si">Sí, subió</option></select></label>
+  </div>
+  <p class="rv-why small"></p>
+ </div>
+</template>
+<script type="application/json" id="rv-data">{{ revisa_data|tojson }}</script>
+{% endblock %}{% block scripts %}<script src="{{ R }}assets/revisa.js?v={{ V }}"></script>{% endblock %}

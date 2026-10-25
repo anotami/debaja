@@ -6,7 +6,7 @@
 </head><body data-root="{{ R }}">
 <header class="top"><div class="wrap nav">
  <a class="logo" href="{{ R }}"><span class="dot">✂</span>{{ BRAND }}</a>
- <nav><a href="{{ R }}#catalogo">Servicios</a><a class="btn sm" href="{{ R }}solicitar/">Solicitar baja</a></nav>
+ <nav><a href="{{ R }}#catalogo">Servicios</a><a class="nav-revisa" href="{{ R }}revisa/">Revisa<span class="hide-sm"> tus suscripciones</span></a><a class="btn sm" href="{{ R }}solicitar/">Solicitar baja</a></nav>
 </div></header>
 <main>
 {% block body %}{% endblock %}
@@ -19,4 +19,5 @@
 </div></footer>
 <script src="{{ R }}assets/config.js?v={{ V }}"></script>
 <script src="{{ R }}assets/app.js?v={{ V }}"></script>
+{% block scripts %}{% endblock %}
 </body></html>

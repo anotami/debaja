@@ -5,6 +5,22 @@
  {% if not s.verificado %}<div class="note warnbox">⚠ Parte de esta información viene de fuentes secundarias o no se pudo confirmar en la web oficial. La verificamos al gestionar tu caso.</div>{% endif %}
  {% if s.tipo == 'robo' %}<div class="note urgent">📞 <b>¿Te acaban de robar o perdiste el celular? Llama ya:</b> <span class="tel">{{ s.telefono }}</span><br><span class="small">Hazlo desde cualquier teléfono (el de un familiar sirve). El bloqueo es inmediato y gratis. Después, si quieres, envíanos tu solicitud y te ayudamos con el seguimiento.</span></div>{% endif %}
  {% if s.tipo == 'descuento' %}<div class="note">📞 <b>Se pide en la misma llamada de baja:</b> <span class="tel">{{ s.telefono }}</span>. Dices que quieres dar de baja y te pasan al área de retenciones.</div>{% endif %}
+{% if s.que_es %}
+ <section class="box ficha" id="ficha" aria-labelledby="ficha-h">
+  <h2 id="ficha-h">Ficha de revisión: ¿te conviene mantenerlo?</h2>
+  <p class="small muted">Esta ficha es una guía para que decidas tú. En {{ BRAND }} nada se cancela automáticamente.</p>
+  <dl class="ficha-dl">
+   <div><dt>Qué es</dt><dd>{{ s.que_es }}</dd></div>
+   <div><dt>Por qué se paga</dt><dd>{{ s.por_que_se_paga }}</dd></div>
+   <div><dt>Señales de que no lo usas</dt><dd><ul>{% for x in s.senales_no_uso %}<li>{{ x }}</li>{% endfor %}</ul></dd></div>
+   <div><dt>Costo</dt><dd>{{ s.costo }}</dd></div>
+   <div class="f-riesgo"><dt>Riesgo de {% if s.tipo == 'baja' %}darlo de baja{% else %}hacer el trámite{% endif %}</dt><dd>{{ s.riesgo_baja }}</dd></div>
+   <div><dt>Qué pasa si se corta</dt><dd>{{ s.que_pasa_si_se_corta }}</dd></div>
+   <div class="f-reco"><dt>Recomendación</dt><dd>{{ s.recomendacion }}</dd></div>
+  </dl>
+  {% if s.tipo == 'baja' %}<p class="small"><a href="{{ R }}revisa/">¿Tienes varios cobros? Revisa tus suscripciones aquí</a></p>{% endif %}
+ </section>
+ {% endif %}
  <div class="cols">
   <div>
    <div class="box"><h2>{% if s.tipo == 'robo' %}Datos que te van a pedir{% else %}Qué necesitas{% endif %}</h2><ul>{% for r in s.requisitos %}<li>{{ r }}</li>{% endfor %}</ul>

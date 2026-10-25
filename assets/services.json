@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24",
+ "actualizado": "2026-10-25",
  "industrias": [
   "Telecomunicaciones",
   "Trámites de línea móvil",
@@ -37,7 +37,19 @@
    "id_label": "Número de línea, contrato o código de cliente",
    "derechos": "osiptel",
    "canal_baja": "verde",
-   "poder": "notarial"
+   "poder": "notarial",
+   "que_es": "Servicios de Movistar: línea móvil (prepago o postpago) y, según el caso, internet fijo, TV o telefonía fija del hogar.",
+   "por_que_se_paga": "Es un plan mensual: pagas por tener la línea o la conexión disponible, la uses mucho o poco.",
+   "senales_no_uso": [
+    "Tienes una segunda línea o chip que casi no usas",
+    "Usas solo WiFi y te sobran datos cada mes",
+    "El internet o la TV del hogar está en una casa donde ya no vives",
+    "Pagas suscripciones cobradas en el recibo (streaming, seguros) que no reconoces"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Pierdes el número si das de baja la línea (si solo quieres cambiarte de operadora, haz portabilidad y conservas tu número). Si compraste el equipo en cuotas, las cuotas pendientes se siguen cobrando. En hogar debes devolver el módem y los decos en comodato o te los pueden cobrar. Pierdes beneficios y promociones de antigüedad.",
+   "que_pasa_si_se_corta": "La baja se ejecuta al día hábil siguiente (o en la fecha que elijas, hasta 1 mes). Dejas de recibir recibos nuevos, pero debes pagar lo consumido hasta esa fecha.",
+   "recomendacion": "Si el plan te sirve pero es caro, primero pide descuento o retención. Si no usas la línea, dala de baja desde la app o la web (es 24/7). Si te cambias de operadora, usa portabilidad, no baja."
   },
   {
    "id": "claro",
@@ -64,7 +76,19 @@
    "id_label": "Número de línea, contrato o código de cliente",
    "derechos": "osiptel",
    "canal_baja": "verde",
-   "poder": "notarial"
+   "poder": "notarial",
+   "que_es": "Servicios de Claro: línea móvil (prepago o postpago) y, según el caso, internet fijo, TV o telefonía fija del hogar.",
+   "por_que_se_paga": "Es un plan mensual: pagas por tener la línea o la conexión disponible, la uses mucho o poco.",
+   "senales_no_uso": [
+    "Tienes una segunda línea o chip que casi no usas",
+    "Usas solo WiFi y te sobran datos cada mes",
+    "El internet o la TV del hogar está en una casa donde ya no vives",
+    "Pagas suscripciones cobradas en el recibo (streaming, seguros) que no reconoces"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Pierdes el número si das de baja la línea (si solo quieres cambiarte de operadora, haz portabilidad y conservas tu número). Si compraste el equipo en cuotas, las cuotas pendientes se siguen cobrando. En hogar debes devolver el módem y los decos en comodato o te los pueden cobrar. Pierdes beneficios y promociones de antigüedad.",
+   "que_pasa_si_se_corta": "La baja se ejecuta al día hábil siguiente (o en la fecha que elijas, hasta 1 mes). Dejas de recibir recibos nuevos, pero debes pagar lo consumido hasta esa fecha.",
+   "recomendacion": "Si el plan te sirve pero es caro, primero pide descuento o retención. Si no usas la línea, dala de baja desde la app o la web (es 24/7). Si te cambias de operadora, usa portabilidad, no baja."
   },
   {
    "id": "entel",
@@ -93,7 +117,19 @@
    "id_label": "Número de línea, contrato o código de cliente",
    "derechos": "osiptel",
    "canal_baja": "verde",
-   "poder": "notarial"
+   "poder": "notarial",
+   "que_es": "Servicios de Entel: línea móvil (prepago o postpago) y, según el caso, internet fijo, TV o telefonía fija del hogar.",
+   "por_que_se_paga": "Es un plan mensual: pagas por tener la línea o la conexión disponible, la uses mucho o poco.",
+   "senales_no_uso": [
+    "Tienes una segunda línea o chip que casi no usas",
+    "Usas solo WiFi y te sobran datos cada mes",
+    "El internet o la TV del hogar está en una casa donde ya no vives",
+    "Pagas suscripciones cobradas en el recibo (streaming, seguros) que no reconoces"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Pierdes el número si das de baja la línea (si solo quieres cambiarte de operadora, haz portabilidad y conservas tu número). Si compraste el equipo en cuotas, las cuotas pendientes se siguen cobrando. En hogar debes devolver el módem y los decos en comodato o te los pueden cobrar. Pierdes beneficios y promociones de antigüedad.",
+   "que_pasa_si_se_corta": "La baja se ejecuta al día hábil siguiente (o en la fecha que elijas, hasta 1 mes). Dejas de recibir recibos nuevos, pero debes pagar lo consumido hasta esa fecha.",
+   "recomendacion": "Si el plan te sirve pero es caro, primero pide descuento o retención. Si no usas la línea, dala de baja desde la app o la web (es 24/7). Si te cambias de operadora, usa portabilidad, no baja."
   },
   {
    "id": "bitel",
@@ -120,7 +156,19 @@
    "id_label": "Número de línea, contrato o código de cliente",
    "derechos": "osiptel",
    "canal_baja": "verde",
-   "poder": "notarial"
+   "poder": "notarial",
+   "que_es": "Servicios de Bitel: línea móvil (prepago o postpago) y, según el caso, internet fijo, TV o telefonía fija del hogar.",
+   "por_que_se_paga": "Es un plan mensual: pagas por tener la línea o la conexión disponible, la uses mucho o poco.",
+   "senales_no_uso": [
+    "Tienes una segunda línea o chip que casi no usas",
+    "Usas solo WiFi y te sobran datos cada mes",
+    "El internet o la TV del hogar está en una casa donde ya no vives",
+    "Pagas suscripciones cobradas en el recibo (streaming, seguros) que no reconoces"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Pierdes el número si das de baja la línea (si solo quieres cambiarte de operadora, haz portabilidad y conservas tu número). Si compraste el equipo en cuotas, las cuotas pendientes se siguen cobrando. En hogar debes devolver el módem y los decos en comodato o te los pueden cobrar. Pierdes beneficios y promociones de antigüedad.",
+   "que_pasa_si_se_corta": "La baja se ejecuta al día hábil siguiente (o en la fecha que elijas, hasta 1 mes). Dejas de recibir recibos nuevos, pero debes pagar lo consumido hasta esa fecha.",
+   "recomendacion": "Si el plan te sirve pero es caro, primero pide descuento o retención. Si no usas la línea, dala de baja desde la app o la web (es 24/7). Si te cambias de operadora, usa portabilidad, no baja."
   },
   {
    "id": "wow-internet-fibra",
@@ -145,7 +193,19 @@
    "id_label": "Número de línea, contrato o código de cliente",
    "derechos": "osiptel",
    "canal_baja": "amarillo",
-   "poder": "notarial"
+   "poder": "notarial",
+   "que_es": "Internet fijo de fibra óptica de WOW para el hogar.",
+   "por_que_se_paga": "Es un plan mensual por tener la conexión disponible, la uses o no.",
+   "senales_no_uso": [
+    "Te mudaste y el servicio sigue en la casa anterior",
+    "Usas solo los datos del celular",
+    "Pagas otro internet fijo en la misma casa",
+    "La velocidad contratada es mucho mayor de lo que usas"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Debes devolver el ONT o router (en comodato); si no, te lo pueden cobrar. Revisa si contrataste con plazo forzoso o promoción que exija permanencia. Te quedas sin internet en casa desde la fecha de baja.",
+   "que_pasa_si_se_corta": "La baja se ejecuta al día hábil siguiente por norma OSIPTEL. Pagas lo consumido hasta esa fecha y luego coordinas el retiro o la devolución del equipo.",
+   "recomendacion": "Si lo usas pero pagas mucho, pide un plan más barato o descuento antes de cortar. Si ya no lo usas, pide el código de baja y guarda la constancia de devolución del equipo."
   },
   {
    "id": "win-internet-fibra",
@@ -170,7 +230,19 @@
    "id_label": "Número de línea, contrato o código de cliente",
    "derechos": "osiptel",
    "canal_baja": "verde",
-   "poder": "notarial"
+   "poder": "notarial",
+   "que_es": "Internet fijo de fibra óptica de WIN para el hogar.",
+   "por_que_se_paga": "Es un plan mensual por tener la conexión disponible, la uses o no.",
+   "senales_no_uso": [
+    "Te mudaste y el servicio sigue en la casa anterior",
+    "Usas solo los datos del celular",
+    "Pagas otro internet fijo en la misma casa",
+    "La velocidad contratada es mucho mayor de lo que usas"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Debes devolver el router u ONT (en comodato); si no, te lo pueden cobrar. Revisa si contrataste con plazo forzoso o promoción que exija permanencia. Te quedas sin internet en casa desde la fecha de baja.",
+   "que_pasa_si_se_corta": "La baja se ejecuta al día hábil siguiente por norma OSIPTEL. Pagas lo consumido hasta esa fecha y luego coordinas el retiro o la devolución del equipo.",
+   "recomendacion": "Si lo usas pero pagas mucho, pide un plan más barato o descuento antes de cortar. Si ya no lo usas, pide el código de baja y guarda la constancia de devolución del equipo."
   },
   {
    "id": "directv",
@@ -195,7 +267,18 @@
    "id_label": "Número de línea, contrato o código de cliente",
    "derechos": "osiptel",
    "canal_baja": "amarillo",
-   "poder": "notarial"
+   "poder": "notarial",
+   "que_es": "Televisión satelital o prepago de DirecTV (y, según plan, DirecTV GO por internet).",
+   "por_que_se_paga": "Pagas un plan mensual de canales; en prepago, recargas para seguir viendo.",
+   "senales_no_uso": [
+    "Ya ves todo por streaming o apps",
+    "Pagas paquetes adicionales (fútbol, películas) que no ves",
+    "El deco está en una casa donde ya no vives"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Debes devolver la antena y los decos según tu contrato; si no, te pueden cobrar el valor de reposición. Revisa si te queda permanencia o promoción.",
+   "que_pasa_si_se_corta": "La baja se ejecuta al día hábil siguiente. El retiro de equipos se coordina después y no es condición para la baja.",
+   "recomendacion": "Si solo te sobra algún paquete, quita ese adicional en vez de dar de baja todo. Si ya no lo ves, pide el código de baja."
   },
   {
    "id": "robo-perdida-movistar",
@@ -234,7 +317,18 @@
    "adjuntos": [
     "dni"
    ],
-   "id_label": "Número de la línea robada o perdida"
+   "id_label": "Número de la línea robada o perdida",
+   "que_es": "Suspensión de la línea y bloqueo del celular (IMEI) cuando te roban o pierdes el equipo de Movistar. No es una baja: la línea queda suspendida.",
+   "por_que_se_paga": "No es un cobro: es un trámite gratis. Sirve para que nadie use tu línea, tus datos o tus cuentas, y para que no te cobren consumos de terceros.",
+   "senales_no_uso": [
+    "Te robaron o perdiste el celular",
+    "Hay llamadas, datos o compras que no hiciste",
+    "El celular apareció bloqueado o sin señal sin motivo"
+   ],
+   "costo": "Gratis (no hay que pagar por el reporte). El chip de reposición puede tener costo; consúltalo en tienda.",
+   "riesgo_baja": "Riesgo bajo: el bloqueo del IMEI es inmediato y el equipo ya no funciona en ninguna red del Perú, aunque lo recuperes, hasta que lo desbloquees en tienda. El plan mensual sigue vigente si es postpago.",
+   "que_pasa_si_se_corta": "Nadie puede usar tu línea ni el equipo. Para recuperar el número, el titular saca un chip nuevo en tienda con su DNI y huella.",
+   "recomendacion": "Llama apenas notes el robo o la pérdida, desde cualquier teléfono. Anota el código de reporte y verifica el bloqueo en Checa tu IMEI del OSIPTEL."
   },
   {
    "id": "robo-perdida-claro",
@@ -274,7 +368,18 @@
    "adjuntos": [
     "dni"
    ],
-   "id_label": "Número de la línea robada o perdida"
+   "id_label": "Número de la línea robada o perdida",
+   "que_es": "Suspensión de la línea y bloqueo del celular (IMEI) cuando te roban o pierdes el equipo de Claro. No es una baja: la línea queda suspendida.",
+   "por_que_se_paga": "No es un cobro: es un trámite gratis. Sirve para que nadie use tu línea, tus datos o tus cuentas, y para que no te cobren consumos de terceros.",
+   "senales_no_uso": [
+    "Te robaron o perdiste el celular",
+    "Hay llamadas, datos o compras que no hiciste",
+    "El celular apareció bloqueado o sin señal sin motivo"
+   ],
+   "costo": "Gratis (no hay que pagar por el reporte). El chip de reposición puede tener costo; consúltalo en tienda.",
+   "riesgo_baja": "Riesgo bajo: el bloqueo del IMEI es inmediato y el equipo ya no funciona en ninguna red del Perú, aunque lo recuperes, hasta que lo desbloquees en tienda. El plan mensual sigue vigente si es postpago.",
+   "que_pasa_si_se_corta": "Nadie puede usar tu línea ni el equipo. Para recuperar el número, el titular saca un chip nuevo en tienda con su DNI y huella.",
+   "recomendacion": "Llama apenas notes el robo o la pérdida, desde cualquier teléfono. Anota el código de reporte y verifica el bloqueo en Checa tu IMEI del OSIPTEL."
   },
   {
    "id": "robo-perdida-entel",
@@ -313,7 +418,18 @@
    "adjuntos": [
     "dni"
    ],
-   "id_label": "Número de la línea robada o perdida"
+   "id_label": "Número de la línea robada o perdida",
+   "que_es": "Suspensión de la línea y bloqueo del celular (IMEI) cuando te roban o pierdes el equipo de Entel. No es una baja: la línea queda suspendida.",
+   "por_que_se_paga": "No es un cobro: es un trámite gratis. Sirve para que nadie use tu línea, tus datos o tus cuentas, y para que no te cobren consumos de terceros.",
+   "senales_no_uso": [
+    "Te robaron o perdiste el celular",
+    "Hay llamadas, datos o compras que no hiciste",
+    "El celular apareció bloqueado o sin señal sin motivo"
+   ],
+   "costo": "Gratis (no hay que pagar por el reporte). El chip de reposición puede tener costo; consúltalo en tienda.",
+   "riesgo_baja": "Riesgo bajo: el bloqueo del IMEI es inmediato y el equipo ya no funciona en ninguna red del Perú, aunque lo recuperes, hasta que lo desbloquees en tienda. El plan mensual sigue vigente si es postpago.",
+   "que_pasa_si_se_corta": "Nadie puede usar tu línea ni el equipo. Para recuperar el número, el titular saca un chip nuevo en tienda con su DNI y huella.",
+   "recomendacion": "Llama apenas notes el robo o la pérdida, desde cualquier teléfono. Anota el código de reporte y verifica el bloqueo en Checa tu IMEI del OSIPTEL."
   },
   {
    "id": "robo-perdida-bitel",
@@ -353,7 +469,18 @@
    "adjuntos": [
     "dni"
    ],
-   "id_label": "Número de la línea robada o perdida"
+   "id_label": "Número de la línea robada o perdida",
+   "que_es": "Suspensión de la línea y bloqueo del celular (IMEI) cuando te roban o pierdes el equipo de Bitel. No es una baja: la línea queda suspendida.",
+   "por_que_se_paga": "No es un cobro: es un trámite gratis. Sirve para que nadie use tu línea, tus datos o tus cuentas, y para que no te cobren consumos de terceros.",
+   "senales_no_uso": [
+    "Te robaron o perdiste el celular",
+    "Hay llamadas, datos o compras que no hiciste",
+    "El celular apareció bloqueado o sin señal sin motivo"
+   ],
+   "costo": "Gratis (no hay que pagar por el reporte). El chip de reposición puede tener costo; consúltalo en tienda.",
+   "riesgo_baja": "Riesgo bajo: el bloqueo del IMEI es inmediato y el equipo ya no funciona en ninguna red del Perú, aunque lo recuperes, hasta que lo desbloquees en tienda. El plan mensual sigue vigente si es postpago.",
+   "que_pasa_si_se_corta": "Nadie puede usar tu línea ni el equipo. Para recuperar el número, el titular saca un chip nuevo en tienda con su DNI y huella.",
+   "recomendacion": "Llama apenas notes el robo o la pérdida, desde cualquier teléfono. Anota el código de reporte y verifica el bloqueo en Checa tu IMEI del OSIPTEL."
   },
   {
    "id": "descuento-retencion-movistar",
@@ -384,7 +511,19 @@
    "adjuntos": [
     "dni"
    ],
-   "id_label": "Número de línea, contrato o código de cliente"
+   "id_label": "Número de línea, contrato o código de cliente",
+   "que_es": "Pedir a Movistar que te baje el precio o te mejore el plan, normalmente en la misma llamada en la que pides la baja (área de retenciones).",
+   "por_que_se_paga": "Pagas un plan mensual; muchas veces la operadora prefiere hacerte un descuento antes que perderte como cliente.",
+   "senales_no_uso": [
+    "Pagas más que lo que la competencia ofrece por un plan parecido",
+    "Llevas años como cliente sin mejoras en tu plan",
+    "Te sobran datos o minutos cada mes",
+    "Tu promoción ya venció y el recibo subió"
+   ],
+   "costo": "Gratis pedirlo. El ahorro depende de la oferta que te hagan.",
+   "riesgo_baja": "Riesgo bajo: si aceptas una oferta, revisa cuánto dura, el precio después y si cambia la velocidad o los datos. Pide constancia o código de la oferta.",
+   "que_pasa_si_se_corta": "Si aceptas, la baja no se registra y sigues con el plan nuevo. Si no te conviene, puedes confirmar la baja en la misma llamada: no pueden condicionarla a aceptar una oferta.",
+   "recomendacion": "Ten a mano tu recibo y una oferta concreta de otra operadora. Acepta solo si el precio final y la duración te convienen."
   },
   {
    "id": "descuento-retencion-claro",
@@ -415,7 +554,19 @@
    "adjuntos": [
     "dni"
    ],
-   "id_label": "Número de línea, contrato o código de cliente"
+   "id_label": "Número de línea, contrato o código de cliente",
+   "que_es": "Pedir a Claro que te baje el precio o te mejore el plan, normalmente en la misma llamada en la que pides la baja (área de retenciones).",
+   "por_que_se_paga": "Pagas un plan mensual; muchas veces la operadora prefiere hacerte un descuento antes que perderte como cliente.",
+   "senales_no_uso": [
+    "Pagas más que lo que la competencia ofrece por un plan parecido",
+    "Llevas años como cliente sin mejoras en tu plan",
+    "Te sobran datos o minutos cada mes",
+    "Tu promoción ya venció y el recibo subió"
+   ],
+   "costo": "Gratis pedirlo. El ahorro depende de la oferta que te hagan.",
+   "riesgo_baja": "Riesgo bajo: si aceptas una oferta, revisa cuánto dura, el precio después y si cambia la velocidad o los datos. Pide constancia o código de la oferta.",
+   "que_pasa_si_se_corta": "Si aceptas, la baja no se registra y sigues con el plan nuevo. Si no te conviene, puedes confirmar la baja en la misma llamada: no pueden condicionarla a aceptar una oferta.",
+   "recomendacion": "Ten a mano tu recibo y una oferta concreta de otra operadora. Acepta solo si el precio final y la duración te convienen."
   },
   {
    "id": "descuento-retencion-entel",
@@ -446,7 +597,19 @@
    "adjuntos": [
     "dni"
    ],
-   "id_label": "Número de línea, contrato o código de cliente"
+   "id_label": "Número de línea, contrato o código de cliente",
+   "que_es": "Pedir a Entel que te baje el precio o te mejore el plan, normalmente en la misma llamada en la que pides la baja (área de retenciones).",
+   "por_que_se_paga": "Pagas un plan mensual; muchas veces la operadora prefiere hacerte un descuento antes que perderte como cliente.",
+   "senales_no_uso": [
+    "Pagas más que lo que la competencia ofrece por un plan parecido",
+    "Llevas años como cliente sin mejoras en tu plan",
+    "Te sobran datos o minutos cada mes",
+    "Tu promoción ya venció y el recibo subió"
+   ],
+   "costo": "Gratis pedirlo. El ahorro depende de la oferta que te hagan.",
+   "riesgo_baja": "Riesgo bajo: si aceptas una oferta, revisa cuánto dura, el precio después y si cambia la velocidad o los datos. Pide constancia o código de la oferta.",
+   "que_pasa_si_se_corta": "Si aceptas, la baja no se registra y sigues con el plan nuevo. Si no te conviene, puedes confirmar la baja en la misma llamada: no pueden condicionarla a aceptar una oferta.",
+   "recomendacion": "Ten a mano tu recibo y una oferta concreta de otra operadora. Acepta solo si el precio final y la duración te convienen."
   },
   {
    "id": "descuento-retencion-bitel",
@@ -477,7 +640,19 @@
    "adjuntos": [
     "dni"
    ],
-   "id_label": "Número de línea, contrato o código de cliente"
+   "id_label": "Número de línea, contrato o código de cliente",
+   "que_es": "Pedir a Bitel que te baje el precio o te mejore el plan, normalmente en la misma llamada en la que pides la baja (área de retenciones).",
+   "por_que_se_paga": "Pagas un plan mensual; muchas veces la operadora prefiere hacerte un descuento antes que perderte como cliente.",
+   "senales_no_uso": [
+    "Pagas más que lo que la competencia ofrece por un plan parecido",
+    "Llevas años como cliente sin mejoras en tu plan",
+    "Te sobran datos o minutos cada mes",
+    "Tu promoción ya venció y el recibo subió"
+   ],
+   "costo": "Gratis pedirlo. El ahorro depende de la oferta que te hagan.",
+   "riesgo_baja": "Riesgo bajo: si aceptas una oferta, revisa cuánto dura, el precio después y si cambia la velocidad o los datos. Pide constancia o código de la oferta.",
+   "que_pasa_si_se_corta": "Si aceptas, la baja no se registra y sigues con el plan nuevo. Si no te conviene, puedes confirmar la baja en la misma llamada: no pueden condicionarla a aceptar una oferta.",
+   "recomendacion": "Ten a mano tu recibo y una oferta concreta de otra operadora. Acepta solo si el precio final y la duración te convienen."
   },
   {
    "id": "netflix",
@@ -499,7 +674,19 @@
    "adjuntos": [],
    "id_label": "Correo de la cuenta",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Netflix: suscripción de streaming con renovación automática.",
+   "por_que_se_paga": "Pagas una cuota mensual o anual para tener acceso al catálogo; se cobra aunque no lo veas.",
+   "senales_no_uso": [
+    "No lo abriste en el último mes",
+    "Ya terminaste la serie o el contenido por el que te suscribiste",
+    "Tienes otro streaming parecido",
+    "Lo pagas en tu tarjeta pero lo usa otra persona que ya no vive contigo"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Riesgo bajo: no hay penalidad. Pierdes el acceso al contenido y a las descargas al terminar el periodo pagado. Netflix guarda tus perfiles e historial unos meses por si vuelves.",
+   "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo ya pagado y ya no se renueva. Puedes volver a suscribirte cuando quieras.",
+   "recomendacion": "Si no lo usas hace más de un mes, cancélalo donde pagas (web, Google Play, App Store o recibo de tu operadora). Puedes rotar: un mes uno, otro mes otro."
   },
   {
    "id": "disney",
@@ -521,7 +708,19 @@
    "adjuntos": [],
    "id_label": "Correo de la cuenta",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Disney+: suscripción de streaming con renovación automática.",
+   "por_que_se_paga": "Pagas una cuota mensual o anual para tener acceso al catálogo; se cobra aunque no lo veas.",
+   "senales_no_uso": [
+    "No lo abriste en el último mes",
+    "Ya terminaste la serie o el contenido por el que te suscribiste",
+    "Tienes otro streaming parecido",
+    "Lo pagas en tu tarjeta pero lo usa otra persona que ya no vive contigo"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Riesgo bajo: no hay penalidad. Pierdes el acceso al contenido y a las descargas al terminar el periodo pagado. ",
+   "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo ya pagado y ya no se renueva. Puedes volver a suscribirte cuando quieras.",
+   "recomendacion": "Si no lo usas hace más de un mes, cancélalo donde pagas (web, Google Play, App Store o recibo de tu operadora). Puedes rotar: un mes uno, otro mes otro."
   },
   {
    "id": "hbo-max-max",
@@ -543,7 +742,19 @@
    "adjuntos": [],
    "id_label": "Correo de la cuenta",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "HBO Max: suscripción de streaming con renovación automática.",
+   "por_que_se_paga": "Pagas una cuota mensual o anual para tener acceso al catálogo; se cobra aunque no lo veas.",
+   "senales_no_uso": [
+    "No lo abriste en el último mes",
+    "Ya terminaste la serie o el contenido por el que te suscribiste",
+    "Tienes otro streaming parecido",
+    "Lo pagas en tu tarjeta pero lo usa otra persona que ya no vive contigo"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Riesgo bajo: no hay penalidad. Pierdes el acceso al contenido y a las descargas al terminar el periodo pagado. ",
+   "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo ya pagado y ya no se renueva. Puedes volver a suscribirte cuando quieras.",
+   "recomendacion": "Si no lo usas hace más de un mes, cancélalo donde pagas (web, Google Play, App Store o recibo de tu operadora). Puedes rotar: un mes uno, otro mes otro."
   },
   {
    "id": "prime-video",
@@ -565,7 +776,19 @@
    "adjuntos": [],
    "id_label": "Correo de la cuenta",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Prime Video: suscripción de streaming con renovación automática.",
+   "por_que_se_paga": "Pagas una cuota mensual o anual para tener acceso al catálogo; se cobra aunque no lo veas.",
+   "senales_no_uso": [
+    "No lo abriste en el último mes",
+    "Ya terminaste la serie o el contenido por el que te suscribiste",
+    "Tienes otro streaming parecido",
+    "Lo pagas en tu tarjeta pero lo usa otra persona que ya no vive contigo"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Riesgo bajo: no hay penalidad. Pierdes el acceso al contenido y a las descargas al terminar el periodo pagado. Si lo tienes incluido en Amazon Prime, cancelar Prime también quita otros beneficios.",
+   "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo ya pagado y ya no se renueva. Puedes volver a suscribirte cuando quieras.",
+   "recomendacion": "Si no lo usas hace más de un mes, cancélalo donde pagas (web, Google Play, App Store o recibo de tu operadora). Puedes rotar: un mes uno, otro mes otro."
   },
   {
    "id": "spotify",
@@ -587,7 +810,18 @@
    "adjuntos": [],
    "id_label": "Correo de la cuenta",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Spotify Premium: música y podcasts sin anuncios, con descargas.",
+   "por_que_se_paga": "Cuota mensual con renovación automática (Individual, Duo, Familiar o Estudiantes).",
+   "senales_no_uso": [
+    "Escuchas poco o solo en casa",
+    "Tienes YouTube Premium o Apple Music, que también incluyen música",
+    "Pagas un plan Familiar y ya casi nadie lo usa"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Riesgo bajo: no hay penalidad. Pasas a Spotify gratis con anuncios y sin descargas. Tus playlists se conservan.",
+   "que_pasa_si_se_corta": "Sigues con Premium hasta el fin del periodo pagado y luego pasas al plan gratuito.",
+   "recomendacion": "Si escuchas a diario, mantenlo o baja a un plan más barato (Duo o Estudiantes). Si no, cancela desde spotify.com o la tienda donde pagas."
   },
   {
    "id": "youtube-premium",
@@ -609,7 +843,18 @@
    "adjuntos": [],
    "id_label": "Correo de la cuenta",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "YouTube Premium: YouTube sin anuncios, reproducción en segundo plano, descargas y YouTube Music.",
+   "por_que_se_paga": "Cuota mensual con renovación automática (Individual, Familiar o Estudiantes).",
+   "senales_no_uso": [
+    "Ves pocos videos al mes",
+    "Ya pagas Spotify para música",
+    "Tienes el plan Familiar y casi nadie lo usa"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Riesgo bajo: no hay penalidad. Vuelven los anuncios y pierdes las descargas y la reproducción en segundo plano.",
+   "que_pasa_si_se_corta": "Sigues con Premium hasta el fin del periodo pagado; luego vuelves a YouTube gratis.",
+   "recomendacion": "Si también pagas Spotify, quédate con uno de los dos. Cancela en youtube.com/paid_memberships o en la tienda donde pagas."
   },
   {
    "id": "apple-tv-apple-one",
@@ -631,7 +876,18 @@
    "adjuntos": [],
    "id_label": "Correo de la cuenta",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Apple TV+ (series y películas) o Apple One (paquete con iCloud+, Apple Music, Apple TV+ y más).",
+   "por_que_se_paga": "Cuota mensual cobrada a tu Apple ID con renovación automática.",
+   "senales_no_uso": [
+    "No abres la app Apple TV hace más de un mes",
+    "Pagas Apple One pero solo usas iCloud",
+    "Pagas iCloud+ o Apple Music por separado además de Apple One (duplicado)"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Riesgo bajo: no hay penalidad. Si cancelas Apple One, revisa tu almacenamiento de iCloud: si superas el espacio gratis, se dejan de respaldar fotos y copias.",
+   "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo pagado y luego se corta.",
+   "recomendacion": "Si solo usas iCloud, cambia Apple One por iCloud+ solo. Cancela en Ajustes › tu nombre › Suscripciones."
   },
   {
    "id": "paramount",
@@ -653,7 +909,19 @@
    "adjuntos": [],
    "id_label": "Correo de la cuenta",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Paramount+: suscripción de streaming con renovación automática.",
+   "por_que_se_paga": "Pagas una cuota mensual o anual para tener acceso al catálogo; se cobra aunque no lo veas.",
+   "senales_no_uso": [
+    "No lo abriste en el último mes",
+    "Ya terminaste la serie o el contenido por el que te suscribiste",
+    "Tienes otro streaming parecido",
+    "Lo pagas en tu tarjeta pero lo usa otra persona que ya no vive contigo"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Riesgo bajo: no hay penalidad. Pierdes el acceso al contenido y a las descargas al terminar el periodo pagado. ",
+   "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo ya pagado y ya no se renueva. Puedes volver a suscribirte cuando quieras.",
+   "recomendacion": "Si no lo usas hace más de un mes, cancélalo donde pagas (web, Google Play, App Store o recibo de tu operadora). Puedes rotar: un mes uno, otro mes otro."
   },
   {
    "id": "crunchyroll",
@@ -675,7 +943,19 @@
    "adjuntos": [],
    "id_label": "Correo de la cuenta",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Crunchyroll: suscripción de streaming con renovación automática.",
+   "por_que_se_paga": "Pagas una cuota mensual o anual para tener acceso al catálogo; se cobra aunque no lo veas.",
+   "senales_no_uso": [
+    "No lo abriste en el último mes",
+    "Ya terminaste la serie o el contenido por el que te suscribiste",
+    "Tienes otro streaming parecido",
+    "Lo pagas en tu tarjeta pero lo usa otra persona que ya no vive contigo"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Riesgo bajo: no hay penalidad. Pierdes el acceso al contenido y a las descargas al terminar el periodo pagado. Puedes seguir viendo parte del catálogo gratis con anuncios.",
+   "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo ya pagado y ya no se renueva. Puedes volver a suscribirte cuando quieras.",
+   "recomendacion": "Si no lo usas hace más de un mes, cancélalo donde pagas (web, Google Play, App Store o recibo de tu operadora). Puedes rotar: un mes uno, otro mes otro."
   },
   {
    "id": "luz-del-sur-cambio-de-titular",
@@ -700,7 +980,17 @@
    ],
    "id_label": "Número de suministro",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Cambio de titular del recibo de luz de Luz del Sur. Este servicio va ligado al inmueble: no se da de baja, se cambia el nombre del titular.",
+   "por_que_se_paga": "Pagas el consumo de luz del inmueble según lo que marque el medidor.",
+   "senales_no_uso": [
+    "Vendiste o dejaste de alquilar el inmueble y el recibo sigue a tu nombre",
+    "El recibo llega a nombre de un familiar fallecido o del dueño anterior"
+   ],
+   "costo": "Gratis o de bajo costo según la empresa; el consumo depende de tu medidor.",
+   "riesgo_baja": "Riesgo bajo si estás al día. Pide lectura del medidor y paga la deuda antes del cambio para que no quede a tu nombre.",
+   "que_pasa_si_se_corta": "El servicio de luz sigue en el inmueble, pero los recibos salen a nombre del nuevo titular.",
+   "recomendacion": "Hazlo al vender, comprar o dejar de alquilar. Guarda el código de seguimiento y el último recibo pagado."
   },
   {
    "id": "pluz-energia-cambio-de-titular",
@@ -726,7 +1016,17 @@
    ],
    "id_label": "Número de suministro",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Cambio de titular del recibo de luz de Pluz Energía. Este servicio va ligado al inmueble: no se da de baja, se cambia el nombre del titular.",
+   "por_que_se_paga": "Pagas el consumo de luz del inmueble según lo que marque el medidor.",
+   "senales_no_uso": [
+    "Vendiste o dejaste de alquilar el inmueble y el recibo sigue a tu nombre",
+    "El recibo llega a nombre de un familiar fallecido o del dueño anterior"
+   ],
+   "costo": "Gratis o de bajo costo según la empresa; el consumo depende de tu medidor.",
+   "riesgo_baja": "Riesgo bajo si estás al día. Pide lectura del medidor y paga la deuda antes del cambio para que no quede a tu nombre.",
+   "que_pasa_si_se_corta": "El servicio de luz sigue en el inmueble, pero los recibos salen a nombre del nuevo titular.",
+   "recomendacion": "Hazlo al vender, comprar o dejar de alquilar. Guarda el código de seguimiento y el último recibo pagado."
   },
   {
    "id": "sedapal-cambio-de-titular",
@@ -751,7 +1051,17 @@
    ],
    "id_label": "Número de suministro",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Cambio de titular del recibo de agua de Sedapal. Este servicio va ligado al inmueble: no se da de baja, se cambia el nombre del titular.",
+   "por_que_se_paga": "Pagas el consumo de agua del inmueble según lo que marque el medidor.",
+   "senales_no_uso": [
+    "Vendiste o dejaste de alquilar el inmueble y el recibo sigue a tu nombre",
+    "El recibo llega a nombre de un familiar fallecido o del dueño anterior"
+   ],
+   "costo": "Gratis o de bajo costo según la empresa; el consumo depende de tu medidor.",
+   "riesgo_baja": "Riesgo bajo si estás al día. Pide lectura del medidor y paga la deuda antes del cambio para que no quede a tu nombre.",
+   "que_pasa_si_se_corta": "El servicio de agua sigue en el inmueble, pero los recibos salen a nombre del nuevo titular.",
+   "recomendacion": "Hazlo al vender, comprar o dejar de alquilar. Guarda el código de seguimiento y el último recibo pagado."
   },
   {
    "id": "calidda-gas-natural",
@@ -778,7 +1088,18 @@
    "id_label": "Número de suministro / contrato",
    "derechos": "indecopi",
    "canal_baja": "rojo",
-   "poder": "simple"
+   "poder": "simple",
+   "que_es": "Gas natural por red de Cálidda para cocina o terma.",
+   "por_que_se_paga": "Pagas el consumo de gas según el medidor y, si financiaste la instalación, cuotas en el recibo.",
+   "senales_no_uso": [
+    "Ya no vives en el inmueble",
+    "Cambiaste a cocina eléctrica o balón de gas",
+    "El consumo marca casi cero cada mes"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "La baja tiene costo de corte según el pliego tarifario y volver a conectarte también cuesta. Si financiaste la instalación, revisa si quedan cuotas. Si solo te mudas, quizá te convenga cambio de titular o suspensión temporal.",
+   "que_pasa_si_se_corta": "Se corta el suministro de gas en el inmueble y dejas de recibir recibos, salvo deudas pendientes.",
+   "recomendacion": "Si el inmueble lo seguirá usando otra persona, haz cambio de titular en vez de baja. Si sales por un tiempo, pregunta por la suspensión temporal."
   },
   {
    "id": "prosegur-alarmas",
@@ -802,7 +1123,18 @@
    ],
    "id_label": "Número de contrato",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Alarma con monitoreo de Prosegur para casa o negocio.",
+   "por_que_se_paga": "Cuota mensual por el monitoreo 24 horas y el uso de los equipos.",
+   "senales_no_uso": [
+    "Te mudaste y la alarma quedó en el inmueble anterior",
+    "La alarma pasa desactivada casi todo el tiempo",
+    "Ya tienes otra forma de vigilancia (conserjería, cámaras propias)"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Revisa tu contrato: puede haber permanencia y penalidad. Los equipos suelen ser de la empresa y debes devolverlos o permitir el retiro. Te quedas sin monitoreo desde la fecha de baja.",
+   "que_pasa_si_se_corta": "Se corta el monitoreo y la central deja de responder a las alarmas. Te coordinan el retiro de los equipos.",
+   "recomendacion": "Si no la usas, revisa la permanencia y pide la baja por escrito con constancia. Si la usas pero es cara, pregunta por un plan más barato."
   },
   {
    "id": "verisure-peru",
@@ -824,7 +1156,18 @@
    ],
    "id_label": "Número de contrato",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Alarma con monitoreo de Verisure para casa o negocio.",
+   "por_que_se_paga": "Cuota mensual por el monitoreo 24 horas y el uso de los equipos.",
+   "senales_no_uso": [
+    "Te mudaste y la alarma quedó en el inmueble anterior",
+    "La alarma pasa desactivada casi todo el tiempo",
+    "Ya tienes otra forma de vigilancia (conserjería, cámaras propias)"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Revisa tu contrato: puede haber permanencia y penalidad. Los equipos suelen ser de la empresa y debes devolverlos o permitir el retiro. Te quedas sin monitoreo desde la fecha de baja.",
+   "que_pasa_si_se_corta": "Se corta el monitoreo y la central deja de responder a las alarmas. Te coordinan el retiro de los equipos.",
+   "recomendacion": "Si no la usas, revisa la permanencia y pide la baja por escrito con constancia. Si la usas pero es cara, pregunta por un plan más barato."
   },
   {
    "id": "smart-fit",
@@ -847,7 +1190,18 @@
    "id_label": "DNI o código de socio",
    "derechos": "indecopi",
    "canal_baja": "rojo",
-   "poder": "simple"
+   "poder": "simple",
+   "que_es": "Membresía del gimnasio Smart Fit (planes como Smart o Black).",
+   "por_que_se_paga": "Cuota mensual con débito automático a tu tarjeta, vayas o no al gimnasio.",
+   "senales_no_uso": [
+    "No fuiste al gimnasio en el último mes",
+    "Entrenas en casa o en otro lugar",
+    "Te cambiaste de distrito y la sede te queda lejos"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Los planes con permanencia de 12 meses pueden cobrar una penalidad si cancelas antes. Hay que avisar con anticipación al siguiente cobro (alrededor de 30 días), o te cobran un mes más.",
+   "que_pasa_si_se_corta": "Dejas de tener acceso a las sedes y se detiene el débito automático después del preaviso.",
+   "recomendacion": "Si no vas hace un mes, cancela con tiempo antes del siguiente cobro y pide constancia. Revisa tu estado de cuenta el mes siguiente."
   },
   {
    "id": "bodytech-cerrado-reclamo",
@@ -871,7 +1225,17 @@
    ],
    "id_label": "Código de socio o contrato",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Bodytech cerró sus operaciones en Perú en 2024. No hay una membresía activa que dar de baja: se reclama el dinero pagado por servicios que no se prestaron.",
+   "por_que_se_paga": "Si pagaste por adelantado (plan anual o meses), tienes derecho a reclamar el reembolso.",
+   "senales_no_uso": [
+    "Pagaste meses o un plan anual que no pudiste usar",
+    "Siguen apareciendo cobros de Bodytech en tu tarjeta"
+   ],
+   "costo": "Lo que pagaste por adelantado; revisa tus comprobantes.",
+   "riesgo_baja": "No hay riesgo en reclamar. Si hay cobros recientes, pide también a tu banco que los desconozca.",
+   "que_pasa_si_se_corta": "Presentas el reclamo en INDECOPI y, si procede, buscas la devolución.",
+   "recomendacion": "Reclama en INDECOPI con tus comprobantes de pago y el estado de cuenta de la tarjeta."
   },
   {
    "id": "otros-gimnasios-y-clubes",
@@ -894,7 +1258,18 @@
    ],
    "id_label": "Nombre del gimnasio y código de socio",
    "derechos": "indecopi",
-   "canal_baja": "rojo"
+   "canal_baja": "rojo",
+   "que_es": "Membresías de otros gimnasios, clubes, academias o estudios (yoga, crossfit, natación).",
+   "por_que_se_paga": "Cuota mensual o anual, muchas veces con débito automático.",
+   "senales_no_uso": [
+    "No fuiste en el último mes",
+    "Pagas dos gimnasios o un club que casi no usas",
+    "Te mudaste y te queda lejos"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Revisa permanencia, preaviso y penalidades en tu contrato. Si pagaste por adelantado, pregunta si te devuelven los meses no usados.",
+   "que_pasa_si_se_corta": "Pierdes el acceso y, en algunos clubes, la cuota de ingreso o tu cupo.",
+   "recomendacion": "Pide la baja por escrito y con constancia; si la afiliación fue online, por ley deberían aceptarla por el mismo medio. Si ponen trabas, usa el Libro de Reclamaciones."
   },
   {
    "id": "rappi-pro",
@@ -914,7 +1289,18 @@
    "adjuntos": [],
    "id_label": "Correo de la cuenta",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Rappi Pro: membresía de delivery con envíos gratis o con descuento.",
+   "por_que_se_paga": "Cuota mensual con renovación automática.",
+   "senales_no_uso": [
+    "Pediste delivery menos de 3 veces en el último mes",
+    "Lo que ahorras en envíos es menor que la cuota",
+    "También pagas PedidosYa Plus"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Riesgo bajo: no hay penalidad. Vuelves a pagar el envío completo en cada pedido.",
+   "que_pasa_si_se_corta": "Sigues con los beneficios hasta el fin del periodo pagado.",
+   "recomendacion": "Suma cuánto ahorraste en envíos el último mes: si es menos que la cuota, cancélala desde la app."
   },
   {
    "id": "pedidosya-plus",
@@ -935,7 +1321,18 @@
    "adjuntos": [],
    "id_label": "Correo de la cuenta",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "PedidosYa Plus: membresía de delivery con envíos gratis o con descuento.",
+   "por_que_se_paga": "Cuota mensual con renovación automática.",
+   "senales_no_uso": [
+    "Pediste delivery menos de 3 veces en el último mes",
+    "Lo que ahorras en envíos es menor que la cuota",
+    "También pagas Rappi Pro"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Riesgo bajo: no hay penalidad. Vuelves a pagar el envío completo en cada pedido.",
+   "que_pasa_si_se_corta": "Sigues con los beneficios hasta el fin del periodo pagado.",
+   "recomendacion": "Suma cuánto ahorraste en envíos el último mes: si es menos que la cuota, cancélala desde la app."
   },
   {
    "id": "amazon-prime",
@@ -955,7 +1352,18 @@
    "adjuntos": [],
    "id_label": "Correo de la cuenta",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Amazon Prime: envíos más rápidos o gratis en amazon.com (según destino) e incluye Prime Video.",
+   "por_que_se_paga": "Cuota mensual o anual con renovación automática.",
+   "senales_no_uso": [
+    "No compraste en Amazon en los últimos meses",
+    "No ves Prime Video",
+    "Compras poco desde el extranjero"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Riesgo bajo: pierdes los beneficios de envío y también Prime Video si venía incluido.",
+   "que_pasa_si_se_corta": "Sigues con los beneficios hasta el fin del periodo pagado. Si no usaste ningún beneficio, Amazon a veces devuelve la parte no usada.",
+   "recomendacion": "Si solo lo usas para Prime Video, compara con pagar solo ese servicio. Cancela en amazon.com › Cuenta › Membresía Prime."
   },
   {
    "id": "microsoft-365",
@@ -975,7 +1383,19 @@
    "adjuntos": [],
    "id_label": "Correo de la cuenta",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Microsoft 365: Word, Excel, PowerPoint, Outlook y 1 TB de OneDrive por persona.",
+   "por_que_se_paga": "Es una suscripción con renovación automática (mensual o anual) que se cobra aunque no la uses.",
+   "senales_no_uso": [
+    "No la usaste en el último mes",
+    "Usas la versión gratuita para lo mismo",
+    "Tienes otra herramienta parecida pagada",
+    "Te suscribiste para una prueba o un proyecto que ya terminó"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Riesgo medio: si tienes más archivos en OneDrive que el espacio gratis, ya no podrás subir más y tu cuenta puede quedar restringida. Las apps de Office pasan a solo lectura o versión web gratis.",
+   "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo pagado; luego pasas al plan gratuito (si existe) o pierdes el acceso.",
+   "recomendacion": "Si solo usas Word o Excel de vez en cuando, prueba la versión web gratis. Antes de cancelar, descarga o libera espacio en OneDrive."
   },
   {
    "id": "google-one",
@@ -995,7 +1415,18 @@
    "adjuntos": [],
    "id_label": "Correo de la cuenta",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Google One: más almacenamiento para Gmail, Google Drive y Google Fotos (y, en algunos planes, funciones de IA).",
+   "por_que_se_paga": "Es una suscripción con renovación automática (mensual o anual) que se cobra aunque no la uses.",
+   "senales_no_uso": [
+    "Usas mucho menos espacio que el contratado",
+    "Ya respaldas tus fotos en iCloud u otro servicio",
+    "Pagas el plan más grande y te sobra"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Riesgo medio: si superas los 15 GB gratis, dejas de recibir correos en Gmail y no puedes subir más fotos ni archivos.",
+   "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo pagado; luego pasas al plan gratuito (si existe) o pierdes el acceso.",
+   "recomendacion": "Revisa cuánto espacio usas en one.google.com. Si estás cerca del límite gratis, libera espacio antes de cancelar."
   },
   {
    "id": "icloud",
@@ -1015,7 +1446,18 @@
    "adjuntos": [],
    "id_label": "Correo de la cuenta",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "iCloud+: almacenamiento de Apple para fotos, copias de seguridad del iPhone y archivos.",
+   "por_que_se_paga": "Es una suscripción con renovación automática (mensual o anual) que se cobra aunque no la uses.",
+   "senales_no_uso": [
+    "Usas mucho menos espacio que el contratado",
+    "Pagas Apple One y también iCloud+ (duplicado)",
+    "Ya respaldas tus fotos en Google Fotos u otro servicio"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Riesgo medio: si tus datos superan los 5 GB gratis, el iPhone deja de hacer copias de seguridad y de subir fotos nuevas. No se borran de inmediato, pero quedan sin respaldo.",
+   "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo pagado; luego pasas al plan gratuito (si existe) o pierdes el acceso.",
+   "recomendacion": "Si usas mucho menos espacio, baja a un plan más chico en vez de cancelar. Si pagas Apple One, no pagues iCloud+ aparte."
   },
   {
    "id": "chatgpt-plus-pro",
@@ -1035,7 +1477,18 @@
    "adjuntos": [],
    "id_label": "Correo de la cuenta",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "ChatGPT Plus o Pro: acceso a los modelos y funciones avanzadas de ChatGPT.",
+   "por_que_se_paga": "Es una suscripción con renovación automática (mensual o anual) que se cobra aunque no la uses.",
+   "senales_no_uso": [
+    "No lo usaste en las últimas semanas",
+    "El plan gratis te alcanza para lo que haces",
+    "Pagas otra app de IA parecida (Gemini, Claude, Perplexity)"
+   ],
+   "costo": "Plus suele costar USD 20 al mes y Pro USD 200 al mes (más impuestos); revisa tu estado de cuenta.",
+   "riesgo_baja": "Riesgo bajo: no hay penalidad. Pasas al plan gratis con límites; tus conversaciones se conservan.",
+   "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo pagado; luego pasas al plan gratuito (si existe) o pierdes el acceso.",
+   "recomendacion": "Si lo usas pocas veces por semana, prueba el plan gratis. No pagues dos apps de IA para lo mismo."
   },
   {
    "id": "canva-pro",
@@ -1055,7 +1508,19 @@
    "adjuntos": [],
    "id_label": "Correo de la cuenta",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Canva Pro: diseño con plantillas, fotos y elementos premium y herramientas extra.",
+   "por_que_se_paga": "Es una suscripción con renovación automática (mensual o anual) que se cobra aunque no la uses.",
+   "senales_no_uso": [
+    "No la usaste en el último mes",
+    "Usas la versión gratuita para lo mismo",
+    "Tienes otra herramienta parecida pagada",
+    "Te suscribiste para una prueba o un proyecto que ya terminó"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Riesgo bajo: tus diseños se conservan, pero no podrás usar ni descargar sin marca los elementos premium.",
+   "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo pagado; luego pasas al plan gratuito (si existe) o pierdes el acceso.",
+   "recomendacion": "Si diseñas poco, el plan gratis suele alcanzar. Si es por trabajo, revisa si tu empresa ya paga un plan de equipo."
   },
   {
    "id": "adobe-creative-cloud",
@@ -1075,7 +1540,19 @@
    "adjuntos": [],
    "id_label": "Correo de la cuenta",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Adobe Creative Cloud: Photoshop, Illustrator, Premiere, Acrobat y otras apps.",
+   "por_que_se_paga": "Es una suscripción con renovación automática (mensual o anual) que se cobra aunque no la uses.",
+   "senales_no_uso": [
+    "No la usaste en el último mes",
+    "Usas la versión gratuita para lo mismo",
+    "Tienes otra herramienta parecida pagada",
+    "Te suscribiste para una prueba o un proyecto que ya terminó"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Riesgo alto en costo: los planes anuales pagados mes a mes pueden cobrar una tarifa por cancelar antes de tiempo (solo hay reembolso total dentro de los primeros 14 días). Pierdes el acceso a las apps y a parte del almacenamiento en la nube.",
+   "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo pagado; luego pasas al plan gratuito (si existe) o pierdes el acceso.",
+   "recomendacion": "Mira el tipo de plan antes de cancelar. En el flujo de cancelación suelen ofrecer meses gratis o descuento: revísalo antes de confirmar."
   },
   {
    "id": "duolingo-super",
@@ -1095,7 +1572,19 @@
    "adjuntos": [],
    "id_label": "Correo de la cuenta",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Duolingo Super (o Max): Duolingo sin anuncios, con vidas ilimitadas y prácticas extra.",
+   "por_que_se_paga": "Es una suscripción con renovación automática (mensual o anual) que se cobra aunque no la uses.",
+   "senales_no_uso": [
+    "No la usaste en el último mes",
+    "Usas la versión gratuita para lo mismo",
+    "Tienes otra herramienta parecida pagada",
+    "Te suscribiste para una prueba o un proyecto que ya terminó"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Riesgo bajo: tu progreso y tu racha se conservan. Vuelven los anuncios y las vidas limitadas.",
+   "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo pagado; luego pasas al plan gratuito (si existe) o pierdes el acceso.",
+   "recomendacion": "Si practicas poco, la versión gratis basta. Cancela donde pagas (App Store, Google Play o la web)."
   },
   {
    "id": "otras-apps-de-ia-gemini-claude-perplexity",
@@ -1115,7 +1604,18 @@
    "adjuntos": [],
    "id_label": "Correo de la cuenta",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Suscripciones de apps de IA como Gemini (Google AI), Claude o Perplexity.",
+   "por_que_se_paga": "Es una suscripción con renovación automática (mensual o anual) que se cobra aunque no la uses.",
+   "senales_no_uso": [
+    "No la usaste en las últimas semanas",
+    "Pagas dos o más apps de IA para lo mismo (por ejemplo, ChatGPT y otra)",
+    "El plan gratis te alcanza"
+   ],
+   "costo": "Los planes individuales suelen costar alrededor de USD 20 al mes; revisa tu estado de cuenta.",
+   "riesgo_baja": "Riesgo bajo: no hay penalidad. Pasas al plan gratis con límites; normalmente conservas tus chats.",
+   "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo pagado; luego pasas al plan gratuito (si existe) o pierdes el acceso.",
+   "recomendacion": "Quédate con una sola app de IA pagada. Si Gemini viene en tu plan de Google One, no lo pagues aparte."
   },
   {
    "id": "el-comercio-gestion",
@@ -1136,7 +1636,18 @@
    "adjuntos": [],
    "id_label": "Correo de la cuenta",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Suscripción digital (o impresa) de El Comercio o Gestión.",
+   "por_que_se_paga": "Cuota mensual o anual para leer sin límites o recibir el diario.",
+   "senales_no_uso": [
+    "No entraste a leer en el último mes",
+    "Lees las noticias gratis en redes o en otros medios",
+    "El diario impreso se acumula sin abrir"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Riesgo bajo: pierdes el acceso a las notas para suscriptores. Avisa antes de la renovación o se cobra otro periodo.",
+   "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo pagado.",
+   "recomendacion": "Si lees poco, cancela al menos 3 días antes de la renovación y guarda la constancia."
   },
   {
    "id": "la-republica",
@@ -1155,7 +1666,18 @@
    "adjuntos": [],
    "id_label": "Correo de la cuenta",
    "derechos": "indecopi",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Suscripción digital (o impresa) de La República.",
+   "por_que_se_paga": "Cuota mensual o anual para leer sin límites o recibir el diario.",
+   "senales_no_uso": [
+    "No entraste a leer en el último mes",
+    "Lees las noticias gratis en redes o en otros medios",
+    "El diario impreso se acumula sin abrir"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Riesgo bajo: pierdes el acceso a las notas para suscriptores. Avisa antes de la renovación o se cobra otro periodo.",
+   "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo pagado.",
+   "recomendacion": "Si lees poco, cancela al menos 3 días antes de la renovación y guarda la constancia."
   },
   {
    "id": "tarjeta-de-credito-cancelacion",
@@ -1177,7 +1699,18 @@
    ],
    "id_label": "Banco y tipo de tarjeta (NUNCA el número)",
    "derechos": "sbs",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Cancelar una tarjeta de crédito que ya no usas.",
+   "por_que_se_paga": "Puede cobrar membresía anual, seguros asociados, intereses y comisiones.",
+   "senales_no_uso": [
+    "No la usaste en los últimos meses",
+    "Tienes otra tarjeta con mejores condiciones",
+    "Te cobran membresía o seguros que no pediste"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Debes pagar toda la deuda (incluidas las cuotas). Se cortan los cargos recurrentes asociados: pasa antes tus suscripciones a otra tarjeta. Pierdes los puntos o millas no canjeados. Puede afectar un poco tu historial crediticio.",
+   "que_pasa_si_se_corta": "La tarjeta se cancela en el momento y no se generan cargos nuevos, salvo los que ya estaban en tránsito.",
+   "recomendacion": "Canjea tus puntos, paga la deuda y pide constancia de cancelación. Si solo te molesta la membresía, pide primero la exoneración."
   },
   {
    "id": "cargos-recurrentes-en-tarjeta",
@@ -1203,7 +1736,18 @@
    ],
    "id_label": "Banco y nombre del comercio que cobra",
    "derechos": "sbs",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Cobros automáticos que un comercio hace a tu tarjeta cada mes (suscripciones, apps, gimnasios).",
+   "por_que_se_paga": "Autorizaste al comercio a cobrarte de forma periódica.",
+   "senales_no_uso": [
+    "Ves cobros en tu estado de cuenta que no reconoces",
+    "Sigues pagando algo que ya no usas",
+    "El monto subió sin aviso"
+   ],
+   "costo": "Varía según plan; revisa tu recibo.",
+   "riesgo_baja": "Riesgo bajo: si cortas el cargo pero no cancelas el servicio, puede quedar una deuda con el comercio.",
+   "que_pasa_si_se_corta": "El comercio ya no puede cobrarte en esa tarjeta; el servicio se suspende si no pagas por otro medio.",
+   "recomendacion": "Revisa tu estado de cuenta, cancela la suscripción con el comercio y, si sigue cobrando, pide ayuda a tu banco."
   },
   {
    "id": "debito-automatico",
@@ -1225,7 +1769,18 @@
    ],
    "id_label": "Banco y servicio/acreedor debitado",
    "derechos": "sbs",
-   "canal_baja": "rojo"
+   "canal_baja": "rojo",
+   "que_es": "Pago automático de recibos (luz, agua, teléfono, seguros, colegio) desde tu cuenta o tarjeta.",
+   "por_que_se_paga": "Autorizaste al banco a pagar esos recibos cada mes.",
+   "senales_no_uso": [
+    "Pagas recibos de servicios que ya diste de baja",
+    "El monto debitado subió",
+    "Prefieres pagar tú mismo para revisar cada recibo"
+   ],
+   "costo": "Varía según el recibo; revisa tu estado de cuenta.",
+   "riesgo_baja": "Si suspendes el débito, debes pagar tú los recibos a tiempo para evitar moras o cortes.",
+   "que_pasa_si_se_corta": "El banco deja de pagar ese recibo de forma automática; el servicio sigue activo.",
+   "recomendacion": "Suspéndelo para los servicios que ya no usas o que quieres controlar, y pide la constancia del banco."
   },
   {
    "id": "seguros-asociados-a-tarjeta-o-credito",
@@ -1247,7 +1802,18 @@
    ],
    "id_label": "Aseguradora y número de póliza",
    "derechos": "sbs",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "que_es": "Seguros que te venden junto con una tarjeta o un crédito (protección de tarjeta, vida, oncológico, etc.).",
+   "por_que_se_paga": "Una prima mensual que se cobra en la tarjeta o la cuenta.",
+   "senales_no_uso": [
+    "No recuerdas haberlo contratado",
+    "Ya tienes un seguro parecido",
+    "Te lo vendieron por teléfono y no lo querías"
+   ],
+   "costo": "Varía según la póliza; revisa tu estado de cuenta.",
+   "riesgo_baja": "El seguro de desgravamen puede ser obligatorio en créditos. Pierdes la cobertura desde la cancelación.",
+   "que_pasa_si_se_corta": "Dejas de pagar la prima y de tener cobertura.",
+   "recomendacion": "Revisa tu estado de cuenta. Si te lo vendieron a distancia, tienes al menos 15 días para arrepentirte sin penalidad."
   }
  ]
 }

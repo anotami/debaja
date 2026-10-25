@@ -44,9 +44,14 @@ def write(rel, tpl, **kw):
 # Nota: si borras un servicio de services.json, borra también a mano su carpeta en servicio/ y solicitar/.
 write("index.html", "index.html", counts={i: sum(s["industria"] == i for s in S) for i in IND})
 write("privacidad/index.html", "privacy.html")
+TELCO_DESC = {s["id"].replace("descuento-retencion-", ""): s["id"] for s in S if s["tipo"] == "descuento"}
+revisa_data = [{"id": s["id"], "n": s["nombre"], "ind": s["industria"],
+                "telco": s["industria"] == "Telecomunicaciones", "desc": TELCO_DESC.get(s["id"], "")}
+               for s in S if s["tipo"] == "baja"]
+write("revisa/index.html", "revisa.html", revisa_data=revisa_data)
 write("solicitar/index.html", "form.html", svc=None, form_data=form_data)
 for s in S:
     write(f"servicio/{s['id']}/index.html", "service.html", s=s, rights=rights[s["derechos"]])
     write(f"solicitar/{s['id']}/index.html", "form.html", svc=s, form_data=form_data)
 shutil.copy(os.path.join(ROOT, "data", "services.json"), os.path.join(ROOT, "assets", "services.json"))
-print(f"OK: {len(S)} servicios, {2*len(S)+3} páginas")
+print(f"OK: {len(S)} servicios, {2*len(S)+4} páginas")

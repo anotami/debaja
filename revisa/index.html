@@ -1,0 +1,88 @@
+<!doctype html><html lang="es-PE"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Revisa tus suscripciones · DeBaja.pe</title>
+<meta name="description" content="Anota tus cobros mensuales y te marcamos cuáles revisar, negociar o mantener. Gratis y sin enviar tus datos.">
+<link rel="stylesheet" href="../assets/style.css?v=202610250816">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✂️</text></svg>">
+</head><body data-root="../">
+<header class="top"><div class="wrap nav">
+ <a class="logo" href="../"><span class="dot">✂</span>DeBaja.pe</a>
+ <nav><a href="../#catalogo">Servicios</a><a class="nav-revisa" href="../revisa/">Revisa<span class="hide-sm"> tus suscripciones</span></a><a class="btn sm" href="../solicitar/">Solicitar baja</a></nav>
+</div></header>
+<main>
+
+<section class="wrap narrow detail revisa">
+ <p class="crumbs"><a href="../">Inicio</a> › Revisa tus suscripciones</p>
+ <h1>Revisa tus suscripciones</h1>
+ <p class="lead">Anota lo que pagas cada mes y te marcamos qué conviene <b class="t-rojo">revisar</b>, <b class="t-amarillo">negociar</b> o <b class="t-verde">mantener</b>.</p>
+ <div class="note safe small">🔒 Todo se calcula en tu navegador. No enviamos ni guardamos tus datos en ningún servidor. Esto es solo una guía: nada se cancela automáticamente y tú decides qué hacer.</div>
+
+ <div id="rows" aria-live="polite"></div>
+ <datalist id="svc-list"><option value="Movistar"></option><option value="Claro"></option><option value="Entel"></option><option value="Bitel"></option><option value="WOW (internet fibra)"></option><option value="WIN (internet fibra)"></option><option value="DirecTV"></option><option value="Netflix"></option><option value="Disney+"></option><option value="HBO Max (Max)"></option><option value="Prime Video"></option><option value="Spotify"></option><option value="YouTube Premium"></option><option value="Apple TV+ / Apple One"></option><option value="Paramount+"></option><option value="Crunchyroll"></option><option value="Luz del Sur (cambio de titular)"></option><option value="Pluz Energía (cambio de titular)"></option><option value="Sedapal (cambio de titular)"></option><option value="Cálidda (gas natural)"></option><option value="Prosegur Alarmas"></option><option value="Verisure Perú"></option><option value="Smart Fit"></option><option value="Bodytech (cerrado – reclamo)"></option><option value="Otros gimnasios y clubes"></option><option value="Rappi Pro"></option><option value="PedidosYa Plus"></option><option value="Amazon Prime"></option><option value="Microsoft 365"></option><option value="Google One"></option><option value="iCloud+"></option><option value="ChatGPT Plus / Pro"></option><option value="Canva Pro"></option><option value="Adobe Creative Cloud"></option><option value="Duolingo Super"></option><option value="Otras apps de IA (Gemini, Claude, Perplexity…)"></option><option value="El Comercio / Gestión"></option><option value="La República"></option><option value="Tarjeta de crédito (cancelación)"></option><option value="Cargos recurrentes en tarjeta"></option><option value="Débito automático"></option><option value="Seguros asociados a tarjeta o crédito"></option></datalist>
+ <div class="rv-actions">
+  <button type="button" class="btn" id="add">+ Agregar un cobro</button>
+  <button type="button" class="btn ghost" id="demo">Ver un ejemplo</button>
+ </div>
+
+ <section class="box rv-sum" id="sum" aria-live="polite">
+  <h2>Resultado</h2>
+  <div class="rv-tot">
+   <div><span>Total al mes</span><b id="t-mes">S/ 0.00</b></div>
+   <div><span>Total al año</span><b id="t-anio">S/ 0.00</b></div>
+   <div class="sv"><span>Ahorro posible si cortas lo marcado en rojo</span><b id="t-ahorro">S/ 0.00 al mes</b><small id="t-ahorro-a">S/ 0.00 al año</small></div>
+  </div>
+  <p id="msg" class="rv-msg"></p>
+  <ul class="legend">
+   <li><span class="cb cb-rojo">Revisar</span> No lo usas hace más de 1 mes, está duplicado o el precio subió</li>
+   <li><span class="cb cb-amarillo">Negociar</span> Telefonía, internet o TV: buen candidato para pedir descuento</li>
+   <li><span class="cb cb-verde">Mantener</span> Lo usas y no vemos nada que cambiar</li>
+  </ul>
+ </section>
+
+ <section class="box">
+  <h2>Tu lista</h2>
+  <label class="consent"><input type="checkbox" id="remember"> Recordar mi lista en este dispositivo (se guarda solo en este navegador)</label>
+  <div class="rv-actions">
+   <button type="button" class="btn ghost sm" id="dl">Descargar mi lista (CSV)</button>
+   <button type="button" class="btn ghost sm" id="dltxt">Descargar como texto</button>
+   <button type="button" class="btn danger sm" id="clear">Borrar mi lista</button>
+  </div>
+ </section>
+
+ <section class="box">
+  <h2>¿Quieres ayuda? (opcional)</h2>
+  <p class="small">Si quieres, puedes enviarnos tu resumen por WhatsApp. Solo se abre WhatsApp con el mensaje listo si tocas el botón, y puedes editarlo o no enviarlo.</p>
+  <label class="consent"><input type="checkbox" id="wa-ok"> Quiero pedir ayuda por WhatsApp con mi lista</label>
+  <a class="btn wa-btn block hide" id="wa" href="#" target="_blank" rel="noopener">Abrir WhatsApp con mi resumen</a>
+ </section>
+</section>
+<template id="row-tpl">
+ <div class="rv-row" data-st="">
+  <div class="rv-head"><span class="cb rv-badge"></span><button type="button" class="rv-del" aria-label="Quitar este cobro">✕</button></div>
+  <label>Servicio<input class="f-svc" list="svc-list" placeholder="Netflix, Movistar, gimnasio…" autocomplete="off"></label>
+  <div class="row">
+   <label>Monto al mes (S/)<input class="f-monto" type="number" inputmode="decimal" min="0" step="0.01" placeholder="0.00"></label>
+   <label>Última vez que lo usaste<select class="f-uso">
+    <option value="semana">Esta semana</option><option value="mes">Este mes</option>
+    <option value="1a3">Hace 1 a 3 meses</option><option value="mas3">Hace más de 3 meses</option>
+    <option value="nose">No me acuerdo</option></select></label>
+  </div>
+  <div class="row">
+   <label>¿Tienes otro parecido?<select class="f-dup"><option value="no">No</option><option value="si">Sí, está duplicado</option></select></label>
+   <label>¿Subió el precio?<select class="f-sube"><option value="no">No</option><option value="si">Sí, subió</option></select></label>
+  </div>
+  <p class="rv-why small"></p>
+ </div>
+</template>
+<script type="application/json" id="rv-data">[{"desc": "descuento-retencion-movistar", "id": "movistar", "ind": "Telecomunicaciones", "n": "Movistar", "telco": true}, {"desc": "descuento-retencion-claro", "id": "claro", "ind": "Telecomunicaciones", "n": "Claro", "telco": true}, {"desc": "descuento-retencion-entel", "id": "entel", "ind": "Telecomunicaciones", "n": "Entel", "telco": true}, {"desc": "descuento-retencion-bitel", "id": "bitel", "ind": "Telecomunicaciones", "n": "Bitel", "telco": true}, {"desc": "", "id": "wow-internet-fibra", "ind": "Telecomunicaciones", "n": "WOW (internet fibra)", "telco": true}, {"desc": "", "id": "win-internet-fibra", "ind": "Telecomunicaciones", "n": "WIN (internet fibra)", "telco": true}, {"desc": "", "id": "directv", "ind": "Telecomunicaciones", "n": "DirecTV", "telco": true}, {"desc": "", "id": "netflix", "ind": "Streaming", "n": "Netflix", "telco": false}, {"desc": "", "id": "disney", "ind": "Streaming", "n": "Disney+", "telco": false}, {"desc": "", "id": "hbo-max-max", "ind": "Streaming", "n": "HBO Max (Max)", "telco": false}, {"desc": "", "id": "prime-video", "ind": "Streaming", "n": "Prime Video", "telco": false}, {"desc": "", "id": "spotify", "ind": "Streaming", "n": "Spotify", "telco": false}, {"desc": "", "id": "youtube-premium", "ind": "Streaming", "n": "YouTube Premium", "telco": false}, {"desc": "", "id": "apple-tv-apple-one", "ind": "Streaming", "n": "Apple TV+ / Apple One", "telco": false}, {"desc": "", "id": "paramount", "ind": "Streaming", "n": "Paramount+", "telco": false}, {"desc": "", "id": "crunchyroll", "ind": "Streaming", "n": "Crunchyroll", "telco": false}, {"desc": "", "id": "luz-del-sur-cambio-de-titular", "ind": "Hogar y servicios b\u00e1sicos", "n": "Luz del Sur (cambio de titular)", "telco": false}, {"desc": "", "id": "pluz-energia-cambio-de-titular", "ind": "Hogar y servicios b\u00e1sicos", "n": "Pluz Energ\u00eda (cambio de titular)", "telco": false}, {"desc": "", "id": "sedapal-cambio-de-titular", "ind": "Hogar y servicios b\u00e1sicos", "n": "Sedapal (cambio de titular)", "telco": false}, {"desc": "", "id": "calidda-gas-natural", "ind": "Hogar y servicios b\u00e1sicos", "n": "C\u00e1lidda (gas natural)", "telco": false}, {"desc": "", "id": "prosegur-alarmas", "ind": "Hogar y servicios b\u00e1sicos", "n": "Prosegur Alarmas", "telco": false}, {"desc": "", "id": "verisure-peru", "ind": "Hogar y servicios b\u00e1sicos", "n": "Verisure Per\u00fa", "telco": false}, {"desc": "", "id": "smart-fit", "ind": "Gimnasios", "n": "Smart Fit", "telco": false}, {"desc": "", "id": "bodytech-cerrado-reclamo", "ind": "Gimnasios", "n": "Bodytech (cerrado \u2013 reclamo)", "telco": false}, {"desc": "", "id": "otros-gimnasios-y-clubes", "ind": "Gimnasios", "n": "Otros gimnasios y clubes", "telco": false}, {"desc": "", "id": "rappi-pro", "ind": "Delivery y membres\u00edas", "n": "Rappi Pro", "telco": false}, {"desc": "", "id": "pedidosya-plus", "ind": "Delivery y membres\u00edas", "n": "PedidosYa Plus", "telco": false}, {"desc": "", "id": "amazon-prime", "ind": "Delivery y membres\u00edas", "n": "Amazon Prime", "telco": false}, {"desc": "", "id": "microsoft-365", "ind": "Software, nube e IA", "n": "Microsoft 365", "telco": false}, {"desc": "", "id": "google-one", "ind": "Software, nube e IA", "n": "Google One", "telco": false}, {"desc": "", "id": "icloud", "ind": "Software, nube e IA", "n": "iCloud+", "telco": false}, {"desc": "", "id": "chatgpt-plus-pro", "ind": "Software, nube e IA", "n": "ChatGPT Plus / Pro", "telco": false}, {"desc": "", "id": "canva-pro", "ind": "Software, nube e IA", "n": "Canva Pro", "telco": false}, {"desc": "", "id": "adobe-creative-cloud", "ind": "Software, nube e IA", "n": "Adobe Creative Cloud", "telco": false}, {"desc": "", "id": "duolingo-super", "ind": "Software, nube e IA", "n": "Duolingo Super", "telco": false}, {"desc": "", "id": "otras-apps-de-ia-gemini-claude-perplexity", "ind": "Software, nube e IA", "n": "Otras apps de IA (Gemini, Claude, Perplexity\u2026)", "telco": false}, {"desc": "", "id": "el-comercio-gestion", "ind": "Diarios", "n": "El Comercio / Gesti\u00f3n", "telco": false}, {"desc": "", "id": "la-republica", "ind": "Diarios", "n": "La Rep\u00fablica", "telco": false}, {"desc": "", "id": "tarjeta-de-credito-cancelacion", "ind": "Bancos y seguros", "n": "Tarjeta de cr\u00e9dito (cancelaci\u00f3n)", "telco": false}, {"desc": "", "id": "cargos-recurrentes-en-tarjeta", "ind": "Bancos y seguros", "n": "Cargos recurrentes en tarjeta", "telco": false}, {"desc": "", "id": "debito-automatico", "ind": "Bancos y seguros", "n": "D\u00e9bito autom\u00e1tico", "telco": false}, {"desc": "", "id": "seguros-asociados-a-tarjeta-o-credito", "ind": "Bancos y seguros", "n": "Seguros asociados a tarjeta o cr\u00e9dito", "telco": false}]</script>
+
+</main>
+<footer class="foot"><div class="wrap">
+ <p><b>DeBaja.pe</b> · Damos de baja tus servicios y suscripciones, sin colas ni vueltas.</p>
+ <p class="small">🔒 Nunca te pediremos contraseñas, números de tarjeta, claves bancarias ni códigos SMS o de verificación. Si alguien te los pide a nombre nuestro, no los compartas.</p>
+ <p class="small">No somos parte de ninguna operadora ni empresa listada. La información es referencial (actualizada al 25-10-2026) y puede cambiar. · <a href="../privacidad/">Privacidad y datos personales</a> · <span class="wa-contact"></span></p>
+ <p class="small">© 2026 DeBaja.pe</p>
+</div></footer>
+<script src="../assets/config.js?v=202610250816"></script>
+<script src="../assets/app.js?v=202610250816"></script>
+<script src="../assets/revisa.js?v=202610250816"></script>
+</body></html>
