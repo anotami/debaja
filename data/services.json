@@ -1,0 +1,957 @@
+{
+ "actualizado": "2026-10-24",
+ "industrias": [
+  "Telecomunicaciones",
+  "Streaming",
+  "Hogar y servicios básicos",
+  "Gimnasios",
+  "Delivery y membresías",
+  "Software, nube e IA",
+  "Diarios",
+  "Bancos y seguros"
+ ],
+ "servicios": [
+  {
+   "id": "movistar",
+   "nombre": "Movistar",
+   "industria": "Telecomunicaciones",
+   "modalidad": "Digital",
+   "canales": [
+    "App Mi Movistar y web (formulario de solicitudes)",
+    "Teléfono 104 (desde Movistar) y 0800-11800",
+    "Centros de atención",
+    "WhatsApp (listado por OSIPTEL; número no confirmado)"
+   ],
+   "requisitos": [
+    "Titular con DNI",
+    "Persona jurídica: representante con DNI y vigencia de poder"
+   ],
+   "notas": "Digital por norma: desde el 27-jun-2026 (Res. 132-2025-CD/OSIPTEL) las operadoras con más de 500 mil abonados deben permitir la baja 24/7 en app y web, y si la inicias ahí no pueden derivarte a tienda o call center. Baja al día hábil siguiente (o fecha elegida, máx. 1 mes). Hogar: devolver módem/decos en comodato. Netflix, Disney+ y otras suscripciones cobradas en el recibo se cancelan con Movistar.",
+   "fuente": "https://cert-cdn.movistar.com.pe/sites/6/2024/06/PDF_FEB_Quieres-solicitar-la-baja-de-tu-servicio.pdf",
+   "verificado": true,
+   "adjuntos": [
+    "dni"
+   ],
+   "id_label": "Número de línea, contrato o código de cliente",
+   "derechos": "osiptel",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "claro",
+   "nombre": "Claro",
+   "industria": "Telecomunicaciones",
+   "modalidad": "Digital",
+   "canales": [
+    "App Mi Claro",
+    "123 (desde Claro) / 0800 00123 (otro operador o fijo)",
+    "Centros de Atención (CAV)",
+    "WhatsApp 915 020 030 (atención; no confirma bajas)"
+   ],
+   "requisitos": [
+    "Titular con documento de identidad + validación de datos",
+    "Empresa: carta poder legalizada y documentación"
+   ],
+   "notas": "Digital por norma: desde el 27-jun-2026 (Res. 132-2025-CD/OSIPTEL) las operadoras con más de 500 mil abonados deben permitir la baja 24/7 en app y web, y si la inicias ahí no pueden derivarte a tienda o call center. Baja al día hábil siguiente; el documento de Claro que dice 5 días y prepago solo presencial está desactualizado. Se puede pedir con línea bloqueada, suspendida o con deuda; las cuotas del equipo siguen.",
+   "fuente": "https://www.claro.com.pe/contactanos/",
+   "verificado": true,
+   "adjuntos": [
+    "dni"
+   ],
+   "id_label": "Número de línea, contrato o código de cliente",
+   "derechos": "osiptel",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "entel",
+   "nombre": "Entel",
+   "industria": "Telecomunicaciones",
+   "modalidad": "Digital",
+   "canales": [
+    "App Mi Entel y Mi Entel web (\"Dar de baja o suspender\")",
+    "123 (postpago, desde Entel)",
+    "611-7777 (Lima)",
+    "WhatsApp 98 100 2000",
+    "Tiendas",
+    "0800-09001 (no verificado)"
+   ],
+   "requisitos": [
+    "Titular con DNI",
+    "Representante: poder con firma legalizada, o poder simple + copia del DNI del titular + último recibo"
+   ],
+   "notas": "Digital por norma: desde el 27-jun-2026 (Res. 132-2025-CD/OSIPTEL) las operadoras con más de 500 mil abonados deben permitir la baja 24/7 en app y web, y si la inicias ahí no pueden derivarte a tienda o call center. Baja al día hábil siguiente (la web de Entel aún dice 5 días hábiles).",
+   "fuente": "https://www.entel.pe/informacion-a-abonados-y-usuarios/baja",
+   "verificado": true,
+   "adjuntos": [
+    "dni",
+    "recibo"
+   ],
+   "id_label": "Número de línea, contrato o código de cliente",
+   "derechos": "osiptel",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "bitel",
+   "nombre": "Bitel",
+   "industria": "Telecomunicaciones",
+   "modalidad": "Digital",
+   "canales": [
+    "App Mi Bitel y web",
+    "123 (desde Bitel), 0800 79123 (provincias), +51 930 123 123 (otro operador)",
+    "WhatsApp +51 931 123 123",
+    "Correo servicioalcliente@bitel.com.pe",
+    "Centros de atención"
+   ],
+   "requisitos": [
+    "Titular con DNI",
+    "Representante: copia de su DNI, copia del DNI del titular y carta poder legalizada notarialmente (máx. 1 mes)"
+   ],
+   "notas": "Digital por norma: desde el 27-jun-2026 (Res. 132-2025-CD/OSIPTEL) las operadoras con más de 500 mil abonados deben permitir la baja 24/7 en app y web, y si la inicias ahí no pueden derivarte a tienda o call center. Baja al día hábil siguiente (la web de Bitel dice 5 días, desactualizado). Sin motivo.",
+   "fuente": "https://bitel.com.pe/centros-de-atencion",
+   "verificado": true,
+   "adjuntos": [
+    "dni"
+   ],
+   "id_label": "Número de línea, contrato o código de cliente",
+   "derechos": "osiptel",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "wow-internet-fibra",
+   "nombre": "WOW (internet fibra)",
+   "industria": "Telecomunicaciones",
+   "modalidad": "Digital",
+   "canales": [
+    "0800-71969",
+    "(01) 644-1969",
+    "Centro de Experiencia WOW"
+   ],
+   "requisitos": [
+    "Titular con DNI"
+   ],
+   "notas": "Por teléfono, sin ir a tienda. Baja al día hábil siguiente por norma OSIPTEL. Devolver ONT/router con desgaste normal.",
+   "fuente": "https://wowperu.pe/preguntas-frecuentes/",
+   "verificado": true,
+   "adjuntos": [
+    "dni"
+   ],
+   "id_label": "Número de línea, contrato o código de cliente",
+   "derechos": "osiptel",
+   "canal_baja": "amarillo"
+  },
+  {
+   "id": "win-internet-fibra",
+   "nombre": "WIN (internet fibra)",
+   "industria": "Telecomunicaciones",
+   "modalidad": "Digital",
+   "canales": [
+    "Central (01) 707-3000 (opción 2)",
+    "0800-74100",
+    "WhatsApp 940 061 937"
+   ],
+   "requisitos": [
+    "Titular con DNI"
+   ],
+   "notas": "Pide código de baja y coordina retiro del router/ONT. Que el portal solo permita \"suspensión\" no está verificado; si ofrecen autogestión no pueden derivarte.",
+   "fuente": "https://win.pe/preguntas-frecuentes",
+   "verificado": true,
+   "adjuntos": [
+    "dni"
+   ],
+   "id_label": "Número de línea, contrato o código de cliente",
+   "derechos": "osiptel",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "directv",
+   "nombre": "DirecTV",
+   "industria": "Telecomunicaciones",
+   "modalidad": "Digital",
+   "canales": [
+    "(01) 200-4606 / 0800 10 606 (fuente secundaria)",
+    "Centros de atención",
+    "WhatsApp 993 560 000 (según Selectra solo para canales premium)"
+   ],
+   "requisitos": [
+    "Titular con DNI",
+    "Tercero: carta poder notarial"
+   ],
+   "notas": "Baja al día hábil siguiente. El retiro de antena/deco se coordina después y no es condición para la baja. Valores de reposición de equipos según contrato (no verificados).",
+   "fuente": "https://selectra.com.pe/empresas/directv/cancelar",
+   "verificado": false,
+   "adjuntos": [
+    "dni"
+   ],
+   "id_label": "Número de línea, contrato o código de cliente",
+   "derechos": "osiptel",
+   "canal_baja": "amarillo"
+  },
+  {
+   "id": "netflix",
+   "nombre": "Netflix",
+   "industria": "Streaming",
+   "modalidad": "Digital",
+   "canales": [
+    "netflix.com › Cuenta › Cancelar membresía",
+    "Google Play › Pagos y suscripciones (si pagaste ahí)",
+    "App Store › Suscripciones (si pagaste ahí)"
+   ],
+   "requisitos": [
+    "Acceso a la cuenta (lo haces tú o nos guías; nunca pedimos tu contraseña)",
+    "Correo de la cuenta y medio por el que pagas"
+   ],
+   "notas": "Regla de oro: cancela donde pagas (web del servicio, recibo de tu operadora, Google Play o App Store). Desinstalar la app no cancela. Conservas acceso hasta el fin del periodo pagado. Si lo factura Movistar/Claro, cancela con ese proveedor.",
+   "fuente": "https://help.netflix.com/es/node/407",
+   "verificado": true,
+   "adjuntos": [],
+   "id_label": "Correo de la cuenta",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "disney",
+   "nombre": "Disney+",
+   "industria": "Streaming",
+   "modalidad": "Digital",
+   "canales": [
+    "Web › Perfil › Cuenta › Suscripción › Cancelar",
+    "Google Play › Pagos y suscripciones (si pagaste ahí)",
+    "App Store › Suscripciones (si pagaste ahí)"
+   ],
+   "requisitos": [
+    "Acceso a la cuenta (lo haces tú o nos guías; nunca pedimos tu contraseña)",
+    "Correo de la cuenta y medio por el que pagas"
+   ],
+   "notas": "Regla de oro: cancela donde pagas (web del servicio, recibo de tu operadora, Google Play o App Store). Desinstalar la app no cancela. Conservas acceso hasta el fin del periodo pagado. Si pagas por un tercero, cancela allí.",
+   "fuente": "https://help.disneyplus.com/es/article/disneyplus-cancel",
+   "verificado": true,
+   "adjuntos": [],
+   "id_label": "Correo de la cuenta",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "hbo-max-max",
+   "nombre": "HBO Max (Max)",
+   "industria": "Streaming",
+   "modalidad": "Digital",
+   "canales": [
+    "Web › Cuenta/Suscripción › Cancelar",
+    "Google Play › Pagos y suscripciones (si pagaste ahí)",
+    "App Store › Suscripciones (si pagaste ahí)"
+   ],
+   "requisitos": [
+    "Acceso a la cuenta (lo haces tú o nos guías; nunca pedimos tu contraseña)",
+    "Correo de la cuenta y medio por el que pagas"
+   ],
+   "notas": "Regla de oro: cancela donde pagas (web del servicio, recibo de tu operadora, Google Play o App Store). Desinstalar la app no cancela. Conservas acceso hasta el fin del periodo pagado. Si se contrató vía operador o tienda de apps, con ellos. URL exacta no verificada.",
+   "fuente": "https://help.hbomax.com",
+   "verificado": false,
+   "adjuntos": [],
+   "id_label": "Correo de la cuenta",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "prime-video",
+   "nombre": "Prime Video",
+   "industria": "Streaming",
+   "modalidad": "Digital",
+   "canales": [
+    "Prime Video › Cuenta › Mi cuenta › Finalizar suscripción (si viene con Amazon Prime, en amazon.com)",
+    "Google Play › Pagos y suscripciones (si pagaste ahí)",
+    "App Store › Suscripciones (si pagaste ahí)"
+   ],
+   "requisitos": [
+    "Acceso a la cuenta (lo haces tú o nos guías; nunca pedimos tu contraseña)",
+    "Correo de la cuenta y medio por el que pagas"
+   ],
+   "notas": "Regla de oro: cancela donde pagas (web del servicio, recibo de tu operadora, Google Play o App Store). Desinstalar la app no cancela. Conservas acceso hasta el fin del periodo pagado. Los canales adicionales se cancelan aparte.",
+   "fuente": "https://www.primevideo.com/help/?language=es_ES&nodeId=GWGDSNXVPJ93UW5V",
+   "verificado": true,
+   "adjuntos": [],
+   "id_label": "Correo de la cuenta",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "spotify",
+   "nombre": "Spotify",
+   "industria": "Streaming",
+   "modalidad": "Digital",
+   "canales": [
+    "spotify.com › Cuenta › Administrar plan › Cancelar",
+    "Google Play › Pagos y suscripciones (si pagaste ahí)",
+    "App Store › Suscripciones (si pagaste ahí)"
+   ],
+   "requisitos": [
+    "Acceso a la cuenta (lo haces tú o nos guías; nunca pedimos tu contraseña)",
+    "Correo de la cuenta y medio por el que pagas"
+   ],
+   "notas": "Regla de oro: cancela donde pagas (web del servicio, recibo de tu operadora, Google Play o App Store). Desinstalar la app no cancela. Conservas acceso hasta el fin del periodo pagado. Si no aparece, revisa \"Pago\" para ver quién te factura.",
+   "fuente": "https://support.spotify.com/es/article/cancel-premium/",
+   "verificado": true,
+   "adjuntos": [],
+   "id_label": "Correo de la cuenta",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "youtube-premium",
+   "nombre": "YouTube Premium",
+   "industria": "Streaming",
+   "modalidad": "Digital",
+   "canales": [
+    "youtube.com/paid_memberships › Desactivar",
+    "Google Play › Pagos y suscripciones (si pagaste ahí)",
+    "App Store › Suscripciones (si pagaste ahí)"
+   ],
+   "requisitos": [
+    "Acceso a la cuenta (lo haces tú o nos guías; nunca pedimos tu contraseña)",
+    "Correo de la cuenta y medio por el que pagas"
+   ],
+   "notas": "Regla de oro: cancela donde pagas (web del servicio, recibo de tu operadora, Google Play o App Store). Desinstalar la app no cancela. Conservas acceso hasta el fin del periodo pagado. Si se pagó por Apple, en Apple.",
+   "fuente": "https://support.google.com/youtubemusic/answer/6308278",
+   "verificado": true,
+   "adjuntos": [],
+   "id_label": "Correo de la cuenta",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "apple-tv-apple-one",
+   "nombre": "Apple TV+ / Apple One",
+   "industria": "Streaming",
+   "modalidad": "Digital",
+   "canales": [
+    "iPhone: Ajustes › tu nombre › Suscripciones",
+    "Google Play › Pagos y suscripciones (si pagaste ahí)",
+    "App Store › Suscripciones (si pagaste ahí)"
+   ],
+   "requisitos": [
+    "Acceso a la cuenta (lo haces tú o nos guías; nunca pedimos tu contraseña)",
+    "Correo de la cuenta y medio por el que pagas"
+   ],
+   "notas": "Regla de oro: cancela donde pagas (web del servicio, recibo de tu operadora, Google Play o App Store). Desinstalar la app no cancela. Conservas acceso hasta el fin del periodo pagado. —",
+   "fuente": "https://support.apple.com/es-es/118428",
+   "verificado": true,
+   "adjuntos": [],
+   "id_label": "Correo de la cuenta",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "paramount",
+   "nombre": "Paramount+",
+   "industria": "Streaming",
+   "modalidad": "Digital",
+   "canales": [
+    "paramountplus.com › Cuenta › Cancelar, o en la tienda donde se contrató",
+    "Google Play › Pagos y suscripciones (si pagaste ahí)",
+    "App Store › Suscripciones (si pagaste ahí)"
+   ],
+   "requisitos": [
+    "Acceso a la cuenta (lo haces tú o nos guías; nunca pedimos tu contraseña)",
+    "Correo de la cuenta y medio por el que pagas"
+   ],
+   "notas": "Regla de oro: cancela donde pagas (web del servicio, recibo de tu operadora, Google Play o App Store). Desinstalar la app no cancela. Conservas acceso hasta el fin del periodo pagado. —",
+   "fuente": "https://support.paramountplus.com/s/article/PI-How-do-I-cancel-my-subscription?language=es_MX",
+   "verificado": true,
+   "adjuntos": [],
+   "id_label": "Correo de la cuenta",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "crunchyroll",
+   "nombre": "Crunchyroll",
+   "industria": "Streaming",
+   "modalidad": "Digital",
+   "canales": [
+    "Web › Información de membresía › Cancelar; si fue por Google/Apple, ahí",
+    "Google Play › Pagos y suscripciones (si pagaste ahí)",
+    "App Store › Suscripciones (si pagaste ahí)"
+   ],
+   "requisitos": [
+    "Acceso a la cuenta (lo haces tú o nos guías; nunca pedimos tu contraseña)",
+    "Correo de la cuenta y medio por el que pagas"
+   ],
+   "notas": "Regla de oro: cancela donde pagas (web del servicio, recibo de tu operadora, Google Play o App Store). Desinstalar la app no cancela. Conservas acceso hasta el fin del periodo pagado. —",
+   "fuente": "https://help.crunchyroll.com/es/article/how-do-i-cancel-my-membership",
+   "verificado": true,
+   "adjuntos": [],
+   "id_label": "Correo de la cuenta",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "luz-del-sur-cambio-de-titular",
+   "nombre": "Luz del Sur (cambio de titular)",
+   "industria": "Hogar y servicios básicos",
+   "modalidad": "Digital",
+   "canales": [
+    "Web \"Solicitar el cambio de nombre en mi recibo\" con n.º de suministro (recibes código de seguimiento)"
+   ],
+   "requisitos": [
+    "DNI",
+    "Documento de propiedad/posesión (minuta, título, ficha registral o constancia de posesión)",
+    "Suministro al día en pagos"
+   ],
+   "notas": "La luz va ligada al predio: no hay \"baja\", se hace cambio de titularidad. Gratis según fuente secundaria.",
+   "fuente": "https://www.luzdelsur.pe/es/CambioNombre/Ingreso",
+   "verificado": true,
+   "adjuntos": [
+    "dni",
+    "propiedad",
+    "recibo"
+   ],
+   "id_label": "Número de suministro",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "pluz-energia-cambio-de-titular",
+   "nombre": "Pluz Energía (cambio de titular)",
+   "industria": "Hogar y servicios básicos",
+   "modalidad": "Digital",
+   "canales": [
+    "WhatsApp 995 171 717 (todo en un solo PDF)",
+    "Centro de servicio"
+   ],
+   "requisitos": [
+    "DNI/CE",
+    "Documento de propiedad/posesión",
+    "Suministro al día"
+   ],
+   "notas": "Cambio de titularidad, no baja. Canal no verificado en web oficial.",
+   "fuente": "https://eximiahaus.pe/blog/como-cambio-el-recibo-de-luz-a-mi-nombre",
+   "verificado": false,
+   "adjuntos": [
+    "dni",
+    "propiedad",
+    "recibo"
+   ],
+   "id_label": "Número de suministro",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "sedapal-cambio-de-titular",
+   "nombre": "Sedapal (cambio de titular)",
+   "industria": "Hogar y servicios básicos",
+   "modalidad": "Digital",
+   "canales": [
+    "Mesa de partes virtual (Sede Electrónica)"
+   ],
+   "requisitos": [
+    "Solicitud",
+    "DNI",
+    "Documento de propiedad/posesión"
+   ],
+   "notas": "Cambio de titularidad del recibo de agua. Plazo de respuesta ~10 días hábiles (no verificado).",
+   "fuente": "https://www.gob.pe/37167-solicitar-cambio-de-titular-del-recibo-de-agua",
+   "verificado": true,
+   "adjuntos": [
+    "dni",
+    "propiedad",
+    "recibo"
+   ],
+   "id_label": "Número de suministro",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "calidda-gas-natural",
+   "nombre": "Cálidda (gas natural)",
+   "industria": "Hogar y servicios básicos",
+   "modalidad": "Presencial",
+   "canales": [
+    "Centros de Servicio Cálidda (presencial)"
+   ],
+   "requisitos": [
+    "Titular con DNI",
+    "Sin deuda",
+    "Pago del servicio de corte al contado el mismo día",
+    "Tercero: carta poder simple específica",
+    "Persona jurídica: vigencia de poder ≤1 mes + RUC"
+   ],
+   "notas": "Baja presencial con pago del corte según pliego. También hay suspensión temporal y cambio de titularidad.",
+   "fuente": "https://www.calidda.com.pe/atencion-al-cliente/canales-de-atencion-al-cliente",
+   "verificado": true,
+   "adjuntos": [
+    "dni",
+    "recibo"
+   ],
+   "id_label": "Número de suministro / contrato",
+   "derechos": "indecopi",
+   "canal_baja": "rojo"
+  },
+  {
+   "id": "prosegur-alarmas",
+   "nombre": "Prosegur Alarmas",
+   "industria": "Hogar y servicios básicos",
+   "modalidad": "Digital",
+   "canales": [
+    "(01) 513-8686 (opción 2 administrativo; 9 contractual)",
+    "WhatsApp 987 223 577 (L-D 7am-6pm)",
+    "Chat web y Portal de Clientes"
+   ],
+   "requisitos": [
+    "Titular con DNI",
+    "Número de contrato"
+   ],
+   "notas": "Revisa permanencia y retiro de equipos. Prosegur dejó sin efecto el numeral A de la cláusula 13 (resolución de contrato).",
+   "fuente": "https://www.prosegur.com.pe/contacto-clientes",
+   "verificado": true,
+   "adjuntos": [
+    "dni"
+   ],
+   "id_label": "Número de contrato",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "verisure-peru",
+   "nombre": "Verisure Perú",
+   "industria": "Hogar y servicios básicos",
+   "modalidad": "Digital",
+   "canales": [
+    "Atención al cliente / área privada de clientes"
+   ],
+   "requisitos": [
+    "Titular con DNI",
+    "Número de contrato"
+   ],
+   "notas": "Procedimiento, permanencia y teléfono de baja en Perú no verificados. Por el Código del Consumidor deben aceptar la baja por el mismo medio de contratación.",
+   "fuente": "https://www.verisure.pe/consejos-y-ayuda/preguntas-frecuentes",
+   "verificado": false,
+   "adjuntos": [
+    "dni"
+   ],
+   "id_label": "Número de contrato",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "smart-fit",
+   "nombre": "Smart Fit",
+   "industria": "Gimnasios",
+   "modalidad": "Presencial",
+   "canales": [
+    "Presencial en cualquier sede, firmando el documento de cancelación"
+   ],
+   "requisitos": [
+    "Titular con DNI",
+    "Tercero: carta poder simple + copia del DNI del titular"
+   ],
+   "notas": "30 días de anticipación al siguiente cobro. Planes Black/Fit: permanencia 12 meses con renovación automática; penalidad del 30% de los meses restantes si cancelas antes (no aplica si cancelas por no aceptar nuevos T&C). Exigir presencia si te afiliaste online podría contravenir el art. 56.1.e del Código del Consumidor.",
+   "fuente": "https://ayuda.smartfit.com.pe/hc/es-pe/articles/30610458443917--Como-puedo-cancelar-mi-plan",
+   "verificado": true,
+   "adjuntos": [
+    "dni"
+   ],
+   "id_label": "DNI o código de socio",
+   "derechos": "indecopi",
+   "canal_baja": "rojo"
+  },
+  {
+   "id": "bodytech-cerrado-reclamo",
+   "nombre": "Bodytech (cerrado – reclamo)",
+   "industria": "Gimnasios",
+   "modalidad": "Digital",
+   "canales": [
+    "Reclama Virtual de INDECOPI",
+    "sacreclamo@indecopi.gob.pe"
+   ],
+   "requisitos": [
+    "DNI",
+    "Contrato o comprobantes de pago"
+   ],
+   "notas": "Cerró operaciones en Perú en 2024; INDECOPI investigó falta de reembolsos. Aquí no hay baja: se reclama el reembolso.",
+   "fuente": "https://www.gob.pe/institucion/indecopi/noticias/994372-el-indecopi-monitorea-que-se-respeten-derechos-de-los-consumidores-tras-el-cierre-de-bodytech",
+   "verificado": true,
+   "adjuntos": [
+    "dni",
+    "recibo"
+   ],
+   "id_label": "Código de socio o contrato",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "otros-gimnasios-y-clubes",
+   "nombre": "Otros gimnasios y clubes",
+   "industria": "Gimnasios",
+   "modalidad": "Presencial",
+   "canales": [
+    "Según contrato (suele ser en sede)",
+    "Libro de Reclamaciones si ponen trabas"
+   ],
+   "requisitos": [
+    "Titular con DNI",
+    "Contrato"
+   ],
+   "notas": "Revisa permanencia, preaviso y débito automático. Muchos gimnasios exigen ir a la sede (habitual, no verificado caso por caso); por ley deberían aceptar el mismo medio con el que te afiliaste.",
+   "fuente": "https://consumidor.gob.pe/libro-de-reclamaciones/",
+   "verificado": false,
+   "adjuntos": [
+    "dni"
+   ],
+   "id_label": "Nombre del gimnasio y código de socio",
+   "derechos": "indecopi",
+   "canal_baja": "rojo"
+  },
+  {
+   "id": "rappi-pro",
+   "nombre": "Rappi Pro",
+   "industria": "Delivery y membresías",
+   "modalidad": "Digital",
+   "canales": [
+    "App › Soporte › Mi Cuenta › Rappi Pro › ¿Necesitas ayuda? › Cancelar mi suscripción"
+   ],
+   "requisitos": [
+    "Acceso a la cuenta",
+    "Correo o celular de la cuenta"
+   ],
+   "notas": "Beneficios hasta fin del periodo. Pasos parcialmente verificados.",
+   "fuente": "http://promos.rappi.com/peru/rappipro",
+   "verificado": false,
+   "adjuntos": [],
+   "id_label": "Correo de la cuenta",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "pedidosya-plus",
+   "nombre": "PedidosYa Plus",
+   "industria": "Delivery y membresías",
+   "modalidad": "Digital",
+   "canales": [
+    "App › Perfil › PedidosYa Plus/Suscripciones › Cancelar",
+    "Soporte en la app"
+   ],
+   "requisitos": [
+    "Acceso a la cuenta",
+    "Correo o celular de la cuenta"
+   ],
+   "notas": "Pasos no verificados en fuente oficial.",
+   "fuente": "https://www.pedidosya.com.pe",
+   "verificado": false,
+   "adjuntos": [],
+   "id_label": "Correo de la cuenta",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "amazon-prime",
+   "nombre": "Amazon Prime",
+   "industria": "Delivery y membresías",
+   "modalidad": "Digital",
+   "canales": [
+    "amazon.com › Cuenta › Membresía Prime › Finalizar membresía"
+   ],
+   "requisitos": [
+    "Acceso a la cuenta",
+    "Correo de la cuenta"
+   ],
+   "notas": "Si pagas vía tercero, cancela con él. Pasos generales, no reverificados.",
+   "fuente": "https://www.amazon.com",
+   "verificado": false,
+   "adjuntos": [],
+   "id_label": "Correo de la cuenta",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "microsoft-365",
+   "nombre": "Microsoft 365",
+   "industria": "Software, nube e IA",
+   "modalidad": "Digital",
+   "canales": [
+    "account.microsoft.com › Servicios y suscripciones › Cancelar"
+   ],
+   "requisitos": [
+    "Acceso a la cuenta",
+    "Correo de la cuenta y medio de pago usado"
+   ],
+   "notas": "Cancela donde pagas; conservas acceso hasta fin del periodo.",
+   "fuente": "https://support.microsoft.com/es-es/accounts-billing/subscriptions/cancel-a-microsoft-365-subscription",
+   "verificado": true,
+   "adjuntos": [],
+   "id_label": "Correo de la cuenta",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "google-one",
+   "nombre": "Google One",
+   "industria": "Software, nube e IA",
+   "modalidad": "Digital",
+   "canales": [
+    "App/web Google One › Configuración › Cancelar membresía (o Play Store)"
+   ],
+   "requisitos": [
+    "Acceso a la cuenta",
+    "Correo de la cuenta y medio de pago usado"
+   ],
+   "notas": "Cancela donde pagas; conservas acceso hasta fin del periodo.",
+   "fuente": "https://support.google.com/googleone/answer/9056360",
+   "verificado": true,
+   "adjuntos": [],
+   "id_label": "Correo de la cuenta",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "icloud",
+   "nombre": "iCloud+",
+   "industria": "Software, nube e IA",
+   "modalidad": "Digital",
+   "canales": [
+    "Ajustes › tu nombre › Suscripciones (o Ajustes › iCloud › Administrar)"
+   ],
+   "requisitos": [
+    "Acceso a la cuenta",
+    "Correo de la cuenta y medio de pago usado"
+   ],
+   "notas": "Cancela donde pagas; conservas acceso hasta fin del periodo.",
+   "fuente": "https://support.apple.com/es-es/118428",
+   "verificado": true,
+   "adjuntos": [],
+   "id_label": "Correo de la cuenta",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "chatgpt-plus-pro",
+   "nombre": "ChatGPT Plus / Pro",
+   "industria": "Software, nube e IA",
+   "modalidad": "Digital",
+   "canales": [
+    "chatgpt.com › Configuración › Cuenta/Facturación › Cancelar; si pagaste por Apple/Google, en esa tienda"
+   ],
+   "requisitos": [
+    "Acceso a la cuenta",
+    "Correo de la cuenta y medio de pago usado"
+   ],
+   "notas": "Cancela donde pagas; conservas acceso hasta fin del periodo.",
+   "fuente": "https://help.openai.com/es-419/articles/7232927-canceling-your-chatgpt-subscription",
+   "verificado": true,
+   "adjuntos": [],
+   "id_label": "Correo de la cuenta",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "canva-pro",
+   "nombre": "Canva Pro",
+   "industria": "Software, nube e IA",
+   "modalidad": "Digital",
+   "canales": [
+    "Configuración › Facturación y planes › Cancelar plan"
+   ],
+   "requisitos": [
+    "Acceso a la cuenta",
+    "Correo de la cuenta y medio de pago usado"
+   ],
+   "notas": "Cancela donde pagas; conservas acceso hasta fin del periodo.",
+   "fuente": "https://www.canva.com/es_us/help/cancel-canva-plan/",
+   "verificado": true,
+   "adjuntos": [],
+   "id_label": "Correo de la cuenta",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "adobe-creative-cloud",
+   "nombre": "Adobe Creative Cloud",
+   "industria": "Software, nube e IA",
+   "modalidad": "Digital",
+   "canales": [
+    "account.adobe.com › Planes › Gestionar plan › Cancelar"
+   ],
+   "requisitos": [
+    "Acceso a la cuenta",
+    "Correo de la cuenta y medio de pago usado"
+   ],
+   "notas": "Ojo: los planes anuales pagados mes a mes pueden cobrar tarifa de cancelación anticipada (14 días para reembolso total). Cancela donde pagas; conservas acceso hasta fin del periodo.",
+   "fuente": "https://helpx.adobe.com/es/account/individual/subscriptions-and-plans/renewals-and-cancellations/cancel-adobe-subscription.html",
+   "verificado": true,
+   "adjuntos": [],
+   "id_label": "Correo de la cuenta",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "duolingo-super",
+   "nombre": "Duolingo Super",
+   "industria": "Software, nube e IA",
+   "modalidad": "Digital",
+   "canales": [
+    "Tienda donde se pagó (Play/App Store) o duolingo.com › Configuración › Suscripción"
+   ],
+   "requisitos": [
+    "Acceso a la cuenta",
+    "Correo de la cuenta y medio de pago usado"
+   ],
+   "notas": "Pasos no verificados hoy. Cancela donde pagas; conservas acceso hasta fin del periodo.",
+   "fuente": "https://www.duolingo.com",
+   "verificado": false,
+   "adjuntos": [],
+   "id_label": "Correo de la cuenta",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "otras-apps-de-ia-gemini-claude-perplexity",
+   "nombre": "Otras apps de IA (Gemini, Claude, Perplexity…)",
+   "industria": "Software, nube e IA",
+   "modalidad": "Digital",
+   "canales": [
+    "Cuenta web › Facturación, o la tienda de apps"
+   ],
+   "requisitos": [
+    "Acceso a la cuenta",
+    "Correo de la cuenta y medio de pago usado"
+   ],
+   "notas": "Pauta general, no verificada por servicio. Cancela donde pagas; conservas acceso hasta fin del periodo.",
+   "fuente": "https://support.google.com/googleplay/answer/7018481",
+   "verificado": false,
+   "adjuntos": [],
+   "id_label": "Correo de la cuenta",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "el-comercio-gestion",
+   "nombre": "El Comercio / Gestión",
+   "industria": "Diarios",
+   "modalidad": "Digital",
+   "canales": [
+    "Teléfono 311-5100",
+    "Web › \"Mi Perfil\" (si compraste por web)"
+   ],
+   "requisitos": [
+    "Correo de la suscripción",
+    "Titular con DNI"
+   ],
+   "notas": "Al menos 3 días antes de la renovación; la baja surte efecto al final del periodo pagado.",
+   "fuente": "https://suscripciones.elcomercio.pe/terminos/",
+   "verificado": true,
+   "adjuntos": [],
+   "id_label": "Correo de la cuenta",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "la-republica",
+   "nombre": "La República",
+   "industria": "Diarios",
+   "modalidad": "Digital",
+   "canales": [
+    "Plataforma de suscripción (publica.la) o soporte"
+   ],
+   "requisitos": [
+    "Correo de la suscripción"
+   ],
+   "notas": "Acceso hasta fin del ciclo. Detalles no verificados.",
+   "fuente": "https://la-republica-794.app.publica.la/legals/terms-and-conditions",
+   "verificado": false,
+   "adjuntos": [],
+   "id_label": "Correo de la cuenta",
+   "derechos": "indecopi",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "tarjeta-de-credito-cancelacion",
+   "nombre": "Tarjeta de crédito (cancelación)",
+   "industria": "Bancos y seguros",
+   "modalidad": "Digital",
+   "canales": [
+    "Los mismos canales usados para contratarla (banca por teléfono, app, web o agencia)"
+   ],
+   "requisitos": [
+    "Titular con DNI",
+    "Pago total de la deuda para cerrar el contrato"
+   ],
+   "notas": "Res. SBS 6523-2013 art. 6-A: la tarjeta se cancela en el momento; sin cargos nuevos (salvo en tránsito). Si no pueden cancelar al instante deben bloquear la línea. No cobran membresía salvo que el año ya hubiera vencido.",
+   "fuente": "https://intranet2.sbs.gob.pe/dv_int_cn/718/v11.0/Adjuntos/6523-2013.R%20(2025).pdf",
+   "verificado": true,
+   "adjuntos": [
+    "dni"
+   ],
+   "id_label": "Banco y tipo de tarjeta (NUNCA el número)",
+   "derechos": "sbs",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "cargos-recurrentes-en-tarjeta",
+   "nombre": "Cargos recurrentes en tarjeta",
+   "industria": "Bancos y seguros",
+   "modalidad": "Digital",
+   "canales": [
+    "Desafiliación ante el comercio",
+    "Desactivar compras por internet en app/banca (art. 7)",
+    "Bloquear o reemplazar tarjeta",
+    "Reclamo al banco por desconocimiento de cargos"
+   ],
+   "requisitos": [
+    "Titular con DNI",
+    "Estado de cuenta con el cargo (puedes tachar números de tarjeta)"
+   ],
+   "notas": "Primero se pide al comercio. No está verificado que exista una obligación SBS general de suspender un cargo recurrente específico; depende del banco.",
+   "fuente": "https://www.scotiabank.com.pe/Personas/servicios/cargos-recurrentes/cargos-recurrentes",
+   "verificado": false,
+   "adjuntos": [
+    "dni",
+    "recibo"
+   ],
+   "id_label": "Banco y nombre del comercio que cobra",
+   "derechos": "sbs",
+   "canal_baja": "verde"
+  },
+  {
+   "id": "debito-automatico",
+   "nombre": "Débito automático",
+   "industria": "Bancos y seguros",
+   "modalidad": "Presencial",
+   "canales": [
+    "Instrucción escrita al banco (documento de fecha cierta)"
+   ],
+   "requisitos": [
+    "Titular con DNI",
+    "Instrucción escrita indicando el o los acreedores"
+   ],
+   "notas": "Ley 28556 y su reglamento: puedes suspenderlo a sola instrucción para uno o todos los acreedores; el banco debe darte constancia. El documento de fecha cierta suele implicar entrega en agencia (algunos bancos lo permiten en línea).",
+   "fuente": "https://cdn.www.gob.pe/uploads/document/file/249962/225315_file20181218-16260-1e981ao.pdf",
+   "verificado": true,
+   "adjuntos": [
+    "dni"
+   ],
+   "id_label": "Banco y servicio/acreedor debitado",
+   "derechos": "sbs",
+   "canal_baja": "rojo"
+  },
+  {
+   "id": "seguros-asociados-a-tarjeta-o-credito",
+   "nombre": "Seguros asociados a tarjeta o crédito",
+   "industria": "Bancos y seguros",
+   "modalidad": "Digital",
+   "canales": [
+    "Los mismos canales usados para contratarlo"
+   ],
+   "requisitos": [
+    "Titular con DNI",
+    "Número de póliza o nombre del seguro"
+   ],
+   "notas": "Res. SBS 4143-2019. Si te lo vendieron a distancia o por banca-seguros tienes derecho de arrepentimiento (≥15 días desde recibir la póliza, sin penalidad). Solo el desgravamen puede ser obligatorio.",
+   "fuente": "https://intranet2.sbs.gob.pe/dv_int_cn/1865/v1.0/Adjuntos/4143-2019.R.pdf",
+   "verificado": true,
+   "adjuntos": [
+    "dni"
+   ],
+   "id_label": "Aseguradora y número de póliza",
+   "derechos": "sbs",
+   "canal_baja": "verde"
+  }
+ ]
+}

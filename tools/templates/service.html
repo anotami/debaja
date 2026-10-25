@@ -1,0 +1,21 @@
+{% extends "base.html" %}{% block title %}Dar de baja {{ s.nombre }} · {{ BRAND }}{% endblock %}{% block desc %}Cómo dar de baja {{ s.nombre }} en Perú: canales, requisitos y plazos.{% endblock %}{% block body %}
+<section class="wrap detail">
+ <p class="crumbs"><a href="{{ R }}#catalogo">Servicios</a> › {{ s.industria }}</p>
+ <div class="detail-h"><h1>Dar de baja {{ s.nombre }}</h1><span class="cb big cb-{{ s.canal_baja }}" title="Canal más fácil para dar de baja">{{ CB[s.canal_baja] }}</span></div>
+ {% if not s.verificado %}<div class="note warnbox">⚠ Parte de esta información viene de fuentes secundarias o no se pudo confirmar en la web oficial. La verificamos al gestionar tu caso.</div>{% endif %}
+ <div class="cols">
+  <div>
+   <div class="box"><h2>Qué necesitas</h2><ul>{% for r in s.requisitos %}<li>{{ r }}</li>{% endfor %}</ul>
+   {% if s.adjuntos %}<p class="small muted">Por WhatsApp te pediremos: {% for d in s.adjuntos %}{{ DOCS[d] }}{% if not loop.last %}, {% endif %}{% endfor %} (y carta poder si no eres el titular).</p>{% endif %}</div>
+   <div class="box"><h2>Canales de baja</h2><ul>{% for c in s.canales %}<li>{{ c }}</li>{% endfor %}</ul></div>
+   <div class="box"><h2>Plazos y notas</h2><p>{{ s.notas }}</p><p class="small">Fuente: <a href="{{ s.fuente }}" rel="noopener nofollow" target="_blank">{{ s.fuente[:70] }}{% if s.fuente|length > 70 %}…{% endif %}</a></p></div>
+  </div>
+  <aside>
+   <div class="box rights"><h2>{{ rights.titulo }}</h2><p class="small muted">{{ rights.norma }}</p><ul>{% for p in rights.puntos %}<li>{{ p }}</li>{% endfor %}</ul>
+    <h3>Si no te hacen caso</h3><ul class="links">{% for t,u in rights.escalar %}<li><a href="{{ u }}" target="_blank" rel="noopener">{{ t }}</a></li>{% endfor %}</ul></div>
+   <a class="btn block" href="{{ R }}solicitar/{{ s.id }}/">Solicitar baja</a>
+   <p class="small muted center">🔒 Nunca pedimos contraseñas ni tarjetas.</p>
+  </aside>
+ </div>
+</section>
+{% endblock %}

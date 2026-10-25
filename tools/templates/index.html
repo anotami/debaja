@@ -1,0 +1,52 @@
+{% extends "base.html" %}{% block body %}
+<section class="hero"><div class="wrap">
+ <p class="eyebrow">Telefonía · Streaming · Hogar · Gimnasios · Bancos</p>
+ <h1>Deja de pagar lo que ya no usas.</h1>
+ <p class="lead">Nosotros damos de baja tus servicios y suscripciones en Perú: sin colas, sin llamadas eternas y con tus derechos de OSIPTEL, INDECOPI y SBS de tu lado.</p>
+ <div class="cta"><a class="btn" href="{{ R }}solicitar/">Solicitar una baja por WhatsApp</a><a class="btn ghost" href="#catalogo">Ver servicios</a></div>
+ <ul class="facts"><li><b>1 día hábil</b><span>para bajas de telefonía e internet desde el 27-jun-2026</span></li><li><b>{{ services|length }}</b><span>servicios con guía paso a paso</span></li><li><b>0</b><span>contraseñas o tarjetas pedidas, nunca</span></li></ul>
+</div></section>
+<section class="wrap steps" id="como">
+ <h2>Cómo funciona</h2>
+ <ol class="grid3">
+  <li><span class="num">1</span><h3>Elige el servicio</h3><p>Busca tu operadora, streaming, gimnasio o banco y revisa qué necesitas.</p></li>
+  <li><span class="num">2</span><h3>Completa y envía por WhatsApp</h3><p>Llenas un formulario corto y se abre WhatsApp con tu solicitud lista. Ahí adjuntas tu DNI o carta poder si el trámite lo exige.</p></li>
+  <li><span class="num">3</span><h3>Nosotros gestionamos</h3><p>Tramitamos la baja (o te guiamos paso a paso) y te pasamos el código o constancia.</p></li>
+ </ol>
+</section>
+<section class="wrap" id="catalogo">
+ <h2>Servicios que damos de baja</h2>
+ <div class="filters">
+  <input id="q" type="search" placeholder="Buscar: Movistar, Netflix, Smart Fit…" aria-label="Buscar servicio">
+  <div class="chips" id="ind" role="group" aria-label="Industria">
+   <button class="chip on" data-ind="">Todas</button>
+   {% for i in INDUSTRIAS %}<button class="chip" data-ind="{{ i }}">{{ i }} <small>{{ counts[i] }}</small></button>{% endfor %}
+  </div>
+  <div class="chips" id="mod" role="group" aria-label="Canal de baja más fácil">
+   <button class="chip on" data-mod="">Todos los canales</button>
+   {% for k in ("verde","amarillo","rojo") %}<button class="chip cb-chip cb-{{ k }}" data-mod="{{ k }}"><span class="dot" aria-hidden="true"></span>{{ CB[k] }} <small>{{ services|selectattr("canal_baja","equalto",k)|list|length }}</small></button>{% endfor %}
+  </div>
+ <ul class="legend" aria-label="Leyenda de colores: canal más fácil para dar de baja">
+  <li><span class="cb cb-verde">Verde</span> Se puede hacer por web, app, correo o chat/WhatsApp</li>
+  <li><span class="cb cb-amarillo">Amarillo</span> Sin opción en línea: se hace por teléfono</li>
+  <li><span class="cb cb-rojo">Rojo</span> Solo presencial: hay que ir en persona</li>
+ </ul>
+ </div>
+ <p class="small muted" id="nres"></p>
+ {% for i in INDUSTRIAS %}
+ <div class="ind-block" data-block="{{ i }}">
+  <h3 class="ind-title">{{ i }}</h3>
+  <div class="cards">
+  {% for s in services if s.industria == i %}
+   <a class="card cb-card cb-{{ s.canal_baja }}" href="{{ R }}servicio/{{ s.id }}/" data-ind="{{ s.industria }}" data-mod="{{ s.canal_baja }}" data-q="{{ (s.nombre ~ ' ' ~ s.industria ~ ' ' ~ s.canales|join(' '))|lower }}">
+    <div class="card-h"><b>{{ s.nombre }}</b><span class="cb cb-{{ s.canal_baja }}">{{ CB[s.canal_baja] }}</span></div>
+    <p>{{ s.canales[0] }}</p>
+    {% if not s.verificado %}<span class="warn">⚠ Datos por confirmar</span>{% endif %}
+   </a>
+  {% endfor %}
+  </div>
+ </div>
+ {% endfor %}
+ <div class="card other"><b>¿No está tu servicio?</b><p>También gestionamos cualquier otra suscripción.</p><a class="btn sm" href="{{ R }}solicitar/?servicio=otro">Solicitar «Otro»</a></div>
+</section>
+{% endblock %}

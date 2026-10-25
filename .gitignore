@@ -1,0 +1,5 @@
+# Plantillas sin uso (no se publican)
+tools/templates/404.html
+tools/templates/_cb.html
+__pycache__/
+*.png

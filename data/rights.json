@@ -1,0 +1,23 @@
+{
+ "osiptel": {"titulo": "Tus derechos como usuario de telecomunicaciones (OSIPTEL)", "norma": "Res. 132-2025-CD/OSIPTEL, vigente desde el 27-jun-2026",
+  "puntos": ["Puedes dar de baja sin explicar el motivo, por cualquier canal que la empresa use para vender (tienda, teléfono, app o web).",
+   "La baja se ejecuta al día hábil siguiente, o en la fecha que elijas (máximo 1 mes).",
+   "Si la empresa tiene más de 500 mil abonados, debe permitir la baja 24/7 en app y web; si la empiezas ahí, no pueden derivarte a llamar o ir a tienda.",
+   "Te deben dar un código o constancia en el momento.",
+   "No pueden negarte la baja por tener deuda (la deuda y las cuotas de un equipo siguen vigentes).",
+   "La permanencia está prohibida en móvil; en servicios del hogar dura como máximo 6 meses.",
+   "Si pagaste por adelantado, te deben devolver lo prorrateado en un máximo de 2 meses."],
+  "escalar": [["Formulario «Quiero salirme» de OSIPTEL","https://serviciosweb.osiptel.gob.pe/formularios/quierosalirme"],["Checa tu caso (Baja no recibida)","https://checatucaso.osiptel.gob.pe/"],["Reclamo a la operadora y apelación ante el TRASU (15 días hábiles)","https://www.osiptel.gob.pe/guiaplazosreclamos/"],["OSIPTEL: línea 1844","https://www.gob.pe/osiptel"]]},
+ "indecopi": {"titulo": "Tus derechos como consumidor (INDECOPI)", "norma": "Código de Protección y Defensa del Consumidor, Ley 29571",
+  "puntos": ["Poner trabas injustificadas para terminar un contrato es un método abusivo (art. 56.1.e).",
+   "Puedes desvincularte por la misma forma, lugar y medio que usaste para contratar: si te suscribiste online, debes poder cancelar online.",
+   "El Libro de Reclamaciones debe responderse en máximo 15 días hábiles improrrogables, sin exigirte requisitos extra.",
+   "Cancela donde pagas: en el servicio, en el recibo de tu operadora, en Google Play o en el App Store."],
+  "escalar": [["Libro de Reclamaciones","https://consumidor.gob.pe/libro-de-reclamaciones/"],["Reclama Virtual de INDECOPI","https://enlinea.indecopi.gob.pe/reclamavirtual/"],["INDECOPI: 224-7777 (Lima) · 0-800-4-4040 (provincias)","https://www.gob.pe/indecopi"]]},
+ "sbs": {"titulo": "Tus derechos como usuario financiero (SBS)", "norma": "Res. SBS 6523-2013, Ley 28556 y Res. SBS 4143-2019",
+  "puntos": ["Al pedir la cancelación de tu tarjeta de crédito, se cancela en el momento y no se aceptan cargos nuevos; el banco no puede ponerte condiciones.",
+   "Puedes deshabilitar en cualquier momento las compras por internet, en el exterior y la disposición de efectivo.",
+   "Puedes suspender el débito automático con tu sola instrucción, para uno o todos los acreedores, y el banco debe darte constancia.",
+   "Los seguros vendidos a distancia o por banca-seguros tienen al menos 15 días de arrepentimiento sin penalidad; solo el desgravamen puede ser obligatorio."],
+  "escalar": [["Reclamo ante tu banco y luego SBS","https://www.sbs.gob.pe/usuarios"],["Reclama Virtual de INDECOPI","https://enlinea.indecopi.gob.pe/reclamavirtual/"]]}
+}

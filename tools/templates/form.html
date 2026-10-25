@@ -1,0 +1,55 @@
+{% extends "base.html" %}{% block title %}Solicitar baja{% if svc %} de {{ svc.nombre }}{% endif %} · {{ BRAND }}{% endblock %}{% block body %}
+<section class="wrap narrow" id="form-wrap">
+ <h1>Solicitar baja{% if svc %} de {{ svc.nombre }}{% endif %}</h1>
+ <div class="note safe">🔒 <b>Nunca te pediremos</b> contraseñas, números de tarjeta, claves bancarias, ni códigos SMS. Si un trámite requiere entrar a tu cuenta, te guiamos para que lo hagas tú.</div>
+ <p class="small muted">Al enviar se abrirá <b>WhatsApp</b> con tu solicitud lista para mandar. Los documentos (DNI, carta poder, etc.) los adjuntas ahí mismo, en el chat. Esta página no guarda ni envía tus datos a ningún servidor.</p>
+ <div class="note errbox hide" id="errsum" role="alert">Revisa los campos marcados en rojo.</div>
+ <form id="f" novalidate data-preset="{{ svc.id if svc else '' }}">
+  <fieldset><legend>Servicio</legend>
+   <label>¿Qué quieres dar de baja?
+    <select name="servicio" id="servicio" required>
+     <option value="">— Elige un servicio —</option>
+     {% for i in INDUSTRIAS %}<optgroup label="{{ i }}">{% for s in services if s.industria==i %}<option value="{{ s.id }}" {% if svc and s.id==svc.id %}selected{% endif %}>{{ s.nombre }}</option>{% endfor %}</optgroup>{% endfor %}
+     <option value="otro">Otro (escríbelo)</option>
+    </select></label>
+   <p class="err" data-err="servicio"></p>
+   <label id="otro-w" class="hide">Nombre del servicio o empresa <input name="otro_nombre" id="otro_nombre" maxlength="100"></label>
+   <p class="err" data-err="otro_nombre"></p>
+   <p class="small muted" id="svc-link"></p>
+  </fieldset>
+  <fieldset><legend>Tus datos</legend>
+   <label>Nombre completo <input name="nombre" required maxlength="120" autocomplete="name"></label><p class="err" data-err="nombre"></p>
+   <div class="row"><label class="w30">Documento <select name="doc_tipo" id="doc_tipo"><option value="DNI">DNI</option><option value="CE">Carné de extranjería</option></select></label>
+   <label class="w70">Número <input name="doc_num" id="doc_num" required maxlength="12" placeholder="8 dígitos"></label></div><p class="err" data-err="doc_num"></p>
+   <label>Celular <input name="celular" required inputmode="tel" maxlength="15" placeholder="9XXXXXXXX" autocomplete="tel"></label><p class="err" data-err="celular"></p>
+  </fieldset>
+  <fieldset><legend>Sobre el servicio</legend>
+   <p class="lbl">¿Eres el titular del servicio?</p>
+   <div class="radios"><label><input type="radio" name="titular" value="si" checked> Sí, está a mi nombre</label>
+   <label><input type="radio" name="titular" value="no"> No</label></div>
+   <p class="note small hide" id="poder-note">Si no eres el titular, necesitamos una <b>carta poder</b> firmada por el titular (algunas empresas exigen firma legalizada notarialmente) y copia de su DNI. Los enviarás por WhatsApp.</p>
+   <p class="err" data-err="titular"></p>
+   <label><span id="idl">Número de línea, contrato, suministro o correo de la cuenta</span> <input name="identificador" required maxlength="120"></label><p class="err" data-err="identificador"></p>
+   <label>Fecha deseada de baja <input type="date" name="fecha_baja" id="fecha_baja" required></label><p class="err" data-err="fecha_baja"></p>
+   <label>Motivo (opcional) <textarea name="motivo" maxlength="500" rows="2" placeholder="No es obligatorio dar un motivo."></textarea></label><p class="err" data-err="motivo"></p>
+  </fieldset>
+  <div class="box" id="docs-box"><h2>Documentos para enviar por WhatsApp</h2>
+   <p class="small muted">No se suben archivos aquí. Después de enviar, adjunta en el chat de WhatsApp (foto o PDF):</p><ul id="docs-list"></ul></div>
+  <label class="consent"><input type="checkbox" name="consent" id="consent" value="1" required><span>Autorizo a {{ BRAND }} a tratar mis datos personales y documentos para gestionar esta baja, conforme a la Ley N.° 29733 de Protección de Datos Personales y su reglamento. Leí la <a href="{{ R }}privacidad/" target="_blank">política de privacidad</a>.</span></label>
+  <p class="err" data-err="consent"></p>
+  <button class="btn block wa-btn" type="submit">Enviar solicitud por WhatsApp</button>
+ </form>
+</section>
+<section class="wrap narrow hide" id="done" aria-live="polite">
+ <div class="center"><div class="ok">✓</div><h1>¡Tu solicitud está lista!</h1>
+ <p>Tu código de solicitud es</p><p class="code" id="done-code"></p></div>
+ <div class="note warnbox hide" id="cfg-warn">⚠ El número de WhatsApp de {{ BRAND }} aún no está configurado (assets/config.js). El enlace no funcionará hasta configurarlo.</div>
+ <div class="box"><h2>Último paso: envíala por WhatsApp</h2>
+  <p>Si WhatsApp no se abrió solo, toca el botón. Envía el mensaje tal cual y <b>adjunta en el chat</b>:</p><ul id="done-docs"></ul>
+  <a class="btn block wa-btn" id="wa-link" href="#" target="_blank" rel="noopener">Abrir WhatsApp y enviar</a>
+  <p class="small muted">Guarda tu código: lo usaremos para darte seguimiento por WhatsApp.</p>
+  <p class="small"><a href="#" id="edit">← Corregir datos</a></p>
+ </div>
+</section>
+<script type="application/json" id="svc-data">{{ form_data|tojson }}</script>
+{% endblock %}

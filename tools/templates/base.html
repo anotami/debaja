@@ -1,0 +1,22 @@
+<!doctype html><html lang="es-PE"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{% block title %}{{ BRAND }} · Da de baja tus servicios en Perú{% endblock %}</title>
+<meta name="description" content="{% block desc %}{{ TAGLINE }}{% endblock %}">
+<link rel="stylesheet" href="{{ R }}assets/style.css?v={{ V }}">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✂️</text></svg>">
+</head><body data-root="{{ R }}">
+<header class="top"><div class="wrap nav">
+ <a class="logo" href="{{ R }}"><span class="dot">✂</span>{{ BRAND }}</a>
+ <nav><a href="{{ R }}#catalogo">Servicios</a><a class="btn sm" href="{{ R }}solicitar/">Solicitar baja</a></nav>
+</div></header>
+<main>
+{% block body %}{% endblock %}
+</main>
+<footer class="foot"><div class="wrap">
+ <p><b>{{ BRAND }}</b> · {{ TAGLINE }}</p>
+ <p class="small">🔒 Nunca te pediremos contraseñas, números de tarjeta, claves bancarias ni códigos de verificación. Si alguien te los pide a nombre nuestro, no los compartas.</p>
+ <p class="small">No somos parte de ninguna operadora ni empresa listada. La información es referencial (actualizada al {{ ACTUALIZADO }}) y puede cambiar. · <a href="{{ R }}privacidad/">Privacidad y datos personales</a> · <span class="wa-contact"></span></p>
+ <p class="small">© {{ YEAR }} {{ BRAND }}</p>
+</div></footer>
+<script src="{{ R }}assets/config.js?v={{ V }}"></script>
+<script src="{{ R }}assets/app.js?v={{ V }}"></script>
+</body></html>
