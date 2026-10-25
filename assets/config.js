@@ -6,5 +6,5 @@ window.WHATSAPP_NUMBER = '51932900134';
 // ===== Apoyo con Yape / Plin =====
 // Número de celular (9 dígitos, sin +51 ni espacios). Si lo dejas vacío (''), la sección "Apoya a DeBaja.pe" no se muestra.
 window.YAPE_NUMERO = '932900134';
-// Nombre del titular que verá la persona al yapear (opcional, por ejemplo 'Gabriel P.').
+// Nombre del titular que verá la persona al yapear (opcional, por ejemplo 'DeBaja.pe').
 window.YAPE_NOMBRE = '';

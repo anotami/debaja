@@ -9,7 +9,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BRAND = "DeBaja.pe"
 TAGLINE = "Damos de baja tus servicios y suscripciones, sin colas ni vueltas."
-RESPONSABLE = "Gabriel Pizarro"  # titular del banco de datos (Ley 29733)
+RESPONSABLE = "DeBaja.pe"  # titular del banco de datos (Ley 29733)
 DOCS = {"dni": "Copia de DNI/CE (ambas caras)", "carta_poder": "Carta poder firmada por el titular + copia de su DNI",
         "carta_poder_notarial": "Carta poder con firma legalizada notarialmente (Res. 132-2025-CD/OSIPTEL, art. 4) + copia del DNI del titular, o constancia de que eres su contacto autorizado",
         "carta_poder_simple": "Carta poder simple firmada por el titular + copia de su DNI",
