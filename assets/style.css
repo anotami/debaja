@@ -102,3 +102,10 @@ input:focus,select:focus,textarea:focus{outline:2px solid #0f9d7655;border-color
 .rv-tot .sv{background:#eefaf5}.rv-tot .sv b{color:var(--brand2)}.rv-tot small{display:block;color:var(--muted)}
 .rv-msg{font-weight:600;padding:10px 12px;border-radius:10px;background:#f0f3f9}.rv-msg.good{background:#eefaf5;color:var(--brand2)}.rv-msg.bad{background:#fdecec;color:#991b1b}
 input,select{font-size:16px}
+/* Contacto directo con la empresa (enlaces oficiales, distintos de nuestro botón verde) */
+.contacto{border-left:6px solid var(--blue)}
+.ct-btns{display:flex;flex-direction:column;gap:8px;margin:6px 0 10px}
+.ct-btn{display:flex;align-items:center;gap:.5em;min-height:46px;padding:.65em 1em;border-radius:11px;border:1.5px solid #c9d5f3;background:#f3f6fe;color:#1e3a8a;font-weight:600;text-decoration:none;line-height:1.3}
+.ct-btn:hover{background:#e6edfd;border-color:var(--blue)}
+.ct-wa{border-color:#9ccfb2;background:#fff;color:#14532d}.ct-tel{background:#fff6e6;border-color:#eab308;color:#713f12}
+a.tel{color:inherit;text-decoration:underline}

@@ -21,7 +21,7 @@
     "App Mi Movistar y web (formulario de solicitudes)",
     "Teléfono 104 (desde Movistar) y 0800-11800",
     "Centros de atención",
-    "WhatsApp (listado por OSIPTEL; número no confirmado)"
+    "WhatsApp 999 955 555 (atención 24 h, publicado en movistar.com.pe)"
    ],
    "requisitos": [
     "Titular con DNI",
@@ -49,7 +49,17 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Pierdes el número si das de baja la línea (si solo quieres cambiarte de operadora, haz portabilidad y conservas tu número). Si compraste el equipo en cuotas, las cuotas pendientes se siguen cobrando. En hogar debes devolver el módem y los decos en comodato o te los pueden cobrar. Pierdes beneficios y promociones de antigüedad.",
    "que_pasa_si_se_corta": "La baja se ejecuta al día hábil siguiente (o en la fecha que elijas, hasta 1 mes). Dejas de recibir recibos nuevos, pero debes pagar lo consumido hasta esa fecha.",
-   "recomendacion": "Si el plan te sirve pero es caro, primero pide descuento o retención. Si no usas la línea, dala de baja desde la app o la web (es 24/7). Si te cambias de operadora, usa portabilidad, no baja."
+   "recomendacion": "Si el plan te sirve pero es caro, primero pide descuento o retención. Si no usas la línea, dala de baja desde la app o la web (es 24/7). Si te cambias de operadora, usa portabilidad, no baja.",
+   "link_whatsapp": {
+    "url": "https://wa.me/51999955555",
+    "label": "WhatsApp Movistar 999 955 555 (24 h)",
+    "verificado": "https://www.movistar.com.pe/atencion-al-cliente"
+   },
+   "link_ayuda": {
+    "url": "https://www.movistar.com.pe/atencion-al-cliente",
+    "label": "Atención al cliente Movistar",
+    "verificado": "https://www.movistar.com.pe/atencion-al-cliente"
+   }
   },
   {
    "id": "claro",
@@ -60,7 +70,7 @@
     "App Mi Claro",
     "123 (desde Claro) / 0800 00123 (otro operador o fijo)",
     "Centros de Atención (CAV)",
-    "WhatsApp 915 020 030 (atención; no confirma bajas)"
+    "WhatsApp 915 020 030 y chat en línea en claro.com.pe (atención)"
    ],
    "requisitos": [
     "Titular con documento de identidad + validación de datos",
@@ -88,7 +98,17 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Pierdes el número si das de baja la línea (si solo quieres cambiarte de operadora, haz portabilidad y conservas tu número). Si compraste el equipo en cuotas, las cuotas pendientes se siguen cobrando. En hogar debes devolver el módem y los decos en comodato o te los pueden cobrar. Pierdes beneficios y promociones de antigüedad.",
    "que_pasa_si_se_corta": "La baja se ejecuta al día hábil siguiente (o en la fecha que elijas, hasta 1 mes). Dejas de recibir recibos nuevos, pero debes pagar lo consumido hasta esa fecha.",
-   "recomendacion": "Si el plan te sirve pero es caro, primero pide descuento o retención. Si no usas la línea, dala de baja desde la app o la web (es 24/7). Si te cambias de operadora, usa portabilidad, no baja."
+   "recomendacion": "Si el plan te sirve pero es caro, primero pide descuento o retención. Si no usas la línea, dala de baja desde la app o la web (es 24/7). Si te cambias de operadora, usa portabilidad, no baja.",
+   "link_whatsapp": {
+    "url": "https://wa.me/51915020030",
+    "label": "WhatsApp Claro 915 020 030",
+    "verificado": "https://www.claro.com.pe/contactanos/"
+   },
+   "link_chat": {
+    "url": "https://www.claro.com.pe/contactanos/",
+    "label": "Chat en línea y canales de Claro",
+    "verificado": "https://www.claro.com.pe/contactanos/"
+   }
   },
   {
    "id": "entel",
@@ -129,7 +149,17 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Pierdes el número si das de baja la línea (si solo quieres cambiarte de operadora, haz portabilidad y conservas tu número). Si compraste el equipo en cuotas, las cuotas pendientes se siguen cobrando. En hogar debes devolver el módem y los decos en comodato o te los pueden cobrar. Pierdes beneficios y promociones de antigüedad.",
    "que_pasa_si_se_corta": "La baja se ejecuta al día hábil siguiente (o en la fecha que elijas, hasta 1 mes). Dejas de recibir recibos nuevos, pero debes pagar lo consumido hasta esa fecha.",
-   "recomendacion": "Si el plan te sirve pero es caro, primero pide descuento o retención. Si no usas la línea, dala de baja desde la app o la web (es 24/7). Si te cambias de operadora, usa portabilidad, no baja."
+   "recomendacion": "Si el plan te sirve pero es caro, primero pide descuento o retención. Si no usas la línea, dala de baja desde la app o la web (es 24/7). Si te cambias de operadora, usa portabilidad, no baja.",
+   "link_whatsapp": {
+    "url": "https://wa.me/51981002000",
+    "label": "WhatsApp Entel 98 100 2000",
+    "verificado": "https://www.entel.pe/ayuda/reclamos/reclamos-y-solicitudes"
+   },
+   "link_ayuda": {
+    "url": "https://www.entel.pe/informacion-a-abonados-y-usuarios/baja",
+    "label": "Página oficial de baja de Entel",
+    "verificado": "https://www.entel.pe/informacion-a-abonados-y-usuarios/baja"
+   }
   },
   {
    "id": "bitel",
@@ -168,7 +198,17 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Pierdes el número si das de baja la línea (si solo quieres cambiarte de operadora, haz portabilidad y conservas tu número). Si compraste el equipo en cuotas, las cuotas pendientes se siguen cobrando. En hogar debes devolver el módem y los decos en comodato o te los pueden cobrar. Pierdes beneficios y promociones de antigüedad.",
    "que_pasa_si_se_corta": "La baja se ejecuta al día hábil siguiente (o en la fecha que elijas, hasta 1 mes). Dejas de recibir recibos nuevos, pero debes pagar lo consumido hasta esa fecha.",
-   "recomendacion": "Si el plan te sirve pero es caro, primero pide descuento o retención. Si no usas la línea, dala de baja desde la app o la web (es 24/7). Si te cambias de operadora, usa portabilidad, no baja."
+   "recomendacion": "Si el plan te sirve pero es caro, primero pide descuento o retención. Si no usas la línea, dala de baja desde la app o la web (es 24/7). Si te cambias de operadora, usa portabilidad, no baja.",
+   "link_whatsapp": {
+    "url": "https://wa.me/51931123123",
+    "label": "WhatsApp Bitel 931 123 123",
+    "verificado": "https://bitel.com.pe/te-ayudamos"
+   },
+   "link_ayuda": {
+    "url": "https://bitel.com.pe/te-ayudamos",
+    "label": "Canales de atención de Bitel",
+    "verificado": "https://bitel.com.pe/te-ayudamos"
+   }
   },
   {
    "id": "wow-internet-fibra",
@@ -178,7 +218,8 @@
    "canales": [
     "0800-71969",
     "(01) 644-1969",
-    "Centro de Experiencia WOW"
+    "Centro de Experiencia WOW",
+    "WhatsApp (01) 644-1969 (publicado en wowperu.pe)"
    ],
    "requisitos": [
     "Titular con DNI",
@@ -205,7 +246,17 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Debes devolver el ONT o router (en comodato); si no, te lo pueden cobrar. Revisa si contrataste con plazo forzoso o promoción que exija permanencia. Te quedas sin internet en casa desde la fecha de baja.",
    "que_pasa_si_se_corta": "La baja se ejecuta al día hábil siguiente por norma OSIPTEL. Pagas lo consumido hasta esa fecha y luego coordinas el retiro o la devolución del equipo.",
-   "recomendacion": "Si lo usas pero pagas mucho, pide un plan más barato o descuento antes de cortar. Si ya no lo usas, pide el código de baja y guarda la constancia de devolución del equipo."
+   "recomendacion": "Si lo usas pero pagas mucho, pide un plan más barato o descuento antes de cortar. Si ya no lo usas, pide el código de baja y guarda la constancia de devolución del equipo.",
+   "link_whatsapp": {
+    "url": "https://wa.me/5116441969",
+    "label": "WhatsApp WOW (01) 644-1969",
+    "verificado": "https://wowperu.pe/preguntas-frecuentes/"
+   },
+   "link_ayuda": {
+    "url": "https://wowperu.pe/preguntas-frecuentes/",
+    "label": "Preguntas frecuentes WOW",
+    "verificado": "https://wowperu.pe/preguntas-frecuentes/"
+   }
   },
   {
    "id": "win-internet-fibra",
@@ -242,7 +293,17 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Debes devolver el router u ONT (en comodato); si no, te lo pueden cobrar. Revisa si contrataste con plazo forzoso o promoción que exija permanencia. Te quedas sin internet en casa desde la fecha de baja.",
    "que_pasa_si_se_corta": "La baja se ejecuta al día hábil siguiente por norma OSIPTEL. Pagas lo consumido hasta esa fecha y luego coordinas el retiro o la devolución del equipo.",
-   "recomendacion": "Si lo usas pero pagas mucho, pide un plan más barato o descuento antes de cortar. Si ya no lo usas, pide el código de baja y guarda la constancia de devolución del equipo."
+   "recomendacion": "Si lo usas pero pagas mucho, pide un plan más barato o descuento antes de cortar. Si ya no lo usas, pide el código de baja y guarda la constancia de devolución del equipo.",
+   "link_whatsapp": {
+    "url": "https://wa.me/51940061937",
+    "label": "WhatsApp WIN 940 061 937",
+    "verificado": "https://win.pe/preguntas-frecuentes"
+   },
+   "link_ayuda": {
+    "url": "https://win.pe/preguntas-frecuentes",
+    "label": "Preguntas frecuentes WIN",
+    "verificado": "https://win.pe/preguntas-frecuentes"
+   }
   },
   {
    "id": "directv",
@@ -252,7 +313,7 @@
    "canales": [
     "(01) 200-4606 / 0800 10 606 (fuente secundaria)",
     "Centros de atención",
-    "WhatsApp 993 560 000 (según Selectra solo para canales premium)"
+    "WhatsApp 993 560 000 (publicado en directv.com.pe)"
    ],
    "requisitos": [
     "Titular con DNI",
@@ -278,7 +339,17 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Debes devolver la antena y los decos según tu contrato; si no, te pueden cobrar el valor de reposición. Revisa si te queda permanencia o promoción.",
    "que_pasa_si_se_corta": "La baja se ejecuta al día hábil siguiente. El retiro de equipos se coordina después y no es condición para la baja.",
-   "recomendacion": "Si solo te sobra algún paquete, quita ese adicional en vez de dar de baja todo. Si ya no lo ves, pide el código de baja."
+   "recomendacion": "Si solo te sobra algún paquete, quita ese adicional en vez de dar de baja todo. Si ya no lo ves, pide el código de baja.",
+   "link_whatsapp": {
+    "url": "https://wa.me/51993560000",
+    "label": "WhatsApp DirecTV 993 560 000",
+    "verificado": "https://www.directv.com.pe/"
+   },
+   "link_ayuda": {
+    "url": "https://www.directv.com.pe/ayuda/home",
+    "label": "Ayuda DirecTV",
+    "verificado": "https://www.directv.com.pe/ayuda/home"
+   }
   },
   {
    "id": "robo-perdida-movistar",
@@ -328,7 +399,22 @@
    "costo": "Gratis (no hay que pagar por el reporte). El chip de reposición puede tener costo; consúltalo en tienda.",
    "riesgo_baja": "Riesgo bajo: el bloqueo del IMEI es inmediato y el equipo ya no funciona en ninguna red del Perú, aunque lo recuperes, hasta que lo desbloquees en tienda. El plan mensual sigue vigente si es postpago.",
    "que_pasa_si_se_corta": "Nadie puede usar tu línea ni el equipo. Para recuperar el número, el titular saca un chip nuevo en tienda con su DNI y huella.",
-   "recomendacion": "Llama apenas notes el robo o la pérdida, desde cualquier teléfono. Anota el código de reporte y verifica el bloqueo en Checa tu IMEI del OSIPTEL."
+   "recomendacion": "Llama apenas notes el robo o la pérdida, desde cualquier teléfono. Anota el código de reporte y verifica el bloqueo en Checa tu IMEI del OSIPTEL.",
+   "link_ayuda": {
+    "url": "https://www.movistar.com.pe/imei",
+    "label": "Página oficial de bloqueo por robo (Movistar)",
+    "verificado": "https://www.movistar.com.pe/imei"
+   },
+   "tels_24h": [
+    [
+     "104",
+     "104 (desde Movistar)"
+    ],
+    [
+     "080011800",
+     "0800-11800 (gratis, cualquier teléfono)"
+    ]
+   ]
   },
   {
    "id": "robo-perdida-claro",
@@ -379,7 +465,26 @@
    "costo": "Gratis (no hay que pagar por el reporte). El chip de reposición puede tener costo; consúltalo en tienda.",
    "riesgo_baja": "Riesgo bajo: el bloqueo del IMEI es inmediato y el equipo ya no funciona en ninguna red del Perú, aunque lo recuperes, hasta que lo desbloquees en tienda. El plan mensual sigue vigente si es postpago.",
    "que_pasa_si_se_corta": "Nadie puede usar tu línea ni el equipo. Para recuperar el número, el titular saca un chip nuevo en tienda con su DNI y huella.",
-   "recomendacion": "Llama apenas notes el robo o la pérdida, desde cualquier teléfono. Anota el código de reporte y verifica el bloqueo en Checa tu IMEI del OSIPTEL."
+   "recomendacion": "Llama apenas notes el robo o la pérdida, desde cualquier teléfono. Anota el código de reporte y verifica el bloqueo en Checa tu IMEI del OSIPTEL.",
+   "link_ayuda": {
+    "url": "https://www.claro.com.pe/contactanos/",
+    "label": "Canales de atención de Claro",
+    "verificado": "https://www.claro.com.pe/contactanos/"
+   },
+   "tels_24h": [
+    [
+     "123",
+     "123 (desde Claro)"
+    ],
+    [
+     "080112323",
+     "0801-123-23 (desde fijo)"
+    ],
+    [
+     "080000123",
+     "0800 00123 (desde otro operador)"
+    ]
+   ]
   },
   {
    "id": "robo-perdida-entel",
@@ -429,7 +534,22 @@
    "costo": "Gratis (no hay que pagar por el reporte). El chip de reposición puede tener costo; consúltalo en tienda.",
    "riesgo_baja": "Riesgo bajo: el bloqueo del IMEI es inmediato y el equipo ya no funciona en ninguna red del Perú, aunque lo recuperes, hasta que lo desbloquees en tienda. El plan mensual sigue vigente si es postpago.",
    "que_pasa_si_se_corta": "Nadie puede usar tu línea ni el equipo. Para recuperar el número, el titular saca un chip nuevo en tienda con su DNI y huella.",
-   "recomendacion": "Llama apenas notes el robo o la pérdida, desde cualquier teléfono. Anota el código de reporte y verifica el bloqueo en Checa tu IMEI del OSIPTEL."
+   "recomendacion": "Llama apenas notes el robo o la pérdida, desde cualquier teléfono. Anota el código de reporte y verifica el bloqueo en Checa tu IMEI del OSIPTEL.",
+   "link_ayuda": {
+    "url": "https://www.entel.pe/informacion-a-abonados-y-usuarios/bloqueo/",
+    "label": "Página oficial de bloqueo (Entel)",
+    "verificado": "https://www.entel.pe/informacion-a-abonados-y-usuarios/bloqueo/"
+   },
+   "tels_24h": [
+    [
+     "123",
+     "123 (desde Entel)"
+    ],
+    [
+     "016117777",
+     "(01) 611-7777 (cualquier teléfono)"
+    ]
+   ]
   },
   {
    "id": "robo-perdida-bitel",
@@ -480,7 +600,22 @@
    "costo": "Gratis (no hay que pagar por el reporte). El chip de reposición puede tener costo; consúltalo en tienda.",
    "riesgo_baja": "Riesgo bajo: el bloqueo del IMEI es inmediato y el equipo ya no funciona en ninguna red del Perú, aunque lo recuperes, hasta que lo desbloquees en tienda. El plan mensual sigue vigente si es postpago.",
    "que_pasa_si_se_corta": "Nadie puede usar tu línea ni el equipo. Para recuperar el número, el titular saca un chip nuevo en tienda con su DNI y huella.",
-   "recomendacion": "Llama apenas notes el robo o la pérdida, desde cualquier teléfono. Anota el código de reporte y verifica el bloqueo en Checa tu IMEI del OSIPTEL."
+   "recomendacion": "Llama apenas notes el robo o la pérdida, desde cualquier teléfono. Anota el código de reporte y verifica el bloqueo en Checa tu IMEI del OSIPTEL.",
+   "link_ayuda": {
+    "url": "https://bitel.com.pe/te-ayudamos",
+    "label": "Canales de atención de Bitel",
+    "verificado": "https://bitel.com.pe/te-ayudamos"
+   },
+   "tels_24h": [
+    [
+     "123",
+     "123 (desde Bitel)"
+    ],
+    [
+     "+51930123123",
+     "930 123 123 (cualquier teléfono, 24 h)"
+    ]
+   ]
   },
   {
    "id": "descuento-retencion-movistar",
@@ -523,7 +658,17 @@
    "costo": "Gratis pedirlo. El ahorro depende de la oferta que te hagan.",
    "riesgo_baja": "Riesgo bajo: si aceptas una oferta, revisa cuánto dura, el precio después y si cambia la velocidad o los datos. Pide constancia o código de la oferta.",
    "que_pasa_si_se_corta": "Si aceptas, la baja no se registra y sigues con el plan nuevo. Si no te conviene, puedes confirmar la baja en la misma llamada: no pueden condicionarla a aceptar una oferta.",
-   "recomendacion": "Ten a mano tu recibo y una oferta concreta de otra operadora. Acepta solo si el precio final y la duración te convienen."
+   "recomendacion": "Ten a mano tu recibo y una oferta concreta de otra operadora. Acepta solo si el precio final y la duración te convienen.",
+   "link_whatsapp": {
+    "url": "https://wa.me/51999955555",
+    "label": "WhatsApp Movistar 999 955 555 (24 h)",
+    "verificado": "https://www.movistar.com.pe/atencion-al-cliente"
+   },
+   "link_ayuda": {
+    "url": "https://www.movistar.com.pe/atencion-al-cliente",
+    "label": "Atención al cliente Movistar",
+    "verificado": "https://www.movistar.com.pe/atencion-al-cliente"
+   }
   },
   {
    "id": "descuento-retencion-claro",
@@ -566,7 +711,17 @@
    "costo": "Gratis pedirlo. El ahorro depende de la oferta que te hagan.",
    "riesgo_baja": "Riesgo bajo: si aceptas una oferta, revisa cuánto dura, el precio después y si cambia la velocidad o los datos. Pide constancia o código de la oferta.",
    "que_pasa_si_se_corta": "Si aceptas, la baja no se registra y sigues con el plan nuevo. Si no te conviene, puedes confirmar la baja en la misma llamada: no pueden condicionarla a aceptar una oferta.",
-   "recomendacion": "Ten a mano tu recibo y una oferta concreta de otra operadora. Acepta solo si el precio final y la duración te convienen."
+   "recomendacion": "Ten a mano tu recibo y una oferta concreta de otra operadora. Acepta solo si el precio final y la duración te convienen.",
+   "link_whatsapp": {
+    "url": "https://wa.me/51915020030",
+    "label": "WhatsApp Claro 915 020 030",
+    "verificado": "https://www.claro.com.pe/contactanos/"
+   },
+   "link_chat": {
+    "url": "https://www.claro.com.pe/contactanos/",
+    "label": "Chat en línea y canales de Claro",
+    "verificado": "https://www.claro.com.pe/contactanos/"
+   }
   },
   {
    "id": "descuento-retencion-entel",
@@ -609,7 +764,17 @@
    "costo": "Gratis pedirlo. El ahorro depende de la oferta que te hagan.",
    "riesgo_baja": "Riesgo bajo: si aceptas una oferta, revisa cuánto dura, el precio después y si cambia la velocidad o los datos. Pide constancia o código de la oferta.",
    "que_pasa_si_se_corta": "Si aceptas, la baja no se registra y sigues con el plan nuevo. Si no te conviene, puedes confirmar la baja en la misma llamada: no pueden condicionarla a aceptar una oferta.",
-   "recomendacion": "Ten a mano tu recibo y una oferta concreta de otra operadora. Acepta solo si el precio final y la duración te convienen."
+   "recomendacion": "Ten a mano tu recibo y una oferta concreta de otra operadora. Acepta solo si el precio final y la duración te convienen.",
+   "link_whatsapp": {
+    "url": "https://wa.me/51981002000",
+    "label": "WhatsApp Entel 98 100 2000",
+    "verificado": "https://www.entel.pe/ayuda/reclamos/reclamos-y-solicitudes"
+   },
+   "link_ayuda": {
+    "url": "https://www.entel.pe/informacion-a-abonados-y-usuarios/baja",
+    "label": "Página oficial de baja de Entel",
+    "verificado": "https://www.entel.pe/informacion-a-abonados-y-usuarios/baja"
+   }
   },
   {
    "id": "descuento-retencion-bitel",
@@ -652,7 +817,17 @@
    "costo": "Gratis pedirlo. El ahorro depende de la oferta que te hagan.",
    "riesgo_baja": "Riesgo bajo: si aceptas una oferta, revisa cuánto dura, el precio después y si cambia la velocidad o los datos. Pide constancia o código de la oferta.",
    "que_pasa_si_se_corta": "Si aceptas, la baja no se registra y sigues con el plan nuevo. Si no te conviene, puedes confirmar la baja en la misma llamada: no pueden condicionarla a aceptar una oferta.",
-   "recomendacion": "Ten a mano tu recibo y una oferta concreta de otra operadora. Acepta solo si el precio final y la duración te convienen."
+   "recomendacion": "Ten a mano tu recibo y una oferta concreta de otra operadora. Acepta solo si el precio final y la duración te convienen.",
+   "link_whatsapp": {
+    "url": "https://wa.me/51931123123",
+    "label": "WhatsApp Bitel 931 123 123",
+    "verificado": "https://bitel.com.pe/te-ayudamos"
+   },
+   "link_ayuda": {
+    "url": "https://bitel.com.pe/te-ayudamos",
+    "label": "Canales de atención de Bitel",
+    "verificado": "https://bitel.com.pe/te-ayudamos"
+   }
   },
   {
    "id": "netflix",
@@ -686,7 +861,17 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Riesgo bajo: no hay penalidad. Pierdes el acceso al contenido y a las descargas al terminar el periodo pagado. Netflix guarda tus perfiles e historial unos meses por si vuelves.",
    "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo ya pagado y ya no se renueva. Puedes volver a suscribirte cuando quieras.",
-   "recomendacion": "Si no lo usas hace más de un mes, cancélalo donde pagas (web, Google Play, App Store o recibo de tu operadora). Puedes rotar: un mes uno, otro mes otro."
+   "recomendacion": "Si no lo usas hace más de un mes, cancélalo donde pagas (web, Google Play, App Store o recibo de tu operadora). Puedes rotar: un mes uno, otro mes otro.",
+   "link_chat": {
+    "url": "https://help.netflix.com/es/contactus",
+    "label": "Contactar a Netflix (chat o llamada)",
+    "verificado": "https://help.netflix.com/es/contactus"
+   },
+   "link_ayuda": {
+    "url": "https://help.netflix.com/es/node/407",
+    "label": "Cómo cancelar Netflix",
+    "verificado": "https://help.netflix.com/es/node/407"
+   }
   },
   {
    "id": "disney",
@@ -720,7 +905,12 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Riesgo bajo: no hay penalidad. Pierdes el acceso al contenido y a las descargas al terminar el periodo pagado. ",
    "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo ya pagado y ya no se renueva. Puedes volver a suscribirte cuando quieras.",
-   "recomendacion": "Si no lo usas hace más de un mes, cancélalo donde pagas (web, Google Play, App Store o recibo de tu operadora). Puedes rotar: un mes uno, otro mes otro."
+   "recomendacion": "Si no lo usas hace más de un mes, cancélalo donde pagas (web, Google Play, App Store o recibo de tu operadora). Puedes rotar: un mes uno, otro mes otro.",
+   "link_ayuda": {
+    "url": "https://help.disneyplus.com/es/article/disneyplus-cancel",
+    "label": "Cómo cancelar Disney+",
+    "verificado": "https://help.disneyplus.com/es/article/disneyplus-cancel"
+   }
   },
   {
    "id": "hbo-max-max",
@@ -754,7 +944,12 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Riesgo bajo: no hay penalidad. Pierdes el acceso al contenido y a las descargas al terminar el periodo pagado. ",
    "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo ya pagado y ya no se renueva. Puedes volver a suscribirte cuando quieras.",
-   "recomendacion": "Si no lo usas hace más de un mes, cancélalo donde pagas (web, Google Play, App Store o recibo de tu operadora). Puedes rotar: un mes uno, otro mes otro."
+   "recomendacion": "Si no lo usas hace más de un mes, cancélalo donde pagas (web, Google Play, App Store o recibo de tu operadora). Puedes rotar: un mes uno, otro mes otro.",
+   "link_ayuda": {
+    "url": "https://help.hbomax.com",
+    "label": "Centro de ayuda HBO Max",
+    "verificado": "https://help.hbomax.com"
+   }
   },
   {
    "id": "prime-video",
@@ -788,7 +983,12 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Riesgo bajo: no hay penalidad. Pierdes el acceso al contenido y a las descargas al terminar el periodo pagado. Si lo tienes incluido en Amazon Prime, cancelar Prime también quita otros beneficios.",
    "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo ya pagado y ya no se renueva. Puedes volver a suscribirte cuando quieras.",
-   "recomendacion": "Si no lo usas hace más de un mes, cancélalo donde pagas (web, Google Play, App Store o recibo de tu operadora). Puedes rotar: un mes uno, otro mes otro."
+   "recomendacion": "Si no lo usas hace más de un mes, cancélalo donde pagas (web, Google Play, App Store o recibo de tu operadora). Puedes rotar: un mes uno, otro mes otro.",
+   "link_ayuda": {
+    "url": "https://www.primevideo.com/help/?language=es_ES&nodeId=GWGDSNXVPJ93UW5V",
+    "label": "Cómo cancelar Prime Video",
+    "verificado": "https://www.primevideo.com/help/?language=es_ES&nodeId=GWGDSNXVPJ93UW5V"
+   }
   },
   {
    "id": "spotify",
@@ -821,7 +1021,12 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Riesgo bajo: no hay penalidad. Pasas a Spotify gratis con anuncios y sin descargas. Tus playlists se conservan.",
    "que_pasa_si_se_corta": "Sigues con Premium hasta el fin del periodo pagado y luego pasas al plan gratuito.",
-   "recomendacion": "Si escuchas a diario, mantenlo o baja a un plan más barato (Duo o Estudiantes). Si no, cancela desde spotify.com o la tienda donde pagas."
+   "recomendacion": "Si escuchas a diario, mantenlo o baja a un plan más barato (Duo o Estudiantes). Si no, cancela desde spotify.com o la tienda donde pagas.",
+   "link_ayuda": {
+    "url": "https://support.spotify.com/es/article/cancel-premium/",
+    "label": "Cómo cancelar Premium",
+    "verificado": "https://support.spotify.com/es/article/cancel-premium/"
+   }
   },
   {
    "id": "youtube-premium",
@@ -854,7 +1059,12 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Riesgo bajo: no hay penalidad. Vuelven los anuncios y pierdes las descargas y la reproducción en segundo plano.",
    "que_pasa_si_se_corta": "Sigues con Premium hasta el fin del periodo pagado; luego vuelves a YouTube gratis.",
-   "recomendacion": "Si también pagas Spotify, quédate con uno de los dos. Cancela en youtube.com/paid_memberships o en la tienda donde pagas."
+   "recomendacion": "Si también pagas Spotify, quédate con uno de los dos. Cancela en youtube.com/paid_memberships o en la tienda donde pagas.",
+   "link_ayuda": {
+    "url": "https://support.google.com/youtubemusic/answer/6308278",
+    "label": "Cómo cancelar YouTube Premium",
+    "verificado": "https://support.google.com/youtubemusic/answer/6308278"
+   }
   },
   {
    "id": "apple-tv-apple-one",
@@ -887,7 +1097,12 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Riesgo bajo: no hay penalidad. Si cancelas Apple One, revisa tu almacenamiento de iCloud: si superas el espacio gratis, se dejan de respaldar fotos y copias.",
    "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo pagado y luego se corta.",
-   "recomendacion": "Si solo usas iCloud, cambia Apple One por iCloud+ solo. Cancela en Ajustes › tu nombre › Suscripciones."
+   "recomendacion": "Si solo usas iCloud, cambia Apple One por iCloud+ solo. Cancela en Ajustes › tu nombre › Suscripciones.",
+   "link_ayuda": {
+    "url": "https://support.apple.com/es-es/118428",
+    "label": "Cómo cancelar una suscripción de Apple",
+    "verificado": "https://support.apple.com/es-es/118428"
+   }
   },
   {
    "id": "paramount",
@@ -921,7 +1136,12 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Riesgo bajo: no hay penalidad. Pierdes el acceso al contenido y a las descargas al terminar el periodo pagado. ",
    "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo ya pagado y ya no se renueva. Puedes volver a suscribirte cuando quieras.",
-   "recomendacion": "Si no lo usas hace más de un mes, cancélalo donde pagas (web, Google Play, App Store o recibo de tu operadora). Puedes rotar: un mes uno, otro mes otro."
+   "recomendacion": "Si no lo usas hace más de un mes, cancélalo donde pagas (web, Google Play, App Store o recibo de tu operadora). Puedes rotar: un mes uno, otro mes otro.",
+   "link_ayuda": {
+    "url": "https://support.paramountplus.com/s/article/PI-How-do-I-cancel-my-subscription?language=es_MX",
+    "label": "Cómo cancelar Paramount+",
+    "verificado": "https://support.paramountplus.com/s/article/PI-How-do-I-cancel-my-subscription?language=es_MX"
+   }
   },
   {
    "id": "crunchyroll",
@@ -955,7 +1175,12 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Riesgo bajo: no hay penalidad. Pierdes el acceso al contenido y a las descargas al terminar el periodo pagado. Puedes seguir viendo parte del catálogo gratis con anuncios.",
    "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo ya pagado y ya no se renueva. Puedes volver a suscribirte cuando quieras.",
-   "recomendacion": "Si no lo usas hace más de un mes, cancélalo donde pagas (web, Google Play, App Store o recibo de tu operadora). Puedes rotar: un mes uno, otro mes otro."
+   "recomendacion": "Si no lo usas hace más de un mes, cancélalo donde pagas (web, Google Play, App Store o recibo de tu operadora). Puedes rotar: un mes uno, otro mes otro.",
+   "link_ayuda": {
+    "url": "https://help.crunchyroll.com/es/article/how-do-i-cancel-my-membership",
+    "label": "Cómo cancelar Crunchyroll",
+    "verificado": "https://help.crunchyroll.com/es/article/how-do-i-cancel-my-membership"
+   }
   },
   {
    "id": "luz-del-sur-cambio-de-titular",
@@ -990,7 +1215,17 @@
    "costo": "Gratis o de bajo costo según la empresa; el consumo depende de tu medidor.",
    "riesgo_baja": "Riesgo bajo si estás al día. Pide lectura del medidor y paga la deuda antes del cambio para que no quede a tu nombre.",
    "que_pasa_si_se_corta": "El servicio de luz sigue en el inmueble, pero los recibos salen a nombre del nuevo titular.",
-   "recomendacion": "Hazlo al vender, comprar o dejar de alquilar. Guarda el código de seguimiento y el último recibo pagado."
+   "recomendacion": "Hazlo al vender, comprar o dejar de alquilar. Guarda el código de seguimiento y el último recibo pagado.",
+   "link_chat": {
+    "url": "https://www.luzdelsur.pe/",
+    "label": "Chat web en luzdelsur.pe",
+    "verificado": "https://www.luzdelsur.pe/es/InformacionGuardada/ReposicionProceso"
+   },
+   "link_ayuda": {
+    "url": "https://www.luzdelsur.pe/es/CambioNombre/Ingreso",
+    "label": "Solicitar cambio de nombre en el recibo",
+    "verificado": "https://www.luzdelsur.pe/es/CambioNombre/Ingreso"
+   }
   },
   {
    "id": "pluz-energia-cambio-de-titular",
@@ -1026,7 +1261,17 @@
    "costo": "Gratis o de bajo costo según la empresa; el consumo depende de tu medidor.",
    "riesgo_baja": "Riesgo bajo si estás al día. Pide lectura del medidor y paga la deuda antes del cambio para que no quede a tu nombre.",
    "que_pasa_si_se_corta": "El servicio de luz sigue en el inmueble, pero los recibos salen a nombre del nuevo titular.",
-   "recomendacion": "Hazlo al vender, comprar o dejar de alquilar. Guarda el código de seguimiento y el último recibo pagado."
+   "recomendacion": "Hazlo al vender, comprar o dejar de alquilar. Guarda el código de seguimiento y el último recibo pagado.",
+   "link_whatsapp": {
+    "url": "https://wa.me/51995171717",
+    "label": "WhatsApp Pluz 995 171 717",
+    "verificado": "https://www.pluz.pe/es/ayuda/consejos-de-seguridad2.html"
+   },
+   "link_ayuda": {
+    "url": "https://www.pluz.pe/es/personas/solicitudes.html",
+    "label": "Ingreso de solicitudes Pluz",
+    "verificado": "https://www.pluz.pe/es/personas/solicitudes.html"
+   }
   },
   {
    "id": "sedapal-cambio-de-titular",
@@ -1034,7 +1279,8 @@
    "industria": "Hogar y servicios básicos",
    "modalidad": "Digital",
    "canales": [
-    "Mesa de partes virtual (Sede Electrónica)"
+    "Mesa de partes virtual (Sede Electrónica)",
+    "WhatsApp Aquafono 317-8000 (consultas)"
    ],
    "requisitos": [
     "Solicitud",
@@ -1061,7 +1307,17 @@
    "costo": "Gratis o de bajo costo según la empresa; el consumo depende de tu medidor.",
    "riesgo_baja": "Riesgo bajo si estás al día. Pide lectura del medidor y paga la deuda antes del cambio para que no quede a tu nombre.",
    "que_pasa_si_se_corta": "El servicio de agua sigue en el inmueble, pero los recibos salen a nombre del nuevo titular.",
-   "recomendacion": "Hazlo al vender, comprar o dejar de alquilar. Guarda el código de seguimiento y el último recibo pagado."
+   "recomendacion": "Hazlo al vender, comprar o dejar de alquilar. Guarda el código de seguimiento y el último recibo pagado.",
+   "link_whatsapp": {
+    "url": "https://wa.me/5113178000",
+    "label": "WhatsApp Sedapal (Aquafono 317-8000)",
+    "verificado": "https://www.sedapal.com.pe/"
+   },
+   "link_ayuda": {
+    "url": "https://www.gob.pe/37167-solicitar-cambio-de-titular-del-recibo-de-agua",
+    "label": "Trámite oficial de cambio de titular (gob.pe)",
+    "verificado": "https://www.gob.pe/37167-solicitar-cambio-de-titular-del-recibo-de-agua"
+   }
   },
   {
    "id": "calidda-gas-natural",
@@ -1069,7 +1325,8 @@
    "industria": "Hogar y servicios básicos",
    "modalidad": "Presencial",
    "canales": [
-    "Centros de Servicio Cálidda (presencial)"
+    "Centros de Servicio Cálidda (presencial)",
+    "WhatsApp 981 444 555 (consultas; la baja sigue siendo presencial)"
    ],
    "requisitos": [
     "Titular con DNI",
@@ -1099,7 +1356,17 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "La baja tiene costo de corte según el pliego tarifario y volver a conectarte también cuesta. Si financiaste la instalación, revisa si quedan cuotas. Si solo te mudas, quizá te convenga cambio de titular o suspensión temporal.",
    "que_pasa_si_se_corta": "Se corta el suministro de gas en el inmueble y dejas de recibir recibos, salvo deudas pendientes.",
-   "recomendacion": "Si el inmueble lo seguirá usando otra persona, haz cambio de titular en vez de baja. Si sales por un tiempo, pregunta por la suspensión temporal."
+   "recomendacion": "Si el inmueble lo seguirá usando otra persona, haz cambio de titular en vez de baja. Si sales por un tiempo, pregunta por la suspensión temporal.",
+   "link_whatsapp": {
+    "url": "https://wa.me/51981444555",
+    "label": "WhatsApp Cálidda 981 444 555",
+    "verificado": "https://www.calidda.com.pe/atencion-al-cliente/canales-de-atencion-al-cliente"
+   },
+   "link_ayuda": {
+    "url": "https://www.calidda.com.pe/atencion-al-cliente/canales-de-atencion-al-cliente",
+    "label": "Canales de atención Cálidda",
+    "verificado": "https://www.calidda.com.pe/atencion-al-cliente/canales-de-atencion-al-cliente"
+   }
   },
   {
    "id": "prosegur-alarmas",
@@ -1134,7 +1401,17 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Revisa tu contrato: puede haber permanencia y penalidad. Los equipos suelen ser de la empresa y debes devolverlos o permitir el retiro. Te quedas sin monitoreo desde la fecha de baja.",
    "que_pasa_si_se_corta": "Se corta el monitoreo y la central deja de responder a las alarmas. Te coordinan el retiro de los equipos.",
-   "recomendacion": "Si no la usas, revisa la permanencia y pide la baja por escrito con constancia. Si la usas pero es cara, pregunta por un plan más barato."
+   "recomendacion": "Si no la usas, revisa la permanencia y pide la baja por escrito con constancia. Si la usas pero es cara, pregunta por un plan más barato.",
+   "link_whatsapp": {
+    "url": "https://wa.me/51987223577",
+    "label": "WhatsApp Prosegur 987 223 577 (L-D 7am-6pm)",
+    "verificado": "https://www.prosegur.com.pe/contacto-clientes"
+   },
+   "link_chat": {
+    "url": "https://www.prosegur.com.pe/contacto-clientes",
+    "label": "Chat web Prosegur (L-S 8am-8pm)",
+    "verificado": "https://www.prosegur.com.pe/contacto-clientes"
+   }
   },
   {
    "id": "verisure-peru",
@@ -1167,7 +1444,12 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Revisa tu contrato: puede haber permanencia y penalidad. Los equipos suelen ser de la empresa y debes devolverlos o permitir el retiro. Te quedas sin monitoreo desde la fecha de baja.",
    "que_pasa_si_se_corta": "Se corta el monitoreo y la central deja de responder a las alarmas. Te coordinan el retiro de los equipos.",
-   "recomendacion": "Si no la usas, revisa la permanencia y pide la baja por escrito con constancia. Si la usas pero es cara, pregunta por un plan más barato."
+   "recomendacion": "Si no la usas, revisa la permanencia y pide la baja por escrito con constancia. Si la usas pero es cara, pregunta por un plan más barato.",
+   "link_ayuda": {
+    "url": "https://www.verisure.pe/consejos-y-ayuda/preguntas-frecuentes/clientes-verisure",
+    "label": "Atención al cliente Verisure",
+    "verificado": "https://www.verisure.pe/consejos-y-ayuda/preguntas-frecuentes/clientes-verisure"
+   }
   },
   {
    "id": "smart-fit",
@@ -1201,7 +1483,12 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Los planes con permanencia de 12 meses pueden cobrar una penalidad si cancelas antes. Hay que avisar con anticipación al siguiente cobro (alrededor de 30 días), o te cobran un mes más.",
    "que_pasa_si_se_corta": "Dejas de tener acceso a las sedes y se detiene el débito automático después del preaviso.",
-   "recomendacion": "Si no vas hace un mes, cancela con tiempo antes del siguiente cobro y pide constancia. Revisa tu estado de cuenta el mes siguiente."
+   "recomendacion": "Si no vas hace un mes, cancela con tiempo antes del siguiente cobro y pide constancia. Revisa tu estado de cuenta el mes siguiente.",
+   "link_ayuda": {
+    "url": "https://www.smartfit.com.pe/hable-con-nosotros",
+    "label": "Formulario «Hable con nosotros»",
+    "verificado": "https://www.smartfit.com.pe/hable-con-nosotros"
+   }
   },
   {
    "id": "bodytech-cerrado-reclamo",
@@ -1235,7 +1522,12 @@
    "costo": "Lo que pagaste por adelantado; revisa tus comprobantes.",
    "riesgo_baja": "No hay riesgo en reclamar. Si hay cobros recientes, pide también a tu banco que los desconozca.",
    "que_pasa_si_se_corta": "Presentas el reclamo en INDECOPI y, si procede, buscas la devolución.",
-   "recomendacion": "Reclama en INDECOPI con tus comprobantes de pago y el estado de cuenta de la tarjeta."
+   "recomendacion": "Reclama en INDECOPI con tus comprobantes de pago y el estado de cuenta de la tarjeta.",
+   "link_ayuda": {
+    "url": "https://reclamos.servicios.indecopi.gob.pe/reclamavirtual/",
+    "label": "Reclama Virtual de INDECOPI",
+    "verificado": "https://reclamos.servicios.indecopi.gob.pe/reclamavirtual/"
+   }
   },
   {
    "id": "otros-gimnasios-y-clubes",
@@ -1269,7 +1561,12 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Revisa permanencia, preaviso y penalidades en tu contrato. Si pagaste por adelantado, pregunta si te devuelven los meses no usados.",
    "que_pasa_si_se_corta": "Pierdes el acceso y, en algunos clubes, la cuota de ingreso o tu cupo.",
-   "recomendacion": "Pide la baja por escrito y con constancia; si la afiliación fue online, por ley deberían aceptarla por el mismo medio. Si ponen trabas, usa el Libro de Reclamaciones."
+   "recomendacion": "Pide la baja por escrito y con constancia; si la afiliación fue online, por ley deberían aceptarla por el mismo medio. Si ponen trabas, usa el Libro de Reclamaciones.",
+   "link_ayuda": {
+    "url": "https://consumidor.gob.pe/libro-de-reclamaciones/",
+    "label": "Libro de Reclamaciones (INDECOPI)",
+    "verificado": "https://consumidor.gob.pe/libro-de-reclamaciones/"
+   }
   },
   {
    "id": "rappi-pro",
@@ -1284,7 +1581,7 @@
     "Correo o celular de la cuenta"
    ],
    "notas": "Beneficios hasta fin del periodo. Pasos parcialmente verificados.",
-   "fuente": "http://promos.rappi.com/peru/rappipro",
+   "fuente": "https://promos.rappi.com/peru/rappipro",
    "verificado": false,
    "adjuntos": [],
    "id_label": "Correo de la cuenta",
@@ -1300,7 +1597,12 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Riesgo bajo: no hay penalidad. Vuelves a pagar el envío completo en cada pedido.",
    "que_pasa_si_se_corta": "Sigues con los beneficios hasta el fin del periodo pagado.",
-   "recomendacion": "Suma cuánto ahorraste en envíos el último mes: si es menos que la cuota, cancélala desde la app."
+   "recomendacion": "Suma cuánto ahorraste en envíos el último mes: si es menos que la cuota, cancélala desde la app.",
+   "link_ayuda": {
+    "url": "https://promos.rappi.com/peru/rappipro",
+    "label": "Página oficial de Rappi Pro",
+    "verificado": "https://promos.rappi.com/peru/rappipro"
+   }
   },
   {
    "id": "pedidosya-plus",
@@ -1332,7 +1634,12 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Riesgo bajo: no hay penalidad. Vuelves a pagar el envío completo en cada pedido.",
    "que_pasa_si_se_corta": "Sigues con los beneficios hasta el fin del periodo pagado.",
-   "recomendacion": "Suma cuánto ahorraste en envíos el último mes: si es menos que la cuota, cancélala desde la app."
+   "recomendacion": "Suma cuánto ahorraste en envíos el último mes: si es menos que la cuota, cancélala desde la app.",
+   "link_ayuda": {
+    "url": "https://www.pedidosya.com.pe",
+    "label": "Web oficial de PedidosYa",
+    "verificado": "https://www.pedidosya.com.pe"
+   }
   },
   {
    "id": "amazon-prime",
@@ -1363,7 +1670,12 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Riesgo bajo: pierdes los beneficios de envío y también Prime Video si venía incluido.",
    "que_pasa_si_se_corta": "Sigues con los beneficios hasta el fin del periodo pagado. Si no usaste ningún beneficio, Amazon a veces devuelve la parte no usada.",
-   "recomendacion": "Si solo lo usas para Prime Video, compara con pagar solo ese servicio. Cancela en amazon.com › Cuenta › Membresía Prime."
+   "recomendacion": "Si solo lo usas para Prime Video, compara con pagar solo ese servicio. Cancela en amazon.com › Cuenta › Membresía Prime.",
+   "link_ayuda": {
+    "url": "https://www.amazon.com/gp/help/customer/contact-us",
+    "label": "Contactar a Amazon",
+    "verificado": "https://www.amazon.com/gp/help/customer/contact-us"
+   }
   },
   {
    "id": "microsoft-365",
@@ -1395,7 +1707,12 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Riesgo medio: si tienes más archivos en OneDrive que el espacio gratis, ya no podrás subir más y tu cuenta puede quedar restringida. Las apps de Office pasan a solo lectura o versión web gratis.",
    "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo pagado; luego pasas al plan gratuito (si existe) o pierdes el acceso.",
-   "recomendacion": "Si solo usas Word o Excel de vez en cuando, prueba la versión web gratis. Antes de cancelar, descarga o libera espacio en OneDrive."
+   "recomendacion": "Si solo usas Word o Excel de vez en cuando, prueba la versión web gratis. Antes de cancelar, descarga o libera espacio en OneDrive.",
+   "link_ayuda": {
+    "url": "https://support.microsoft.com/es-es/accounts-billing/subscriptions/cancel-a-microsoft-365-subscription",
+    "label": "Cómo cancelar Microsoft 365",
+    "verificado": "https://support.microsoft.com/es-es/accounts-billing/subscriptions/cancel-a-microsoft-365-subscription"
+   }
   },
   {
    "id": "google-one",
@@ -1426,7 +1743,12 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Riesgo medio: si superas los 15 GB gratis, dejas de recibir correos en Gmail y no puedes subir más fotos ni archivos.",
    "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo pagado; luego pasas al plan gratuito (si existe) o pierdes el acceso.",
-   "recomendacion": "Revisa cuánto espacio usas en one.google.com. Si estás cerca del límite gratis, libera espacio antes de cancelar."
+   "recomendacion": "Revisa cuánto espacio usas en one.google.com. Si estás cerca del límite gratis, libera espacio antes de cancelar.",
+   "link_ayuda": {
+    "url": "https://support.google.com/googleone/answer/9056360",
+    "label": "Cómo cancelar Google One",
+    "verificado": "https://support.google.com/googleone/answer/9056360"
+   }
   },
   {
    "id": "icloud",
@@ -1457,7 +1779,12 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Riesgo medio: si tus datos superan los 5 GB gratis, el iPhone deja de hacer copias de seguridad y de subir fotos nuevas. No se borran de inmediato, pero quedan sin respaldo.",
    "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo pagado; luego pasas al plan gratuito (si existe) o pierdes el acceso.",
-   "recomendacion": "Si usas mucho menos espacio, baja a un plan más chico en vez de cancelar. Si pagas Apple One, no pagues iCloud+ aparte."
+   "recomendacion": "Si usas mucho menos espacio, baja a un plan más chico en vez de cancelar. Si pagas Apple One, no pagues iCloud+ aparte.",
+   "link_ayuda": {
+    "url": "https://support.apple.com/es-es/118428",
+    "label": "Cómo cancelar iCloud+",
+    "verificado": "https://support.apple.com/es-es/118428"
+   }
   },
   {
    "id": "chatgpt-plus-pro",
@@ -1488,7 +1815,12 @@
    "costo": "Plus suele costar USD 20 al mes y Pro USD 200 al mes (más impuestos); revisa tu estado de cuenta.",
    "riesgo_baja": "Riesgo bajo: no hay penalidad. Pasas al plan gratis con límites; tus conversaciones se conservan.",
    "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo pagado; luego pasas al plan gratuito (si existe) o pierdes el acceso.",
-   "recomendacion": "Si lo usas pocas veces por semana, prueba el plan gratis. No pagues dos apps de IA para lo mismo."
+   "recomendacion": "Si lo usas pocas veces por semana, prueba el plan gratis. No pagues dos apps de IA para lo mismo.",
+   "link_ayuda": {
+    "url": "https://help.openai.com/es-419/articles/7232927-canceling-your-chatgpt-subscription",
+    "label": "Cómo cancelar ChatGPT",
+    "verificado": "https://help.openai.com/es-419/articles/7232927-canceling-your-chatgpt-subscription"
+   }
   },
   {
    "id": "canva-pro",
@@ -1520,7 +1852,12 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Riesgo bajo: tus diseños se conservan, pero no podrás usar ni descargar sin marca los elementos premium.",
    "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo pagado; luego pasas al plan gratuito (si existe) o pierdes el acceso.",
-   "recomendacion": "Si diseñas poco, el plan gratis suele alcanzar. Si es por trabajo, revisa si tu empresa ya paga un plan de equipo."
+   "recomendacion": "Si diseñas poco, el plan gratis suele alcanzar. Si es por trabajo, revisa si tu empresa ya paga un plan de equipo.",
+   "link_ayuda": {
+    "url": "https://www.canva.com/es_us/help/cancel-canva-plan/",
+    "label": "Cómo cancelar Canva",
+    "verificado": "https://www.canva.com/es_us/help/cancel-canva-plan/"
+   }
   },
   {
    "id": "adobe-creative-cloud",
@@ -1552,7 +1889,12 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Riesgo alto en costo: los planes anuales pagados mes a mes pueden cobrar una tarifa por cancelar antes de tiempo (solo hay reembolso total dentro de los primeros 14 días). Pierdes el acceso a las apps y a parte del almacenamiento en la nube.",
    "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo pagado; luego pasas al plan gratuito (si existe) o pierdes el acceso.",
-   "recomendacion": "Mira el tipo de plan antes de cancelar. En el flujo de cancelación suelen ofrecer meses gratis o descuento: revísalo antes de confirmar."
+   "recomendacion": "Mira el tipo de plan antes de cancelar. En el flujo de cancelación suelen ofrecer meses gratis o descuento: revísalo antes de confirmar.",
+   "link_ayuda": {
+    "url": "https://helpx.adobe.com/es/account/individual/subscriptions-and-plans/renewals-and-cancellations/cancel-adobe-subscription.html",
+    "label": "Cómo cancelar Adobe",
+    "verificado": "https://helpx.adobe.com/es/account/individual/subscriptions-and-plans/renewals-and-cancellations/cancel-adobe-subscription.html"
+   }
   },
   {
    "id": "duolingo-super",
@@ -1584,7 +1926,12 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Riesgo bajo: tu progreso y tu racha se conservan. Vuelven los anuncios y las vidas limitadas.",
    "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo pagado; luego pasas al plan gratuito (si existe) o pierdes el acceso.",
-   "recomendacion": "Si practicas poco, la versión gratis basta. Cancela donde pagas (App Store, Google Play o la web)."
+   "recomendacion": "Si practicas poco, la versión gratis basta. Cancela donde pagas (App Store, Google Play o la web).",
+   "link_ayuda": {
+    "url": "https://support.duolingo.com/hc/es",
+    "label": "Centro de ayuda Duolingo",
+    "verificado": "https://support.duolingo.com/hc/es"
+   }
   },
   {
    "id": "otras-apps-de-ia-gemini-claude-perplexity",
@@ -1615,7 +1962,12 @@
    "costo": "Los planes individuales suelen costar alrededor de USD 20 al mes; revisa tu estado de cuenta.",
    "riesgo_baja": "Riesgo bajo: no hay penalidad. Pasas al plan gratis con límites; normalmente conservas tus chats.",
    "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo pagado; luego pasas al plan gratuito (si existe) o pierdes el acceso.",
-   "recomendacion": "Quédate con una sola app de IA pagada. Si Gemini viene en tu plan de Google One, no lo pagues aparte."
+   "recomendacion": "Quédate con una sola app de IA pagada. Si Gemini viene en tu plan de Google One, no lo pagues aparte.",
+   "link_ayuda": {
+    "url": "https://support.google.com/googleplay/answer/7018481",
+    "label": "Cancelar en Google Play",
+    "verificado": "https://support.google.com/googleplay/answer/7018481"
+   }
   },
   {
    "id": "el-comercio-gestion",
@@ -1624,7 +1976,8 @@
    "modalidad": "Digital",
    "canales": [
     "Teléfono 311-5100",
-    "Web › \"Mi Perfil\" (si compraste por web)"
+    "Web › \"Mi Perfil\" (si compraste por web)",
+    "WhatsApp 945 395 228 (suscripciones)"
    ],
    "requisitos": [
     "Correo de la suscripción",
@@ -1647,7 +2000,17 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Riesgo bajo: pierdes el acceso a las notas para suscriptores. Avisa antes de la renovación o se cobra otro periodo.",
    "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo pagado.",
-   "recomendacion": "Si lees poco, cancela al menos 3 días antes de la renovación y guarda la constancia."
+   "recomendacion": "Si lees poco, cancela al menos 3 días antes de la renovación y guarda la constancia.",
+   "link_whatsapp": {
+    "url": "https://wa.me/51945395228",
+    "label": "WhatsApp suscripciones El Comercio 945 395 228",
+    "verificado": "https://suscripciones.elcomercio.pe/"
+   },
+   "link_ayuda": {
+    "url": "https://suscripciones.elcomercio.pe/terminos/",
+    "label": "Términos de suscripción",
+    "verificado": "https://suscripciones.elcomercio.pe/terminos/"
+   }
   },
   {
    "id": "la-republica",
@@ -1655,7 +2018,8 @@
    "industria": "Diarios",
    "modalidad": "Digital",
    "canales": [
-    "Plataforma de suscripción (publica.la) o soporte"
+    "Plataforma de suscripción (publica.la) o soporte",
+    "WhatsApp 908 871 983 o correo lrfocus@glr.pe (suscripciones)"
    ],
    "requisitos": [
     "Correo de la suscripción"
@@ -1677,7 +2041,17 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Riesgo bajo: pierdes el acceso a las notas para suscriptores. Avisa antes de la renovación o se cobra otro periodo.",
    "que_pasa_si_se_corta": "Sigues con acceso hasta el fin del periodo pagado.",
-   "recomendacion": "Si lees poco, cancela al menos 3 días antes de la renovación y guarda la constancia."
+   "recomendacion": "Si lees poco, cancela al menos 3 días antes de la renovación y guarda la constancia.",
+   "link_whatsapp": {
+    "url": "https://wa.me/51908871983",
+    "label": "WhatsApp suscripciones La República 908 871 983",
+    "verificado": "https://larepublica.pe/suscripcion"
+   },
+   "link_ayuda": {
+    "url": "https://larepublica.pe/suscripcion",
+    "label": "Suscripción La República",
+    "verificado": "https://larepublica.pe/suscripcion"
+   }
   },
   {
    "id": "tarjeta-de-credito-cancelacion",
@@ -1710,7 +2084,12 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Debes pagar toda la deuda (incluidas las cuotas). Se cortan los cargos recurrentes asociados: pasa antes tus suscripciones a otra tarjeta. Pierdes los puntos o millas no canjeados. Puede afectar un poco tu historial crediticio.",
    "que_pasa_si_se_corta": "La tarjeta se cancela en el momento y no se generan cargos nuevos, salvo los que ya estaban en tránsito.",
-   "recomendacion": "Canjea tus puntos, paga la deuda y pide constancia de cancelación. Si solo te molesta la membresía, pide primero la exoneración."
+   "recomendacion": "Canjea tus puntos, paga la deuda y pide constancia de cancelación. Si solo te molesta la membresía, pide primero la exoneración.",
+   "link_ayuda": {
+    "url": "https://intranet2.sbs.gob.pe/dv_int_cn/718/v11.0/Adjuntos/6523-2013.R%20(2025).pdf",
+    "label": "Norma SBS (oficial)",
+    "verificado": "https://intranet2.sbs.gob.pe/dv_int_cn/718/v11.0/Adjuntos/6523-2013.R%20(2025).pdf"
+   }
   },
   {
    "id": "cargos-recurrentes-en-tarjeta",
@@ -1747,7 +2126,12 @@
    "costo": "Varía según plan; revisa tu recibo.",
    "riesgo_baja": "Riesgo bajo: si cortas el cargo pero no cancelas el servicio, puede quedar una deuda con el comercio.",
    "que_pasa_si_se_corta": "El comercio ya no puede cobrarte en esa tarjeta; el servicio se suspende si no pagas por otro medio.",
-   "recomendacion": "Revisa tu estado de cuenta, cancela la suscripción con el comercio y, si sigue cobrando, pide ayuda a tu banco."
+   "recomendacion": "Revisa tu estado de cuenta, cancela la suscripción con el comercio y, si sigue cobrando, pide ayuda a tu banco.",
+   "link_ayuda": {
+    "url": "https://www.scotiabank.com.pe/Personas/servicios/cargos-recurrentes/cargos-recurrentes",
+    "label": "Ejemplo oficial: Scotiabank",
+    "verificado": "https://www.scotiabank.com.pe/Personas/servicios/cargos-recurrentes/cargos-recurrentes"
+   }
   },
   {
    "id": "debito-automatico",
@@ -1780,7 +2164,12 @@
    "costo": "Varía según el recibo; revisa tu estado de cuenta.",
    "riesgo_baja": "Si suspendes el débito, debes pagar tú los recibos a tiempo para evitar moras o cortes.",
    "que_pasa_si_se_corta": "El banco deja de pagar ese recibo de forma automática; el servicio sigue activo.",
-   "recomendacion": "Suspéndelo para los servicios que ya no usas o que quieres controlar, y pide la constancia del banco."
+   "recomendacion": "Suspéndelo para los servicios que ya no usas o que quieres controlar, y pide la constancia del banco.",
+   "link_ayuda": {
+    "url": "https://cdn.www.gob.pe/uploads/document/file/249962/225315_file20181218-16260-1e981ao.pdf",
+    "label": "Reglamento oficial (gob.pe)",
+    "verificado": "https://cdn.www.gob.pe/uploads/document/file/249962/225315_file20181218-16260-1e981ao.pdf"
+   }
   },
   {
    "id": "seguros-asociados-a-tarjeta-o-credito",
@@ -1813,7 +2202,12 @@
    "costo": "Varía según la póliza; revisa tu estado de cuenta.",
    "riesgo_baja": "El seguro de desgravamen puede ser obligatorio en créditos. Pierdes la cobertura desde la cancelación.",
    "que_pasa_si_se_corta": "Dejas de pagar la prima y de tener cobertura.",
-   "recomendacion": "Revisa tu estado de cuenta. Si te lo vendieron a distancia, tienes al menos 15 días para arrepentirte sin penalidad."
+   "recomendacion": "Revisa tu estado de cuenta. Si te lo vendieron a distancia, tienes al menos 15 días para arrepentirte sin penalidad.",
+   "link_ayuda": {
+    "url": "https://intranet2.sbs.gob.pe/dv_int_cn/1865/v1.0/Adjuntos/4143-2019.R.pdf",
+    "label": "Norma SBS (oficial)",
+    "verificado": "https://intranet2.sbs.gob.pe/dv_int_cn/1865/v1.0/Adjuntos/4143-2019.R.pdf"
+   }
   }
  ]
 }
