@@ -79,3 +79,7 @@ input:focus,select:focus,textarea:focus{outline:2px solid #0f9d7655;border-color
 .wa-btn{background:#25d366!important;border-color:#25d366!important;color:#06311a!important}
 .wa-btn:hover{background:#1ebe5a!important}
 #done-docs li,#docs-list li{margin:.3em 0}
+/* Trámites de línea móvil */
+.urgent{background:#fff6e6;border:2px solid #eab308}.tel{font-weight:800;font-size:1.1rem;white-space:nowrap}
+.script{background:#fffdf3;border-color:#f3e3a3}.script ol{padding-left:1.3em}.script li{margin:.55em 0}
+.blank{display:inline-block;min-width:4em;border-bottom:1.5px dashed #9a7b00;color:#7a6200;font-size:.9em;padding:0 .2em}

@@ -11,6 +11,9 @@ BRAND = "DeBaja.pe"
 TAGLINE = "Damos de baja tus servicios y suscripciones, sin colas ni vueltas."
 RESPONSABLE = "Gabriel Pizarro"  # titular del banco de datos (Ley 29733)
 DOCS = {"dni": "Copia de DNI/CE (ambas caras)", "carta_poder": "Carta poder firmada por el titular + copia de su DNI",
+        "carta_poder_notarial": "Carta poder con firma legalizada notarialmente (Res. 132-2025-CD/OSIPTEL, art. 4) + copia del DNI del titular, o constancia de que eres su contacto autorizado",
+        "carta_poder_simple": "Carta poder simple firmada por el titular + copia de su DNI",
+        "dni_titular": "Copia del DNI del titular de la línea (si la tienes)",
         "recibo": "Último recibo o estado de cuenta", "propiedad": "Documento de propiedad o posesión"}
 
 data = json.load(open(os.path.join(ROOT, "data", "services.json"), encoding="utf-8"))
@@ -19,11 +22,18 @@ S, IND = data["servicios"], data["industrias"]
 env = Environment(loader=FileSystemLoader(os.path.join(ROOT, "tools", "templates")), autoescape=select_autoescape(["html"]))
 ver = datetime.datetime.now().strftime("%Y%m%d%H%M")
 fecha = datetime.date.fromisoformat(data["actualizado"]).strftime("%d-%m-%Y")
+# Tipo de trámite: baja (por defecto), robo (suspensión por robo o pérdida) o descuento (retención)
+TIPOS = {"baja": {"accion": "Solicitar baja", "titulo": "Dar de baja {n}"},
+         "robo": {"accion": "Pedir ayuda con el reporte", "titulo": "Suspensión por robo o pérdida: {n}"},
+         "descuento": {"accion": "Pedir descuento", "titulo": "Pedir descuento o retención: {n}"}}
+for s in data["servicios"]:
+    s.setdefault("tipo", "baja"); s.setdefault("poder", "general"); s.setdefault("keywords", "")
 CB = {"verde": "Digital (web, app, mail o chat)", "amarillo": "Por teléfono", "rojo": "Solo presencial"}
-base = dict(CB=CB, BRAND=BRAND, TAGLINE=TAGLINE, RESPONSABLE=RESPONSABLE, INDUSTRIAS=IND, services=S, DOCS=DOCS,
+base = dict(TIPOS=TIPOS, CB=CB, BRAND=BRAND, TAGLINE=TAGLINE, RESPONSABLE=RESPONSABLE, INDUSTRIAS=IND, services=S, DOCS=DOCS,
             YEAR=datetime.date.today().year, V=ver, ACTUALIZADO=fecha)
 form_data = {"docs": DOCS, "services": {s["id"]: {"nombre": s["nombre"], "industria": s["industria"], "id_label": s["id_label"],
-             "adjuntos": s["adjuntos"], "requisitos": s["requisitos"], "canal": s["canal_baja"]} for s in S}}
+             "adjuntos": s["adjuntos"], "requisitos": s["requisitos"], "canal": s["canal_baja"],
+             "tipo": s["tipo"], "poder": s["poder"], "telefono": s.get("telefono", "")} for s in S}}
 
 def write(rel, tpl, **kw):
     depth = rel.count("/")

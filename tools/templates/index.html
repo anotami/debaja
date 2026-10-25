@@ -1,10 +1,10 @@
 {% extends "base.html" %}{% block body %}
 <section class="hero"><div class="wrap">
- <p class="eyebrow">Telefonía · Streaming · Hogar · Gimnasios · Bancos</p>
+ <p class="eyebrow">Telefonía · Robo de celular · Descuentos · Streaming · Hogar · Gimnasios · Bancos</p>
  <h1>Deja de pagar lo que ya no usas.</h1>
  <p class="lead">Nosotros damos de baja tus servicios y suscripciones en Perú: sin colas, sin llamadas eternas y con tus derechos de OSIPTEL, INDECOPI y SBS de tu lado.</p>
  <div class="cta"><a class="btn" href="{{ R }}solicitar/">Solicitar una baja por WhatsApp</a><a class="btn ghost" href="#catalogo">Ver servicios</a></div>
- <ul class="facts"><li><b>1 día hábil</b><span>para bajas de telefonía e internet desde el 27-jun-2026</span></li><li><b>{{ services|length }}</b><span>servicios con guía paso a paso</span></li><li><b>0</b><span>contraseñas o tarjetas pedidas, nunca</span></li></ul>
+ <ul class="facts"><li><b>1 día hábil</b><span>para bajas de telefonía e internet desde el 27-jun-2026</span></li><li><b>{{ services|length }}</b><span>servicios con guía paso a paso</span></li><li><b>0</b><span>contraseñas, tarjetas o códigos SMS pedidos, nunca</span></li></ul>
 </div></section>
 <section class="wrap steps" id="como">
  <h2>Cómo funciona</h2>
@@ -15,9 +15,9 @@
  </ol>
 </section>
 <section class="wrap" id="catalogo">
- <h2>Servicios que damos de baja</h2>
+ <h2>Servicios y trámites</h2>
  <div class="filters">
-  <input id="q" type="search" placeholder="Buscar: Movistar, Netflix, Smart Fit…" aria-label="Buscar servicio">
+  <input id="q" type="search" placeholder="Buscar: Movistar, Netflix, robo, descuento…" aria-label="Buscar servicio">
   <div class="chips" id="ind" role="group" aria-label="Industria">
    <button class="chip on" data-ind="">Todas</button>
    {% for i in INDUSTRIAS %}<button class="chip" data-ind="{{ i }}">{{ i }} <small>{{ counts[i] }}</small></button>{% endfor %}
@@ -38,7 +38,7 @@
   <h3 class="ind-title">{{ i }}</h3>
   <div class="cards">
   {% for s in services if s.industria == i %}
-   <a class="card cb-card cb-{{ s.canal_baja }}" href="{{ R }}servicio/{{ s.id }}/" data-ind="{{ s.industria }}" data-mod="{{ s.canal_baja }}" data-q="{{ (s.nombre ~ ' ' ~ s.industria ~ ' ' ~ s.canales|join(' '))|lower }}">
+   <a class="card cb-card cb-{{ s.canal_baja }}" href="{{ R }}servicio/{{ s.id }}/" data-ind="{{ s.industria }}" data-mod="{{ s.canal_baja }}" data-q="{{ (s.nombre ~ ' ' ~ s.industria ~ ' ' ~ s.canales|join(' ') ~ ' ' ~ s.keywords)|lower }}">
     <div class="card-h"><b>{{ s.nombre }}</b><span class="cb cb-{{ s.canal_baja }}">{{ CB[s.canal_baja] }}</span></div>
     <p>{{ s.canales[0] }}</p>
     {% if not s.verificado %}<span class="warn">⚠ Datos por confirmar</span>{% endif %}

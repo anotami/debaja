@@ -8,6 +8,15 @@ Catálogo de cómo dar de baja servicios y suscripciones en Perú (telefonía, s
 - Nunca pide contraseñas ni tarjetas (también bloquea números de tarjeta en los campos de texto).
 - Aviso de privacidad (Ley N.° 29733) en `privacidad/`.
 
+## Trámites de línea móvil
+
+Además de bajas, el catálogo incluye la sección «Trámites de línea móvil» (Movistar, Claro, Entel, Bitel) con dos tipos de servicio, definidos por el campo `tipo` en `data/services.json`:
+
+- `robo`: suspensión por robo o pérdida (línea + IMEI). Solo por teléfono o tienda; la página incluye números, guion de llamada, qué obtienes y cómo reactivar. El formulario pide marca/modelo, IMEI opcional, fecha y lugar aproximados y, si no eres titular, nombre y DNI del titular.
+- `descuento`: pedir descuento o retención (misma llamada de baja). Incluye derechos, consejos y guion de negociación. El formulario pide plan, monto mensual, antigüedad, oferta de la competencia (opcional) y qué hacer si no hay oferta.
+
+Sin `tipo`, el servicio es una baja normal. El campo `poder` define qué representación se pide a terceros: `notarial` (telcos, Res. 132-2025-CD/OSIPTEL art. 4, o contacto autorizado), `simple` (Smart Fit, Cálidda), `usuario` (robo: el usuario de la línea con datos del titular).
+
 ## Configurar el número de WhatsApp (único lugar)
 
 Edita `assets/config.js`:

@@ -2,6 +2,7 @@
  "actualizado": "2026-10-24",
  "industrias": [
   "Telecomunicaciones",
+  "Trámites de línea móvil",
   "Streaming",
   "Hogar y servicios básicos",
   "Gimnasios",
@@ -24,7 +25,8 @@
    ],
    "requisitos": [
     "Titular con DNI",
-    "Persona jurídica: representante con DNI y vigencia de poder"
+    "Persona jurídica: representante con DNI y vigencia de poder",
+    "Tercero: carta poder con firma legalizada notarialmente (Res. 132-2025-CD/OSIPTEL, art. 4) + copia del DNI del titular, o estar registrado como contacto autorizado del titular"
    ],
    "notas": "Digital por norma: desde el 27-jun-2026 (Res. 132-2025-CD/OSIPTEL) las operadoras con más de 500 mil abonados deben permitir la baja 24/7 en app y web, y si la inicias ahí no pueden derivarte a tienda o call center. Baja al día hábil siguiente (o fecha elegida, máx. 1 mes). Hogar: devolver módem/decos en comodato. Netflix, Disney+ y otras suscripciones cobradas en el recibo se cancelan con Movistar.",
    "fuente": "https://cert-cdn.movistar.com.pe/sites/6/2024/06/PDF_FEB_Quieres-solicitar-la-baja-de-tu-servicio.pdf",
@@ -34,7 +36,8 @@
    ],
    "id_label": "Número de línea, contrato o código de cliente",
    "derechos": "osiptel",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "poder": "notarial"
   },
   {
    "id": "claro",
@@ -49,7 +52,8 @@
    ],
    "requisitos": [
     "Titular con documento de identidad + validación de datos",
-    "Empresa: carta poder legalizada y documentación"
+    "Empresa: carta poder legalizada y documentación",
+    "Tercero: carta poder con firma legalizada notarialmente (Res. 132-2025-CD/OSIPTEL, art. 4) + copia del DNI del titular, o estar registrado como contacto autorizado del titular"
    ],
    "notas": "Digital por norma: desde el 27-jun-2026 (Res. 132-2025-CD/OSIPTEL) las operadoras con más de 500 mil abonados deben permitir la baja 24/7 en app y web, y si la inicias ahí no pueden derivarte a tienda o call center. Baja al día hábil siguiente; el documento de Claro que dice 5 días y prepago solo presencial está desactualizado. Se puede pedir con línea bloqueada, suspendida o con deuda; las cuotas del equipo siguen.",
    "fuente": "https://www.claro.com.pe/contactanos/",
@@ -59,7 +63,8 @@
    ],
    "id_label": "Número de línea, contrato o código de cliente",
    "derechos": "osiptel",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "poder": "notarial"
   },
   {
    "id": "entel",
@@ -76,7 +81,7 @@
    ],
    "requisitos": [
     "Titular con DNI",
-    "Representante: poder con firma legalizada, o poder simple + copia del DNI del titular + último recibo"
+    "Tercero: carta poder con firma legalizada notarialmente (Res. 132-2025-CD/OSIPTEL, art. 4) + copia del DNI del titular, o estar registrado como contacto autorizado del titular"
    ],
    "notas": "Digital por norma: desde el 27-jun-2026 (Res. 132-2025-CD/OSIPTEL) las operadoras con más de 500 mil abonados deben permitir la baja 24/7 en app y web, y si la inicias ahí no pueden derivarte a tienda o call center. Baja al día hábil siguiente (la web de Entel aún dice 5 días hábiles).",
    "fuente": "https://www.entel.pe/informacion-a-abonados-y-usuarios/baja",
@@ -87,7 +92,8 @@
    ],
    "id_label": "Número de línea, contrato o código de cliente",
    "derechos": "osiptel",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "poder": "notarial"
   },
   {
    "id": "bitel",
@@ -103,7 +109,7 @@
    ],
    "requisitos": [
     "Titular con DNI",
-    "Representante: copia de su DNI, copia del DNI del titular y carta poder legalizada notarialmente (máx. 1 mes)"
+    "Tercero: carta poder con firma legalizada notarialmente (Res. 132-2025-CD/OSIPTEL, art. 4) + copia del DNI del titular, o estar registrado como contacto autorizado del titular (Bitel pide además que la carta poder tenga como máximo 1 mes y copia del DNI del representante)"
    ],
    "notas": "Digital por norma: desde el 27-jun-2026 (Res. 132-2025-CD/OSIPTEL) las operadoras con más de 500 mil abonados deben permitir la baja 24/7 en app y web, y si la inicias ahí no pueden derivarte a tienda o call center. Baja al día hábil siguiente (la web de Bitel dice 5 días, desactualizado). Sin motivo.",
    "fuente": "https://bitel.com.pe/centros-de-atencion",
@@ -113,7 +119,8 @@
    ],
    "id_label": "Número de línea, contrato o código de cliente",
    "derechos": "osiptel",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "poder": "notarial"
   },
   {
    "id": "wow-internet-fibra",
@@ -126,7 +133,8 @@
     "Centro de Experiencia WOW"
    ],
    "requisitos": [
-    "Titular con DNI"
+    "Titular con DNI",
+    "Tercero: carta poder con firma legalizada notarialmente (Res. 132-2025-CD/OSIPTEL, art. 4) + copia del DNI del titular, o estar registrado como contacto autorizado del titular"
    ],
    "notas": "Por teléfono, sin ir a tienda. Baja al día hábil siguiente por norma OSIPTEL. Devolver ONT/router con desgaste normal.",
    "fuente": "https://wowperu.pe/preguntas-frecuentes/",
@@ -136,7 +144,8 @@
    ],
    "id_label": "Número de línea, contrato o código de cliente",
    "derechos": "osiptel",
-   "canal_baja": "amarillo"
+   "canal_baja": "amarillo",
+   "poder": "notarial"
   },
   {
    "id": "win-internet-fibra",
@@ -149,7 +158,8 @@
     "WhatsApp 940 061 937"
    ],
    "requisitos": [
-    "Titular con DNI"
+    "Titular con DNI",
+    "Tercero: carta poder con firma legalizada notarialmente (Res. 132-2025-CD/OSIPTEL, art. 4) + copia del DNI del titular, o estar registrado como contacto autorizado del titular"
    ],
    "notas": "Pide código de baja y coordina retiro del router/ONT. Que el portal solo permita \"suspensión\" no está verificado; si ofrecen autogestión no pueden derivarte.",
    "fuente": "https://win.pe/preguntas-frecuentes",
@@ -159,7 +169,8 @@
    ],
    "id_label": "Número de línea, contrato o código de cliente",
    "derechos": "osiptel",
-   "canal_baja": "verde"
+   "canal_baja": "verde",
+   "poder": "notarial"
   },
   {
    "id": "directv",
@@ -173,7 +184,7 @@
    ],
    "requisitos": [
     "Titular con DNI",
-    "Tercero: carta poder notarial"
+    "Tercero: carta poder con firma legalizada notarialmente (Res. 132-2025-CD/OSIPTEL, art. 4) + copia del DNI del titular, o estar registrado como contacto autorizado del titular"
    ],
    "notas": "Baja al día hábil siguiente. El retiro de antena/deco se coordina después y no es condición para la baja. Valores de reposición de equipos según contrato (no verificados).",
    "fuente": "https://selectra.com.pe/empresas/directv/cancelar",
@@ -183,7 +194,290 @@
    ],
    "id_label": "Número de línea, contrato o código de cliente",
    "derechos": "osiptel",
-   "canal_baja": "amarillo"
+   "canal_baja": "amarillo",
+   "poder": "notarial"
+  },
+  {
+   "id": "robo-perdida-movistar",
+   "tipo": "robo",
+   "nombre": "Movistar: robo o pérdida del celular",
+   "titulo": "Suspensión por robo o pérdida: Movistar",
+   "industria": "Trámites de línea móvil",
+   "modalidad": "Teléfono",
+   "canal_baja": "amarillo",
+   "derechos": "osiptel_robo",
+   "verificado": true,
+   "poder": "usuario",
+   "keywords": "robo robado perdida perdido bloqueo bloquear imei suspension chip movistar",
+   "canales": [
+    "Teléfono 104 (desde una línea Movistar) y 0800-11800 (gratis desde cualquier teléfono): corte por robo las 24 horas",
+    "Tiendas Movistar (en persona, verbalmente o por escrito)"
+   ],
+   "telefono": "104 o 0800-11800 (24 h)",
+   "requisitos": [
+    "Nombres y apellidos del titular de la línea",
+    "DNI (o CE) del titular",
+    "Número de la línea robada o perdida",
+    "Datos del equipo: marca y modelo (y el IMEI si lo tienes: está en la caja o en la boleta)",
+    "Responder la validación de la operadora (datos del titular o del servicio)",
+    "Quién puede reportarlo: el titular o el usuario de la línea (por ejemplo, un familiar que la usa), dando los datos del titular y además su propio nombre y DNI. «Únicamente el titular y el usuario registrado», con validación de datos."
+   ],
+   "obtienes": [
+    "Suspensión de la línea y bloqueo del IMEI inmediatos y simultáneos",
+    "Un código de reporte y el IMEI bloqueado (sin su último dígito): anótalos",
+    "El IMEI pasa a la lista negra compartida: el equipo no funcionará con ninguna operadora en Perú",
+    "Es gratis. Si la operadora no bloquea, asume los consumos posteriores a tu reporte"
+   ],
+   "reactivacion": "Reconexión presencial en tienda, validando datos. Tienes 30 días para reactivar conservando tu número con un chip de reposición. La contraseña única de Movistar sirve para el cambio de SIM. Reactivar o sacar un chip nuevo es un trámite de seguridad alta: solo el titular, en persona y con huella.",
+   "notas": "Por norma (DS 007-2019-IN, art. 9.2) el reporte por robo o pérdida solo se hace por teléfono, en la línea de asistencia de la operadora, o en persona en una tienda. No hay canal por web, chat, WhatsApp ni correo. Puedes llamar desde cualquier teléfono: no necesitas la línea robada ni códigos SMS.",
+   "fuente": "https://www.movistar.com.pe/imei",
+   "adjuntos": [
+    "dni"
+   ],
+   "id_label": "Número de la línea robada o perdida"
+  },
+  {
+   "id": "robo-perdida-claro",
+   "tipo": "robo",
+   "nombre": "Claro: robo o pérdida del celular",
+   "titulo": "Suspensión por robo o pérdida: Claro",
+   "industria": "Trámites de línea móvil",
+   "modalidad": "Teléfono",
+   "canal_baja": "amarillo",
+   "derechos": "osiptel_robo",
+   "verificado": false,
+   "poder": "usuario",
+   "keywords": "robo robado perdida perdido bloqueo bloquear imei suspension chip claro",
+   "canales": [
+    "Teléfono 123 (desde una línea Claro), 0801-123-23 (desde teléfono fijo) y 0800 00123 (desde otro operador)",
+    "Clientes corporativos: 135",
+    "Centros de Atención Claro"
+   ],
+   "telefono": "123 (desde Claro) · 0801-123-23 (desde fijo) · 0800 00123 (desde otro operador)",
+   "requisitos": [
+    "Nombres y apellidos del titular de la línea",
+    "DNI (o CE) del titular",
+    "Número de la línea robada o perdida",
+    "Datos del equipo: marca y modelo (y el IMEI si lo tienes: está en la caja o en la boleta)",
+    "Responder la validación de la operadora (datos del titular o del servicio)",
+    "Quién puede reportarlo: el titular o el usuario de la línea (por ejemplo, un familiar que la usa), dando los datos del titular y además su propio nombre y DNI. Titular o usuario de la línea, «previa validación de la titularidad». Piden marca y modelo del equipo."
+   ],
+   "obtienes": [
+    "Suspensión de la línea y bloqueo del IMEI inmediatos y simultáneos",
+    "Un código de reporte y el IMEI bloqueado (sin su último dígito): anótalos",
+    "El IMEI pasa a la lista negra compartida: el equipo no funcionará con ninguna operadora en Perú",
+    "Es gratis. Si la operadora no bloquea, asume los consumos posteriores a tu reporte"
+   ],
+   "reactivacion": "Desbloqueo, recuperación y reposición de chip solo en persona, con biometría (huella). Puedes agendar cita en la app Mi Claro. Reactivar o sacar un chip nuevo es un trámite de seguridad alta: solo el titular, en persona y con huella.",
+   "notas": "Por norma (DS 007-2019-IN, art. 9.2) el reporte por robo o pérdida solo se hace por teléfono, en la línea de asistencia de la operadora, o en persona en una tienda. No hay canal por web, chat, WhatsApp ni correo. Puedes llamar desde cualquier teléfono: no necesitas la línea robada ni códigos SMS.",
+   "fuente": "https://www.claro.com.pe/personas/atencion-al-cliente/",
+   "adjuntos": [
+    "dni"
+   ],
+   "id_label": "Número de la línea robada o perdida"
+  },
+  {
+   "id": "robo-perdida-entel",
+   "tipo": "robo",
+   "nombre": "Entel: robo o pérdida del celular",
+   "titulo": "Suspensión por robo o pérdida: Entel",
+   "industria": "Trámites de línea móvil",
+   "modalidad": "Teléfono",
+   "canal_baja": "amarillo",
+   "derechos": "osiptel_robo",
+   "verificado": true,
+   "poder": "usuario",
+   "keywords": "robo robado perdida perdido bloqueo bloquear imei suspension chip entel",
+   "canales": [
+    "Teléfono 123 (desde una línea Entel) y (01) 611-7777 (desde cualquier teléfono), opción 1 y luego 4",
+    "Tiendas Entel"
+   ],
+   "telefono": "123 (desde Entel) o (01) 611-7777, opción 1-4",
+   "requisitos": [
+    "Nombres y apellidos del titular de la línea",
+    "DNI (o CE) del titular",
+    "Número de la línea robada o perdida",
+    "Datos del equipo: marca y modelo (y el IMEI si lo tienes: está en la caja o en la boleta)",
+    "Responder la validación de la operadora (datos del titular o del servicio)",
+    "Quién puede reportarlo: el titular o el usuario de la línea (por ejemplo, un familiar que la usa), dando los datos del titular y además su propio nombre y DNI. Piden documento, nombres, número del equipo, el número desde el que llamas y preguntas de seguridad sobre el servicio. Un tercero (el usuario) puede reportarlo dando los datos del titular y los suyos."
+   ],
+   "obtienes": [
+    "Suspensión de la línea y bloqueo del IMEI inmediatos y simultáneos",
+    "Un código de reporte y el IMEI bloqueado (sin su último dígito): anótalos",
+    "El IMEI pasa a la lista negra compartida: el equipo no funcionará con ninguna operadora en Perú",
+    "Es gratis. Si la operadora no bloquea, asume los consumos posteriores a tu reporte"
+   ],
+   "reactivacion": "Chip nuevo en tienda, con huella y contraseña única; la reconexión toma unas 4 horas. Reactivar o sacar un chip nuevo es un trámite de seguridad alta: solo el titular, en persona y con huella.",
+   "notas": "Por norma (DS 007-2019-IN, art. 9.2) el reporte por robo o pérdida solo se hace por teléfono, en la línea de asistencia de la operadora, o en persona en una tienda. No hay canal por web, chat, WhatsApp ni correo. Puedes llamar desde cualquier teléfono: no necesitas la línea robada ni códigos SMS.",
+   "fuente": "https://www.entel.pe/informacion-a-abonados-y-usuarios/bloqueo/",
+   "adjuntos": [
+    "dni"
+   ],
+   "id_label": "Número de la línea robada o perdida"
+  },
+  {
+   "id": "robo-perdida-bitel",
+   "tipo": "robo",
+   "nombre": "Bitel: robo o pérdida del celular",
+   "titulo": "Suspensión por robo o pérdida: Bitel",
+   "industria": "Trámites de línea móvil",
+   "modalidad": "Teléfono",
+   "canal_baja": "amarillo",
+   "derechos": "osiptel_robo",
+   "verificado": true,
+   "poder": "usuario",
+   "keywords": "robo robado perdida perdido bloqueo bloquear imei suspension chip bitel",
+   "canales": [
+    "Teléfono 123 (desde una línea Bitel) y +51 930 123 123 (desde cualquier teléfono, 24 h, con costo)",
+    "0800 79123 (según fuente secundaria, por confirmar)",
+    "Centros de atención Bitel"
+   ],
+   "telefono": "123 (desde Bitel) o 930 123 123 (24 h)",
+   "requisitos": [
+    "Nombres y apellidos del titular de la línea",
+    "DNI (o CE) del titular",
+    "Número de la línea robada o perdida",
+    "Datos del equipo: marca y modelo (y el IMEI si lo tienes: está en la caja o en la boleta)",
+    "Responder la validación de la operadora (datos del titular o del servicio)",
+    "Quién puede reportarlo: el titular o el usuario de la línea (por ejemplo, un familiar que la usa), dando los datos del titular y además su propio nombre y DNI. Titular o usuario de la línea; se verifican los datos del titular y del servicio."
+   ],
+   "obtienes": [
+    "Suspensión de la línea y bloqueo del IMEI inmediatos y simultáneos",
+    "Un código de reporte y el IMEI bloqueado (sin su último dígito): anótalos",
+    "El IMEI pasa a la lista negra compartida: el equipo no funcionará con ninguna operadora en Perú",
+    "Es gratis. Si la operadora no bloquea, asume los consumos posteriores a tu reporte"
+   ],
+   "reactivacion": "Recuperación de la línea solo en persona y solo el titular, con huella o contraseña única. Reactivar o sacar un chip nuevo es un trámite de seguridad alta: solo el titular, en persona y con huella.",
+   "notas": "Por norma (DS 007-2019-IN, art. 9.2) el reporte por robo o pérdida solo se hace por teléfono, en la línea de asistencia de la operadora, o en persona en una tienda. No hay canal por web, chat, WhatsApp ni correo. Puedes llamar desde cualquier teléfono: no necesitas la línea robada ni códigos SMS.",
+   "fuente": "https://bitel.com.pe/",
+   "adjuntos": [
+    "dni"
+   ],
+   "id_label": "Número de la línea robada o perdida"
+  },
+  {
+   "id": "descuento-retencion-movistar",
+   "tipo": "descuento",
+   "nombre": "Movistar: pedir descuento o retención",
+   "titulo": "Pedir descuento o retención: Movistar",
+   "industria": "Trámites de línea móvil",
+   "modalidad": "Teléfono",
+   "canal_baja": "amarillo",
+   "derechos": "osiptel_retencion",
+   "verificado": false,
+   "poder": "notarial",
+   "keywords": "descuento rebaja retencion retener oferta negociar bajar precio plan movistar",
+   "canales": [
+    "Teléfono 104 (desde Movistar) o 0800-11800: pide la baja y te pasan a «retenciones»",
+    "Tiendas Movistar"
+   ],
+   "telefono": "104 o 0800-11800",
+   "requisitos": [
+    "Ser el titular de la línea o servicio, con DNI (la operadora te validará con datos del titular o del servicio)",
+    "Tu plan actual y cuánto pagas al mes (mira tu último recibo)",
+    "Desde cuándo eres cliente",
+    "Opcional: una oferta concreta de la competencia (plan y precio)",
+    "Tercero: carta poder con firma legalizada notarialmente (Res. 132-2025-CD/OSIPTEL, art. 4) + copia del DNI del titular, o estar registrado como contacto autorizado del titular"
+   ],
+   "notas": "La retención normalmente es la misma llamada de baja: dices que quieres dar de baja y te pasan al área de retenciones. Si aceptas una oferta, la baja no se registra: pide un código o constancia de la oferta. Las apps (Mi Movistar, Mi Claro, Mi Entel, Mi Bitel) hacen la baja directa y no se ha documentado que muestren ofertas. El OSIPTEL sancionó a Integratel (Movistar) porque su canal 104 «limitó y restringió» bajas y la resolución menciona sus «canales de retención» (Res. 127-2025-TA-OSIPTEL). Hay usuarios que reportan hasta 50% de descuento temporal al pedir la baja.",
+   "fuente": "https://www.gob.pe/71582-preguntas-frecuentes-conocer-como-puedes-solicitar-la-baja-de-tu-servicio-ante-tu-empresa-operadora",
+   "adjuntos": [
+    "dni"
+   ],
+   "id_label": "Número de línea, contrato o código de cliente"
+  },
+  {
+   "id": "descuento-retencion-claro",
+   "tipo": "descuento",
+   "nombre": "Claro: pedir descuento o retención",
+   "titulo": "Pedir descuento o retención: Claro",
+   "industria": "Trámites de línea móvil",
+   "modalidad": "Teléfono",
+   "canal_baja": "amarillo",
+   "derechos": "osiptel_retencion",
+   "verificado": false,
+   "poder": "notarial",
+   "keywords": "descuento rebaja retencion retener oferta negociar bajar precio plan claro",
+   "canales": [
+    "Teléfono 123 (desde Claro) o 0800 00123 (desde otro operador): pide la baja y te derivan a retención",
+    "Centros de Atención Claro"
+   ],
+   "telefono": "123 o 0800 00123",
+   "requisitos": [
+    "Ser el titular de la línea o servicio, con DNI (la operadora te validará con datos del titular o del servicio)",
+    "Tu plan actual y cuánto pagas al mes (mira tu último recibo)",
+    "Desde cuándo eres cliente",
+    "Opcional: una oferta concreta de la competencia (plan y precio)",
+    "Tercero: carta poder con firma legalizada notarialmente (Res. 132-2025-CD/OSIPTEL, art. 4) + copia del DNI del titular, o estar registrado como contacto autorizado del titular"
+   ],
+   "notas": "La retención normalmente es la misma llamada de baja: dices que quieres dar de baja y te pasan al área de retenciones. Si aceptas una oferta, la baja no se registra: pide un código o constancia de la oferta. Las apps (Mi Movistar, Mi Claro, Mi Entel, Mi Bitel) hacen la baja directa y no se ha documentado que muestren ofertas. ",
+   "fuente": "https://www.gob.pe/71582-preguntas-frecuentes-conocer-como-puedes-solicitar-la-baja-de-tu-servicio-ante-tu-empresa-operadora",
+   "adjuntos": [
+    "dni"
+   ],
+   "id_label": "Número de línea, contrato o código de cliente"
+  },
+  {
+   "id": "descuento-retencion-entel",
+   "tipo": "descuento",
+   "nombre": "Entel: pedir descuento o retención",
+   "titulo": "Pedir descuento o retención: Entel",
+   "industria": "Trámites de línea móvil",
+   "modalidad": "Teléfono",
+   "canal_baja": "amarillo",
+   "derechos": "osiptel_retencion",
+   "verificado": false,
+   "poder": "notarial",
+   "keywords": "descuento rebaja retencion retener oferta negociar bajar precio plan entel",
+   "canales": [
+    "Teléfono 123 (desde Entel) o (01) 611-7777: pide la baja y te derivan a retención",
+    "Tiendas Entel"
+   ],
+   "telefono": "123 o (01) 611-7777",
+   "requisitos": [
+    "Ser el titular de la línea o servicio, con DNI (la operadora te validará con datos del titular o del servicio)",
+    "Tu plan actual y cuánto pagas al mes (mira tu último recibo)",
+    "Desde cuándo eres cliente",
+    "Opcional: una oferta concreta de la competencia (plan y precio)",
+    "Tercero: carta poder con firma legalizada notarialmente (Res. 132-2025-CD/OSIPTEL, art. 4) + copia del DNI del titular, o estar registrado como contacto autorizado del titular"
+   ],
+   "notas": "La retención normalmente es la misma llamada de baja: dices que quieres dar de baja y te pasan al área de retenciones. Si aceptas una oferta, la baja no se registra: pide un código o constancia de la oferta. Las apps (Mi Movistar, Mi Claro, Mi Entel, Mi Bitel) hacen la baja directa y no se ha documentado que muestren ofertas. ",
+   "fuente": "https://www.gob.pe/71582-preguntas-frecuentes-conocer-como-puedes-solicitar-la-baja-de-tu-servicio-ante-tu-empresa-operadora",
+   "adjuntos": [
+    "dni"
+   ],
+   "id_label": "Número de línea, contrato o código de cliente"
+  },
+  {
+   "id": "descuento-retencion-bitel",
+   "tipo": "descuento",
+   "nombre": "Bitel: pedir descuento o retención",
+   "titulo": "Pedir descuento o retención: Bitel",
+   "industria": "Trámites de línea móvil",
+   "modalidad": "Teléfono",
+   "canal_baja": "amarillo",
+   "derechos": "osiptel_retencion",
+   "verificado": false,
+   "poder": "notarial",
+   "keywords": "descuento rebaja retencion retener oferta negociar bajar precio plan bitel",
+   "canales": [
+    "Teléfono 123 (desde Bitel) o 930 123 123: pide la baja y te derivan a retención",
+    "Centros de atención Bitel"
+   ],
+   "telefono": "123 o 930 123 123",
+   "requisitos": [
+    "Ser el titular de la línea o servicio, con DNI (la operadora te validará con datos del titular o del servicio)",
+    "Tu plan actual y cuánto pagas al mes (mira tu último recibo)",
+    "Desde cuándo eres cliente",
+    "Opcional: una oferta concreta de la competencia (plan y precio)",
+    "Tercero: carta poder con firma legalizada notarialmente (Res. 132-2025-CD/OSIPTEL, art. 4) + copia del DNI del titular, o estar registrado como contacto autorizado del titular"
+   ],
+   "notas": "La retención normalmente es la misma llamada de baja: dices que quieres dar de baja y te pasan al área de retenciones. Si aceptas una oferta, la baja no se registra: pide un código o constancia de la oferta. Las apps (Mi Movistar, Mi Claro, Mi Entel, Mi Bitel) hacen la baja directa y no se ha documentado que muestren ofertas. Bitel tiene planes llamados «Retención»: pregunta por ellos.",
+   "fuente": "https://www.gob.pe/71582-preguntas-frecuentes-conocer-como-puedes-solicitar-la-baja-de-tu-servicio-ante-tu-empresa-operadora",
+   "adjuntos": [
+    "dni"
+   ],
+   "id_label": "Número de línea, contrato o código de cliente"
   },
   {
    "id": "netflix",
@@ -483,7 +777,8 @@
    ],
    "id_label": "Número de suministro / contrato",
    "derechos": "indecopi",
-   "canal_baja": "rojo"
+   "canal_baja": "rojo",
+   "poder": "simple"
   },
   {
    "id": "prosegur-alarmas",
@@ -551,7 +846,8 @@
    ],
    "id_label": "DNI o código de socio",
    "derechos": "indecopi",
-   "canal_baja": "rojo"
+   "canal_baja": "rojo",
+   "poder": "simple"
   },
   {
    "id": "bodytech-cerrado-reclamo",

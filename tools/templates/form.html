@@ -1,12 +1,13 @@
-{% extends "base.html" %}{% block title %}Solicitar baja{% if svc %} de {{ svc.nombre }}{% endif %} · {{ BRAND }}{% endblock %}{% block body %}
+{% extends "base.html" %}{% block title %}{% if svc and svc.tipo != 'baja' %}{{ svc.titulo }}{% else %}Solicitar baja{% if svc %} de {{ svc.nombre }}{% endif %}{% endif %} · {{ BRAND }}{% endblock %}{% block body %}
 <section class="wrap narrow" id="form-wrap">
- <h1>Solicitar baja{% if svc %} de {{ svc.nombre }}{% endif %}</h1>
- <div class="note safe">🔒 <b>Nunca te pediremos</b> contraseñas, números de tarjeta, claves bancarias, ni códigos SMS. Si un trámite requiere entrar a tu cuenta, te guiamos para que lo hagas tú.</div>
+ <h1 id="form-h">{% if svc and svc.tipo == 'robo' %}Ayuda con el reporte por robo o pérdida: {{ svc.nombre.split(':')[0] }}{% elif svc and svc.tipo == 'descuento' %}Pedir descuento o retención: {{ svc.nombre.split(':')[0] }}{% else %}Solicitar baja{% if svc %} de {{ svc.nombre }}{% endif %}{% endif %}</h1>
+ <div class="note safe">🔒 <b>Nunca te pediremos</b> contraseñas, números de tarjeta, claves bancarias, ni códigos SMS o de verificación. Si un trámite requiere entrar a tu cuenta, te guiamos para que lo hagas tú.</div>
+ <div class="note urgent hide" id="robo-urgent">📞 <b>Primero bloquea la línea:</b> llama ya al <span class="tel" id="robo-tel"></span>. El bloqueo es inmediato y solo se hace por teléfono o en tienda. Este formulario es para que te ayudemos con el seguimiento.</div>
  <p class="small muted">Al enviar se abrirá <b>WhatsApp</b> con tu solicitud lista para mandar. Los documentos (DNI, carta poder, etc.) los adjuntas ahí mismo, en el chat. Esta página no guarda ni envía tus datos a ningún servidor.</p>
  <div class="note errbox hide" id="errsum" role="alert">Revisa los campos marcados en rojo.</div>
  <form id="f" novalidate data-preset="{{ svc.id if svc else '' }}">
   <fieldset><legend>Servicio</legend>
-   <label>¿Qué quieres dar de baja?
+   <label><span id="svc-q">¿Qué quieres dar de baja o tramitar?</span>
     <select name="servicio" id="servicio" required>
      <option value="">— Elige un servicio —</option>
      {% for i in INDUSTRIAS %}<optgroup label="{{ i }}">{% for s in services if s.industria==i %}<option value="{{ s.id }}" {% if svc and s.id==svc.id %}selected{% endif %}>{{ s.nombre }}</option>{% endfor %}</optgroup>{% endfor %}
@@ -26,16 +27,36 @@
   <fieldset><legend>Sobre el servicio</legend>
    <p class="lbl">¿Eres el titular del servicio?</p>
    <div class="radios"><label><input type="radio" name="titular" value="si" checked> Sí, está a mi nombre</label>
-   <label><input type="radio" name="titular" value="no"> No</label></div>
-   <p class="note small hide" id="poder-note">Si no eres el titular, necesitamos una <b>carta poder</b> firmada por el titular (algunas empresas exigen firma legalizada notarialmente) y copia de su DNI. Los enviarás por WhatsApp.</p>
+   <label><input type="radio" name="titular" value="no"> <span id="no-tit-l">No</span></label></div>
+   <p class="note small hide" id="poder-note"></p>
    <p class="err" data-err="titular"></p>
+   <div id="tit-w" class="hide">
+    <label>Nombre completo del titular de la línea <input name="tit_nombre" maxlength="120"></label><p class="err" data-err="tit_nombre"></p>
+    <label>DNI o CE del titular <input name="tit_doc" maxlength="12" placeholder="8 dígitos (DNI) o 9 a 12 (CE)"></label><p class="err" data-err="tit_doc"></p>
+   </div>
    <label><span id="idl">Número de línea, contrato, suministro o correo de la cuenta</span> <input name="identificador" required maxlength="120"></label><p class="err" data-err="identificador"></p>
-   <label>Fecha deseada de baja <input type="date" name="fecha_baja" id="fecha_baja" required></label><p class="err" data-err="fecha_baja"></p>
-   <label>Motivo (opcional) <textarea name="motivo" maxlength="500" rows="2" placeholder="No es obligatorio dar un motivo."></textarea></label><p class="err" data-err="motivo"></p>
+   <div id="fb-w"><label>Fecha deseada de baja <input type="date" name="fecha_baja" id="fecha_baja" required></label><p class="err" data-err="fecha_baja"></p></div>
+   <div id="robo-w" class="hide">
+    <div class="row"><label>Marca del equipo <input name="marca" maxlength="40" placeholder="Samsung, iPhone, Xiaomi…"></label>
+    <label>Modelo <input name="modelo" maxlength="60" placeholder="Galaxy A54, 13…"></label></div><p class="err" data-err="marca"></p><p class="err" data-err="modelo"></p>
+    <label>IMEI (opcional, 15 dígitos: en la caja o la boleta) <input name="imei" inputmode="numeric" maxlength="17"></label><p class="err" data-err="imei"></p>
+    <label>Fecha aproximada del robo o pérdida <input type="date" name="fecha_robo" id="fecha_robo"></label><p class="err" data-err="fecha_robo"></p>
+    <label>Lugar aproximado <input name="lugar" maxlength="120" placeholder="Distrito, calle o referencia"></label><p class="err" data-err="lugar"></p>
+    <label>Código de reporte que te dio la operadora (opcional, si ya llamaste; no es un código SMS) <input name="cod_reporte" maxlength="30"></label><p class="err" data-err="cod_reporte"></p>
+   </div>
+   <div id="desc-w" class="hide">
+    <label>Plan actual <input name="plan" maxlength="100" placeholder="Ej.: Postpago 69.90, Trío 300 Mbps"></label><p class="err" data-err="plan"></p>
+    <div class="row"><label>Monto mensual (S/) <input name="monto" inputmode="decimal" maxlength="8" placeholder="69.90"></label>
+    <label>Tiempo como cliente <select name="antiguedad"><option value="">— Elige —</option><option>Menos de 1 año</option><option>1 a 2 años</option><option>3 a 5 años</option><option>Más de 5 años</option></select></label></div>
+    <p class="err" data-err="monto"></p><p class="err" data-err="antiguedad"></p>
+    <label>Oferta de la competencia (opcional) <input name="oferta" maxlength="200" placeholder="Ej.: Entel me ofrece 40 GB por S/ 49.90"></label><p class="err" data-err="oferta"></p>
+    <label>Si no te ofrecen algo que te convenga… <select name="si_no"><option value="">— Elige —</option><option>Me quedo con mi plan actual</option><option>Quiero dar de baja</option></select></label><p class="err" data-err="si_no"></p>
+   </div>
+   <label><span id="motivo-l">Motivo (opcional)</span> <textarea name="motivo" maxlength="500" rows="2" placeholder="No es obligatorio dar un motivo."></textarea></label><p class="err" data-err="motivo"></p>
   </fieldset>
   <div class="box" id="docs-box"><h2>Documentos para enviar por WhatsApp</h2>
    <p class="small muted">No se suben archivos aquí. Después de enviar, adjunta en el chat de WhatsApp (foto o PDF):</p><ul id="docs-list"></ul></div>
-  <label class="consent"><input type="checkbox" name="consent" id="consent" value="1" required><span>Autorizo a {{ BRAND }} a tratar mis datos personales y documentos para gestionar esta baja, conforme a la Ley N.° 29733 de Protección de Datos Personales y su reglamento. Leí la <a href="{{ R }}privacidad/" target="_blank">política de privacidad</a>.</span></label>
+  <label class="consent"><input type="checkbox" name="consent" id="consent" value="1" required><span>Autorizo a {{ BRAND }} a tratar mis datos personales y documentos para gestionar esta solicitud (baja o trámite), conforme a la Ley N.° 29733 de Protección de Datos Personales y su reglamento. Leí la <a href="{{ R }}privacidad/" target="_blank">política de privacidad</a>.</span></label>
   <p class="err" data-err="consent"></p>
   <button class="btn block wa-btn" type="submit">Enviar solicitud por WhatsApp</button>
  </form>

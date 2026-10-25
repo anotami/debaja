@@ -1,20 +1,63 @@
-{% extends "base.html" %}{% block title %}Dar de baja {{ s.nombre }} · {{ BRAND }}{% endblock %}{% block desc %}Cómo dar de baja {{ s.nombre }} en Perú: canales, requisitos y plazos.{% endblock %}{% block body %}
+{% extends "base.html" %}{% set T = TIPOS[s.tipo] %}{% set H = s.titulo if s.titulo else T.titulo.format(n=s.nombre) %}{% block title %}{{ H }} · {{ BRAND }}{% endblock %}{% block desc %}{% if s.tipo == 'baja' %}Cómo dar de baja {{ s.nombre }} en Perú: canales, requisitos y plazos.{% else %}{{ H }} en Perú: a qué número llamar, qué datos tener a mano y un guion listo para leer.{% endif %}{% endblock %}{% block body %}
 <section class="wrap detail">
  <p class="crumbs"><a href="{{ R }}#catalogo">Servicios</a> › {{ s.industria }}</p>
- <div class="detail-h"><h1>Dar de baja {{ s.nombre }}</h1><span class="cb big cb-{{ s.canal_baja }}" title="Canal más fácil para dar de baja">{{ CB[s.canal_baja] }}</span></div>
+ <div class="detail-h"><h1>{{ H }}</h1><span class="cb big cb-{{ s.canal_baja }}" title="Canal más fácil para este trámite">{{ CB[s.canal_baja] }}</span></div>
  {% if not s.verificado %}<div class="note warnbox">⚠ Parte de esta información viene de fuentes secundarias o no se pudo confirmar en la web oficial. La verificamos al gestionar tu caso.</div>{% endif %}
+ {% if s.tipo == 'robo' %}<div class="note urgent">📞 <b>¿Te acaban de robar o perdiste el celular? Llama ya:</b> <span class="tel">{{ s.telefono }}</span><br><span class="small">Hazlo desde cualquier teléfono (el de un familiar sirve). El bloqueo es inmediato y gratis. Después, si quieres, envíanos tu solicitud y te ayudamos con el seguimiento.</span></div>{% endif %}
+ {% if s.tipo == 'descuento' %}<div class="note">📞 <b>Se pide en la misma llamada de baja:</b> <span class="tel">{{ s.telefono }}</span>. Dices que quieres dar de baja y te pasan al área de retenciones.</div>{% endif %}
  <div class="cols">
   <div>
-   <div class="box"><h2>Qué necesitas</h2><ul>{% for r in s.requisitos %}<li>{{ r }}</li>{% endfor %}</ul>
-   {% if s.adjuntos %}<p class="small muted">Por WhatsApp te pediremos: {% for d in s.adjuntos %}{{ DOCS[d] }}{% if not loop.last %}, {% endif %}{% endfor %} (y carta poder si no eres el titular).</p>{% endif %}</div>
-   <div class="box"><h2>Canales de baja</h2><ul>{% for c in s.canales %}<li>{{ c }}</li>{% endfor %}</ul></div>
-   <div class="box"><h2>Plazos y notas</h2><p>{{ s.notas }}</p><p class="small">Fuente: <a href="{{ s.fuente }}" rel="noopener nofollow" target="_blank">{{ s.fuente[:70] }}{% if s.fuente|length > 70 %}…{% endif %}</a></p></div>
+   <div class="box"><h2>{% if s.tipo == 'robo' %}Datos que te van a pedir{% else %}Qué necesitas{% endif %}</h2><ul>{% for r in s.requisitos %}<li>{{ r }}</li>{% endfor %}</ul>
+   {% if s.adjuntos %}<p class="small muted">Por WhatsApp te pediremos: {% for d in s.adjuntos %}{{ DOCS[d] }}{% if not loop.last %}, {% endif %}{% endfor %}{% if s.poder == 'notarial' %} (y, si no eres el titular, carta poder con firma legalizada notarialmente o constancia de contacto autorizado){% elif s.poder == 'simple' %} (y carta poder simple si no eres el titular){% elif s.poder == 'usuario' %} (si no eres el titular, también los datos del titular){% else %} (y carta poder si no eres el titular){% endif %}.</p>{% endif %}</div>
+   <div class="box"><h2>{% if s.tipo == 'baja' %}Canales de baja{% else %}Dónde se hace{% endif %}</h2><ul>{% for c in s.canales %}<li>{{ c }}</li>{% endfor %}</ul></div>
+   {% if s.tipo == 'robo' %}
+   <div class="box"><h2>Qué obtienes</h2><ul>{% for o in s.obtienes %}<li>{{ o }}</li>{% endfor %}</ul>
+    <p class="small">Verifica el bloqueo en <a href="https://checatuimei.renteseg.osiptel.gob.pe/consultaIMEI.xhtml" target="_blank" rel="noopener">Checa tu IMEI del OSIPTEL</a> (el IMEI sale marcando *#06#, en la caja o en la boleta). Si a las 24 horas no aparece, escribe a <a href="mailto:reportaimei@osiptel.gob.pe">reportaimei@osiptel.gob.pe</a>.</p></div>
+   <div class="box"><h2>Reactivar la línea o sacar un chip nuevo</h2><p>{{ s.reactivacion }}</p></div>
+   <div class="box script" id="guion"><h2>Guion para la llamada</h2>
+    <p class="small muted">Léelo tal cual. Completa los espacios antes de llamar.</p>
+    <ol>
+     <li>«Hola, llamo para <b>reportar el robo (o la pérdida) de un celular</b>. Pido la <b>suspensión inmediata de la línea y el bloqueo del IMEI</b>».</li>
+     <li>«El número de la línea es <span class="blank">___ ___ ___</span>».</li>
+     <li>«El titular es <span class="blank">nombre y apellidos</span>, DNI <span class="blank">________</span>».</li>
+     <li><i>Si no eres el titular:</i> «Soy el usuario de la línea. Mi nombre es <span class="blank">nombre y apellidos</span> y mi DNI es <span class="blank">________</span>».</li>
+     <li>«El equipo es un <span class="blank">marca</span> <span class="blank">modelo</span>{% if s.id.endswith('claro') %} (Claro pide marca y modelo){% endif %}. Fue el <span class="blank">fecha y hora aprox.</span> en <span class="blank">lugar</span>».</li>
+     <li>Responde las preguntas de validación (datos del titular o del servicio, por ejemplo la fecha de emisión del DNI o el plan).</li>
+     <li>«Por favor, deme el <b>código de reporte</b> y el <b>IMEI bloqueado</b>». Anota: código <span class="blank">______</span>, IMEI <span class="blank">______</span>, fecha y hora <span class="blank">______</span>, nombre del asesor <span class="blank">______</span>.</li>
+    </ol>
+    <p class="small">Si te dicen que llames más tarde o que vayas a tienda: «La norma exige que la suspensión y el bloqueo sean inmediatos; si no lo hacen, la empresa asume los consumos desde este reporte».</p>
+    <p class="small">⚠ Después de un robo, nadie de la operadora ni de {{ BRAND }} te va a pedir un <b>código SMS</b> ni tu contraseña. Si alguien te llama pidiéndolos, es fraude.</p></div>
+   {% endif %}
+   {% if s.tipo == 'descuento' %}
+   <div class="box"><h2>Consejos para negociar</h2><ul>
+    <li>Llama a la línea de baja: el área de retenciones es la que tiene las mejores ofertas.</li>
+    <li>Ten a mano tu último recibo (plan y monto), cuánto tiempo llevas como cliente y una oferta concreta de la competencia.</li>
+    <li>Pregunta siempre: ¿cuánto dura el descuento?, ¿cuál es el precio después?, ¿cambian los datos, minutos o velocidad?, ¿hay permanencia? (en móvil está prohibida).</li>
+    <li>Pide un <b>código o constancia de la oferta</b> y que te la envíen por SMS o correo. Revisa el siguiente recibo.</li>
+    <li>Si no te convence, di: «Gracias, quiero continuar con la baja; deme el código de baja». No pueden negártela.</li>
+    <li>Si no quieres negociar, haz la baja directo en la app o la web: es 24/7 y no te pueden derivar.</li>
+   </ul></div>
+   <div class="box script" id="guion"><h2>Guion de negociación</h2>
+    <p class="small muted">Llama al {{ s.telefono }}. Léelo tal cual y completa los espacios.</p>
+    <ol>
+     <li>«Hola, soy titular de la línea <span class="blank">número</span>. Llamo porque <b>quiero dar de baja</b> mi plan».</li>
+     <li>Cuando te pregunten el motivo: «Pago <span class="blank">S/ ___</span> al mes y llevo <span class="blank">___ años</span> como cliente. <span class="blank">Otra operadora</span> me ofrece <span class="blank">plan</span> por <span class="blank">S/ ___</span>».</li>
+     <li>«Antes de irme, ¿qué me pueden ofrecer para quedarme?».</li>
+     <li>Si te ofrecen algo: «¿Cuánto dura?, ¿cuánto pagaré después?, ¿hay permanencia o penalidad? Por favor, deme el código de la oferta y envíemela por SMS o correo».</li>
+     <li>Si no te conviene: «Gracias, entonces confirmo la baja. Por favor, deme el <b>código de baja</b>».</li>
+    </ol>
+    <p class="small">Anota: oferta <span class="blank">______</span>, código <span class="blank">______</span>, fecha y hora <span class="blank">______</span>, nombre del asesor <span class="blank">______</span>.</p></div>
+   <div class="box"><h2>¿Y en streaming o software?</h2><p>En Netflix, Spotify, Disney+, Adobe y similares las ofertas aparecen <b>dentro del flujo de cancelación de la app o la web</b> (con tu cuenta): ve a cancelar y revisa lo que te muestran antes de confirmar. Netflix ofrece pausar la membresía de 1 a 3 meses; Spotify a veces ofrece 50% por 3 meses; Adobe, meses gratis o descuento. No hace falta llamar.</p></div>
+   {% endif %}
+   <div class="box"><h2>{% if s.tipo == 'baja' %}Plazos y notas{% else %}Notas{% endif %}</h2><p>{{ s.notas }}</p><p class="small">Fuente: <a href="{{ s.fuente }}" rel="noopener nofollow" target="_blank">{{ s.fuente[:70] }}{% if s.fuente|length > 70 %}…{% endif %}</a></p></div>
   </div>
   <aside>
    <div class="box rights"><h2>{{ rights.titulo }}</h2><p class="small muted">{{ rights.norma }}</p><ul>{% for p in rights.puntos %}<li>{{ p }}</li>{% endfor %}</ul>
     <h3>Si no te hacen caso</h3><ul class="links">{% for t,u in rights.escalar %}<li><a href="{{ u }}" target="_blank" rel="noopener">{{ t }}</a></li>{% endfor %}</ul></div>
-   <a class="btn block" href="{{ R }}solicitar/{{ s.id }}/">Solicitar baja</a>
-   <p class="small muted center">🔒 Nunca pedimos contraseñas ni tarjetas.</p>
+   {% if s.tipo == 'robo' %}<div class="box"><h2>Cómo te ayudamos</h2><p class="small">La llamada la haces tú (o el usuario de la línea): la norma solo acepta teléfono o tienda. Nosotros te dejamos el guion, verificamos el bloqueo en Checa tu IMEI y, si la operadora no cumplió, te ayudamos con el reclamo.</p></div>
+   {% elif s.tipo == 'descuento' %}<div class="box"><h2>Cómo te ayudamos</h2><p class="small">Comparamos tu plan con ofertas de la competencia y te armamos el guion. La operadora valida al titular, así que la llamada la haces tú. Nunca aceptamos una oferta en tu nombre.</p></div>{% endif %}
+   <a class="btn block" href="{{ R }}solicitar/{{ s.id }}/">{{ T.accion }}</a>
+   <p class="small muted center">🔒 Nunca pedimos contraseñas, tarjetas ni códigos SMS.</p>
   </aside>
  </div>
 </section>
