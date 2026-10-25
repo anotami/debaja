@@ -13,5 +13,12 @@
 <li><b>Tus derechos ARCO:</b> puedes solicitar acceso, rectificación, cancelación u oposición escribiéndonos por WhatsApp con tu código de solicitud. Si no te atendemos, puedes acudir a la Autoridad Nacional de Protección de Datos Personales (Ministerio de Justicia y Derechos Humanos).</li>
 <li><b>Consentimiento:</b> al marcar la casilla del formulario nos das tu consentimiento libre, previo, expreso e informado. Sin él no podemos procesar tu solicitud.</li>
 </ul>
-<p class="small muted">Plantilla referencial: revísala con un abogado y, si corresponde, inscribe el banco de datos ante la Autoridad Nacional de Protección de Datos Personales.</p>
+{% if ADSENSE %}<h2 id="publicidad">Publicidad y cookies de terceros</h2>
+<ul>
+<li>Este sitio muestra anuncios de <b>Google AdSense</b>. Google y sus socios usan <b>cookies de terceros</b> para mostrar anuncios según tus visitas a este y otros sitios web.</li>
+<li>Esas cookies las coloca y gestiona Google, no {{ BRAND }}. No compartimos con Google los datos de tus formularios: el formulario solo arma un mensaje en tu navegador.</li>
+<li>Puedes leer cómo usa Google los datos en <a href="https://policies.google.com/technologies/ads?hl=es" target="_blank" rel="noopener">Cómo utiliza Google las cookies en publicidad</a>.</li>
+<li>Para desactivar los anuncios personalizados, entra a <a href="https://myadcenter.google.com/" target="_blank" rel="noopener">Mi Centro de anuncios de Google</a> o a <a href="https://optout.aboutads.info/" target="_blank" rel="noopener">aboutads.info</a>. También puedes bloquear o borrar cookies desde los ajustes de tu navegador (en iPhone: Ajustes › Safari › Avanzado).</li>
+</ul>
+{% endif %}<p class="small muted">Plantilla referencial: revísala con un abogado y, si corresponde, inscribe el banco de datos ante la Autoridad Nacional de Protección de Datos Personales.</p>
 </section>{% endblock %}

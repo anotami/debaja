@@ -1,0 +1,12 @@
+{% extends "base.html" %}{% block title %}Contacto · {{ BRAND }}{% endblock %}{% block desc %}Contacta a {{ BRAND }} por WhatsApp para consultas, correcciones o ayuda con una baja.{% endblock %}{% block body %}<section class="wrap narrow prose detail">
+<h1>Contacto</h1>
+<p>Escríbenos para consultas sobre una guía, para corregir un dato o si necesitas ayuda con una baja.</p>
+<ul>
+<li><b>WhatsApp:</b> <span class="wa-contact">WhatsApp</span></li>
+<li><b>Responsable:</b> {{ RESPONSABLE }} · Lima, Perú</li>
+<li><b>Horario de respuesta:</b> normalmente dentro de 1 día hábil.</li>
+</ul>
+<p>Para pedir una baja, usa el <a href="{{ R }}solicitar/">formulario de solicitud</a>: arma el mensaje por ti y lo envías por WhatsApp.</p>
+<div class="note safe small">🔒 No envíes contraseñas, números de tarjeta, claves bancarias ni códigos SMS. Nunca te los pediremos.</div>
+<p class="small muted">¿Buscas el contacto de una empresa (Movistar, Claro, Netflix…)? Está en la ficha de cada servicio, en «Contacto directo con la empresa». {{ BRAND }} no está afiliado a esas empresas.</p>
+</section>{% endblock %}

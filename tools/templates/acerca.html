@@ -1,0 +1,15 @@
+{% extends "base.html" %}{% block title %}Quiénes somos · {{ BRAND }}{% endblock %}{% block desc %}Quiénes somos y qué hace {{ BRAND }}: guías gratuitas para dar de baja servicios y suscripciones en Perú.{% endblock %}{% block body %}<section class="wrap narrow prose detail">
+<h1>Quiénes somos</h1>
+<p><b>{{ BRAND }}</b> es un proyecto peruano creado por {{ RESPONSABLE }} para que cualquier persona pueda dejar de pagar servicios y suscripciones que ya no usa, sin colas ni vueltas.</p>
+<h2>Qué hacemos</h2>
+<ul>
+<li>Publicamos <b>guías gratuitas</b> para {{ services|length }} servicios y trámites en Perú: telefonía e internet, streaming, servicios del hogar, gimnasios, apps y bancos.</li>
+<li>Cada guía explica los canales, los requisitos, los plazos y tus derechos según OSIPTEL, INDECOPI y la SBS.</li>
+<li>Con <a href="{{ R }}revisa/">Revisa tus suscripciones</a> puedes ver qué cobros conviene revisar, negociar o mantener. Todo se calcula en tu navegador.</li>
+<li>Si quieres ayuda personalizada, puedes escribirnos por WhatsApp. Nunca cancelamos nada sin tu autorización.</li>
+</ul>
+<h2>Independencia</h2>
+<p>No somos parte de ninguna operadora ni de las empresas listadas, y no cobramos comisiones de ellas. La información es referencial (actualizada al {{ ACTUALIZADO }}), la revisamos con fuentes oficiales y puede cambiar. Si ves un dato desactualizado, <a href="{{ R }}contacto/">avísanos</a>.</p>
+<h2>Seguridad</h2>
+<p>🔒 Nunca te pediremos contraseñas, números de tarjeta, claves bancarias ni códigos SMS o de verificación.</p>
+</section>{% endblock %}

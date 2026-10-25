@@ -1,0 +1,21 @@
+{% extends "base.html" %}{% block title %}Apoya a {{ BRAND }}{% endblock %}{% block desc %}Apoya a {{ BRAND }} con Yape o Plin para que las guías sigan siendo gratis.{% endblock %}{% block body %}<section class="wrap narrow detail">
+<h1>Apoya a {{ BRAND }}</h1>
+<p id="apoya-off" class="muted">Esta sección aún no está activa. <a href="{{ R }}">Volver al inicio</a></p>
+<div id="apoya" class="hide">
+ <p class="lead">Todas las guías son gratis. Si te ayudaron, puedes apoyarnos con lo que quieras por Yape o Plin. Es voluntario.</p>
+ <div class="box apoya-box">
+  <p class="small muted">Número para Yape o Plin<span id="yape-nombre"></span></p>
+  <p class="yape-num" id="yape-num"></p>
+  <button type="button" class="btn" id="yape-copy">Copiar número</button>
+  <p class="small" id="yape-msg" aria-live="polite"></p>
+  {% if HAS_QR %}<img class="yape-qr" src="{{ R }}assets/yape-qr.png?v={{ V }}" alt="Código QR para yapear a {{ BRAND }}" width="220" height="220">{% endif %}
+ </div>
+ <div class="box"><h2>Cómo hacerlo</h2><ol>
+  <li>Toca <b>Copiar número</b>.</li>
+  <li>Abre <b>Yape</b> o <b>Plin</b> (o la app de tu banco con Plin).</li>
+  <li>Elige <b>Yapear</b> o <b>Plinear a un número</b>.</li>
+  <li>Pega el número, revisa el nombre y escribe el monto.</li>
+ </ol>
+ <p class="small muted">Nunca te pediremos claves ni códigos de Yape o Plin. Apoyar no es requisito para usar las guías ni para pedir ayuda.</p></div>
+</div>
+</section>{% endblock %}

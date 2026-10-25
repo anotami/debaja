@@ -3,6 +3,8 @@
 <meta name="description" content="{% block desc %}{{ TAGLINE }}{% endblock %}">
 <link rel="stylesheet" href="{{ R }}assets/style.css?v={{ V }}">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✂️</text></svg>">
+{% if ADSENSE %}<meta name="google-adsense-account" content="{{ ADSENSE }}">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ ADSENSE }}" crossorigin="anonymous"></script>{% endif %}
 </head><body data-root="{{ R }}">
 <header class="top"><div class="wrap nav">
  <a class="logo" href="{{ R }}"><span class="dot">✂</span>{{ BRAND }}</a>
@@ -15,10 +17,16 @@
  <p><b>{{ BRAND }}</b> · {{ TAGLINE }}</p>
  <p class="small">🔒 Nunca te pediremos contraseñas, números de tarjeta, claves bancarias ni códigos SMS o de verificación. Si alguien te los pide a nombre nuestro, no los compartas.</p>
  <p class="small">No somos parte de ninguna operadora ni empresa listada. La información es referencial (actualizada al {{ ACTUALIZADO }}) y puede cambiar. · <a href="{{ R }}privacidad/">Privacidad y datos personales</a> · <span class="wa-contact"></span></p>
+ <p class="small"><a href="{{ R }}acerca-de/">Quiénes somos</a> · <a href="{{ R }}contacto/">Contacto</a><span class="apoya-link hide"> · <a href="{{ R }}apoya/">💜 Apoya a {{ BRAND }}</a></span></p>
  <p class="small">© {{ YEAR }} {{ BRAND }}<span id="visitas" class="visitas hide" aria-live="polite"></span></p>
 </div></footer>
+{% if ADSENSE %}<div class="consent-bar hide" id="consent-bar" role="dialog" aria-live="polite" aria-label="Aviso de cookies">
+ <p>Usamos cookies de publicidad de Google (AdSense) para mostrar anuncios que mantienen gratis este sitio. Más información en nuestra <a href="{{ R }}privacidad/#publicidad">política de privacidad</a>.</p>
+ <button type="button" class="btn sm" id="consent-ok">Entendido</button>
+</div>{% endif %}
 <script src="{{ R }}assets/config.js?v={{ V }}"></script>
 <script src="{{ R }}assets/app.js?v={{ V }}"></script>
+<script src="{{ R }}assets/extras.js?v={{ V }}"></script>
 <script async src="{{ R }}assets/contador.js?v={{ V }}"></script>
 {% block scripts %}{% endblock %}
 </body></html>

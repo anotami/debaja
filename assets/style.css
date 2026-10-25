@@ -109,3 +109,9 @@ input,select{font-size:16px}
 .ct-btn:hover{background:#e6edfd;border-color:var(--blue)}
 .ct-wa{border-color:#9ccfb2;background:#fff;color:#14532d}.ct-tel{background:#fff6e6;border-color:#eab308;color:#713f12}
 a.tel{color:inherit;text-decoration:underline}
+/* Apoya (Yape/Plin) */
+.apoya-box{text-align:center}.yape-num{font:800 2rem ui-monospace,Menlo,monospace;letter-spacing:.05em;margin:.2em 0 .5em;color:#5b21b6}
+.yape-qr{display:block;margin:14px auto 0;max-width:220px;width:100%;height:auto;border-radius:12px}
+/* Aviso de cookies (solo con anuncios) */
+.consent-bar{position:fixed;left:10px;right:10px;bottom:10px;z-index:50;background:#14171f;color:#fff;border-radius:14px;padding:12px 14px;display:flex;gap:12px;align-items:center;flex-wrap:wrap;box-shadow:0 8px 24px #0004;font-size:.9rem}
+.consent-bar p{margin:0;flex:1 1 220px}.consent-bar a{color:#9be7c9}

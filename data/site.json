@@ -1,0 +1,4 @@
+{
+ "_ayuda": "adsense_client: tu ID de AdSense (ca-pub-XXXXXXXXXXXXXXXX). Vacío = sin anuncios, sin ads.txt y sin aviso de cookies. Luego corre: python tools/build.py",
+ "adsense_client": ""
+}

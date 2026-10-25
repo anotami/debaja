@@ -51,3 +51,8 @@ python tools/build.py
 Las plantillas están en `tools/templates/`, y los estilos y la lógica en `assets/style.css` y `assets/app.js`. Si eliminas un servicio, borra también a mano sus carpetas `servicio/<id>/` y `solicitar/<id>/`.
 
 Información referencial: verifica los datos marcados «por confirmar» antes de ofrecer el servicio.
+
+## Activar funciones opcionales
+- **Apoyo con Yape/Plin:** en `assets/config.js`, `window.YAPE_NUMERO = '9XXXXXXXX';` (vacío = sección oculta). `window.YAPE_NOMBRE` es opcional. Si existe `assets/yape-qr.png`, se muestra el QR (vuelve a correr `python tools/build.py`).
+- **AdSense:** en `data/site.json`, `"adsense_client": "ca-pub-XXXXXXXXXXXXXXXX"` y corre `python tools/build.py`. Activa el script, `ads.txt`, la sección de cookies en privacidad y el aviso de cookies. Vacío = todo apagado.
+- **Dominio propio:** las rutas son relativas; no hace falta cambiar nada. Agrega el archivo `CNAME` solo cuando el dominio ya apunte a GitHub.
